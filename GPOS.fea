@@ -1,0 +1,6 @@
+
+feature kern {
+
+	pos ZWJ <0 0 -2048 0>;
+
+} kern;

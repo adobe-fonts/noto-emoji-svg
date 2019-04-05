@@ -100,7 +100,7 @@ def get_trimmed_glyph_name(gname, num):
     return gname[:31 - len(suffix)] + suffix
 
 
-def make_font(file_paths, out_dir, revision, gsub_path):
+def make_font(file_paths, out_dir, revision, gsub_path, gpos_path):
     cmap, gorder, validated_fpaths = {}, deque(), []
     for fpath in file_paths:
         # build glyph order
@@ -148,15 +148,20 @@ def make_font(file_paths, out_dir, revision, gsub_path):
         cs = pen.getCharString()
         cs_dict[gorder[i]] = cs
 
-    # add '.notdef' and 'space'
-    gorder.extendleft(reversed(['.notdef', 'space']))
+    # add '.notdef', 'space' and zero-width joiner
+    gorder.extendleft(reversed(['.notdef', 'space', 'ZWJ']))
     pen = T2CharStringPen(EM, None)
     draw_notdef(pen)
     cs_dict.update({'.notdef': pen.getCharString(),
-                    'space': T2CharString(program=['endchar'])})
-    cmap.update({32: 'space', 160: 'space'})  # U+0020 & U+00A0)
+                    'space': T2CharString(program=['endchar']),
+                    'ZWJ': T2CharString(program=['endchar']),
+                    })
+    cmap.update({32: 'space',   # U+0020
+                 160: 'space',  # U+00A0
+                 8205: 'ZWJ',   # U+200D
+                 })
 
-    fb.setupGlyphOrder(gorder)
+    fb.setupGlyphOrder(list(gorder))  # parts of FontTools require a list
     fb.setupCharacterMap(cmap)
     fb.setupCFF(PS_NAME, {'version': revision,
                           'Notice': TRADEMARK,
@@ -209,6 +214,9 @@ def make_font(file_paths, out_dir, revision, gsub_path):
 
     if gsub_path:
         addOpenTypeFeatures(fb.font, gsub_path, tables=['GSUB'])
+
+    if gpos_path:
+        addOpenTypeFeatures(fb.font, gpos_path, tables=['GPOS'])
 
     fb.save(os.path.join(out_dir, '{}.otf'.format(PS_NAME)))
 
@@ -275,6 +283,11 @@ def main(args=None):
         help='path to GSUB features file',
         type=_validate_file_path,
     )
+    parser.add_argument(
+        '--gpos',
+        help='path to GPOS features file',
+        type=_validate_file_path,
+    )
     opts = parser.parse_args(args)
 
     if not opts.verbose:
@@ -308,7 +321,7 @@ def main(args=None):
     else:
         out_dir = opts.in_dir
 
-    make_font(file_paths, out_dir, opts.revision, opts.gsub)
+    make_font(file_paths, out_dir, opts.revision, opts.gsub, opts.gpos)
 
 
 if __name__ == "__main__":
