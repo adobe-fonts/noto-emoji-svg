@@ -336,10 +336,15 @@ class SvgCleaner(object):
 
 def clean_svg_files(file_paths, out_dir, strip=False, color=True):
     count = 0
+    skipped = 0
 
     cleaner = SvgCleaner(strip, color)
 
     for svg_file_path in file_paths:
+        if os.path.islink(svg_file_path):
+            log.debug('skipped alias: %s', svg_file_path)
+            skipped += 1
+            continue
         log.debug('read: %s', svg_file_path)
         with io.open(svg_file_path, encoding='utf-8') as in_fp:
             result = cleaner.clean_svg(in_fp.read())
@@ -358,6 +363,9 @@ def clean_svg_files(file_paths, out_dir, strip=False, color=True):
         out_folder = out_dir
     else:
         out_folder = os.path.dirname(out_path)
+
+    if skipped:
+        log.info("Skipped {} file aliases.".format(skipped))
 
     log.info("Saved {} clean SVG files in '{}'.".format(count, out_folder))
 
