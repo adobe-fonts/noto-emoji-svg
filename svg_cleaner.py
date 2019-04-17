@@ -98,9 +98,9 @@ class SvgCleaner(object):
     dimensions used for the character box.
     """
 
-    def __init__(self, strip=False):
+    def __init__(self, strip=False, color=True):
         self.reader = SvgCleaner._Reader()
-        self.cleaner = SvgCleaner._Cleaner()
+        self.cleaner = SvgCleaner._Cleaner(color)
         self.writer = SvgCleaner._Writer(strip)
 
     class _Reader(object):
@@ -149,10 +149,17 @@ class SvgCleaner(object):
             return self._stack[0]
 
     class _Cleaner(object):
+        def __init__(self, color):
+            log.warning('cleaner color: %s' % color)
+            self._color = color
+
         def _clean_elem(self, node):
             viewBox, x, y, width, height = None, None, None, None, None
             nattrs = {}
             for k, v in node.attrs.items():
+                if not self._color:
+                    if k in ['class', 'style'] or k.startswith('xmlns:xlink'):
+                        continue
                 if node.name == 'svg' and k in [
                         'x', 'y', 'id', 'version', 'viewBox', 'width',
                         'height', 'enable-background', 'xml:space',
@@ -218,6 +225,11 @@ class SvgCleaner(object):
                     # so leave this in.
                     if False and n.attrs.get('type') == 'text/css':
                         del n.attrs['type']
+
+                if not self._color:
+                    if not isinstance(n, _Text_Node) and n.name in [
+                            'style', 'linearGradient', 'radialGradient']:
+                        continue
 
                 node.contents[wpos] = n
                 wpos += 1
@@ -322,10 +334,10 @@ class SvgCleaner(object):
         return self.tree_to_text(tree)
 
 
-def clean_svg_files(file_paths, out_dir, strip=False):
+def clean_svg_files(file_paths, out_dir, strip=False, color=True):
     count = 0
 
-    cleaner = SvgCleaner(strip)
+    cleaner = SvgCleaner(strip, color)
 
     for svg_file_path in file_paths:
         log.debug('read: %s', svg_file_path)
@@ -368,8 +380,8 @@ def main(args=None):
     parser.add_argument(
         '-v',
         '--verbose',
-        help='increase the logger verbosity. Multiple -v '
-             'options are allowed.',
+        help='verbose mode\n'
+             'Use -vv for debug mode',
         action='count',
         default=0
     )
@@ -391,6 +403,13 @@ def main(args=None):
         '--strip-whitespace',
         help='remove newlines and indentation',
         action='store_true'
+    )
+    parser.add_argument(
+        '-k',
+        '--kind',
+        help='select the kind of SVGs being processed (default: %(default)s)',
+        choices=('bw', 'color'),
+        default='color'
     )
     opts = parser.parse_args(args)
 
@@ -425,7 +444,8 @@ def main(args=None):
         # make directory
         os.makedirs(out_path)
 
-    clean_svg_files(file_paths, opts.out_dir, strip=opts.strip_whitespace)
+    clean_svg_files(file_paths, opts.out_dir,
+                    strip=opts.strip_whitespace, color=(opts.kind == 'color'))
 
 
 if __name__ == '__main__':
