@@ -1223,3 +1223,8 @@
 2764;1f9e1 # heart
 2764;1f49c # heart
 2764;1f5a4 # heart
+
+26be;1f94e  # softball
+1f4bf;1f4c0 # dvd
+1f4d7;1f4d8 # blue book
+1f4d7;1f4d9 # orange book
