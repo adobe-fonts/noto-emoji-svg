@@ -1166,3 +1166,14 @@
 270d;270d_1f3fd
 270d;270d_1f3fe
 270d;270d_1f3ff
+
+1f536;1f537 # large diamond
+1f538;1f539 # small diamond
+26ab;1f534 # circle
+26ab;1f535 # circle
+2764;1f499 # heart
+2764;1f49a # heart
+2764;1f49b # heart
+2764;1f9e1 # heart
+2764;1f49c # heart
+2764;1f5a4 # heart
