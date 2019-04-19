@@ -388,8 +388,7 @@ def main(args=None):
     parser.add_argument(
         '-v',
         '--verbose',
-        help='verbose mode\n'
-             'Use -vv for debug mode',
+        help='verbose mode. Use -vv for debug mode',
         action='count',
         default=0
     )
