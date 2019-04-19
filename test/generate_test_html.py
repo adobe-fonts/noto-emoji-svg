@@ -67,7 +67,9 @@ def main(args=None):
         if cps[0] in REG_IND_LETTR:
             continue
         cps_html = ''.join(['&#x{};'.format(cp) for cp in cps])
-        filename = FILE_PREFIX + '_'.join(cps).lower()
+        # filenames have no 'FE0F' component
+        cps_filename = [cp for cp in cps if cp != 'FE0F']
+        filename = FILE_PREFIX + '_'.join(cps_filename).lower()
         html = TABLE_ROW.format(i, ' '.join(cps), cps_html,
                                 filename, cps_html,
                                 filename, cps_html)
