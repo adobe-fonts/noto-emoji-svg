@@ -6,6 +6,7 @@ Creates a sans-color emoji font (OTF or TTF) from b&w SVG files.
 import argparse
 from collections import deque
 import glob
+import io
 import logging
 import os
 import re
@@ -100,7 +101,7 @@ def get_trimmed_glyph_name(gname, num):
     return gname[:31 - len(suffix)] + suffix
 
 
-def make_font(file_paths, out_dir, revision, gsub_path, gpos_path):
+def make_font(file_paths, out_dir, revision, gsub_path, gpos_path, uvs_lst):
     cmap, gorder, validated_fpaths = {}, deque(), []
     for fpath in file_paths:
         # build glyph order
@@ -126,7 +127,7 @@ def make_font(file_paths, out_dir, revision, gsub_path, gpos_path):
                 trimmed_gname = get_trimmed_glyph_name(trimmed_gname, num)
             gorder.append(trimmed_gname)
             log.warning("Glyph name '{}' was trimmed to 31 characters: "
-                        "'{}'.".format(gname, trimmed_gname))
+                        "'{}'".format(gname, trimmed_gname))
         else:
             gorder.append(gname)
         validated_fpaths.append(fpath)
@@ -162,7 +163,7 @@ def make_font(file_paths, out_dir, revision, gsub_path, gpos_path):
                  })
 
     fb.setupGlyphOrder(list(gorder))  # parts of FontTools require a list
-    fb.setupCharacterMap(cmap)
+    fb.setupCharacterMap(cmap, uvs=uvs_lst)
     fb.setupCFF(PS_NAME, {'version': revision,
                           'Notice': TRADEMARK,
                           'Copyright': COPYRIGHT,
@@ -188,28 +189,31 @@ def make_font(file_paths, out_dir, revision, gsub_path, gpos_path):
     fb.setupHorizontalHeader(ascent=ASCENT, descent=DESCENT)
 
     VERSION_STRING = 'Version {};{}'.format(revision, VENDOR)
+    UNIQUE_ID = '{};{};{}'.format(revision, VENDOR, PS_NAME)
     name_strings = dict(
-        copyright=COPYRIGHT,         # ID 0
-        familyName=FAMILY_NAME,      # ID 1
-        styleName=STYLE_NAME,        # ID 2
-        fullName=FULL_NAME,          # ID 4
-        version=VERSION_STRING,      # ID 5
-        psName=PS_NAME,              # ID 6
-        trademark=TRADEMARK,         # ID 7
-        manufacturer=MANUFACTURER,   # ID 8
-        designer=DESIGNER,           # ID 9
-        vendorURL=VENDOR_URL,        # ID 11
-        designerURL=DESIGNER_URL,    # ID 12
-        licenseDescription=LICENSE,  # ID 13
-        licenseInfoURL=LICENSE_URL,  # ID 14
+        copyright=COPYRIGHT,             # ID 0
+        familyName=FAMILY_NAME,          # ID 1
+        styleName=STYLE_NAME,            # ID 2
+        uniqueFontIdentifier=UNIQUE_ID,  # ID 3
+        fullName=FULL_NAME,              # ID 4
+        version=VERSION_STRING,          # ID 5
+        psName=PS_NAME,                  # ID 6
+        trademark=TRADEMARK,             # ID 7
+        manufacturer=MANUFACTURER,       # ID 8
+        designer=DESIGNER,               # ID 9
+        vendorURL=VENDOR_URL,            # ID 11
+        designerURL=DESIGNER_URL,        # ID 12
+        licenseDescription=LICENSE,      # ID 13
+        licenseInfoURL=LICENSE_URL,      # ID 14
     )
     fb.setupNameTable(name_strings, mac=False)
 
     fb.setupOS2(fsType=FSTYPE, achVendID=VENDOR,
                 usWinAscent=EM, usWinDescent=DESCENT,
-                sTypoAscender=EM, sTypoDescender=DESCENT)
+                sTypoAscender=EM, sTypoDescender=DESCENT,
+                usMaxContext=3)
 
-    fb.setupPost()
+    fb.setupPost(isFixedPitch=1)
     fb.setupDummyDSIG()
 
     if gsub_path:
@@ -219,6 +223,43 @@ def make_font(file_paths, out_dir, revision, gsub_path, gpos_path):
         addOpenTypeFeatures(fb.font, gpos_path, tables=['GPOS'])
 
     fb.save(os.path.join(out_dir, '{}.otf'.format(PS_NAME)))
+
+
+def parse_uvs_file(file_path):
+    """
+    Parses an Unicode Variation Sequences text file.
+    Returns a list of tuples in the form
+    (unicodeValue, variationSelector, glyphName).
+    'unicodeValue' and 'variationSelector' are integer code points.
+    'glyphName' may be None, to indicate this is the default variation.
+    """
+    with io.open(file_path, encoding='utf-8') as fp:
+        lines = fp.read().splitlines()
+
+    uvs_list = []
+    for i, line in enumerate(lines, 1):
+        line = line.strip()
+        if not line or line.startswith('#'):
+            continue
+        uni_str, gname = line.split(';')
+        uni_lst = uni_str.strip().split()
+        if not isinstance(uni_lst, list) and len(uni_lst) != 2:
+            log.error('Line #{} is not correctly formatted.'.format(i))
+            continue
+        try:
+            uni_int = [int(cdpt, 16) for cdpt in uni_lst]
+        except ValueError:
+            log.error('Line #{} has an invalid code point.'.format(i))
+            continue
+        gname = gname.strip()
+        if gname == 'None':
+            gname = None
+        uni_int.append(gname)
+        uvs_list.append(tuple(uni_int))
+    if not uvs_list:
+        log.warning('No Unicode Variation Sequences were found.')
+        return None
+    return uvs_list
 
 
 def _validate_dir_path(path_str):
@@ -244,7 +285,7 @@ def _normalize_path(path_str):
 def _validate_revision_number(rev_str):
     if not RE_REVISION.match(rev_str):
         raise argparse.ArgumentTypeError(
-            "The revision number must use this format: 123.456")
+            "The revision number must follow this format: 123.456")
     return rev_str
 
 
@@ -253,8 +294,7 @@ def main(args=None):
     parser.add_argument(
         '-v',
         '--verbose',
-        help='increase the logger verbosity. Multiple -v '
-             'options are allowed.',
+        help='verbose mode. Use -vv for debug mode',
         action='count',
         default=0
     )
@@ -288,6 +328,11 @@ def main(args=None):
         help='path to GPOS features file',
         type=_validate_file_path,
     )
+    parser.add_argument(
+        '--uvs',
+        help='path to Unicode Variation Sequences file',
+        type=_validate_file_path,
+    )
     opts = parser.parse_args(args)
 
     if not opts.verbose:
@@ -303,10 +348,14 @@ def main(args=None):
     file_count = len(file_paths)
 
     if not file_count:
-        log.warning('Failed to match any SVG files.')
+        log.error('Failed to match any SVG files.')
         return 1
 
     log.info("Found {} SVG files in '{}'.".format(file_count, opts.in_dir))
+
+    uvs = None
+    if opts.uvs:
+        uvs = parse_uvs_file(opts.uvs)
 
     if opts.out_dir:
         out_path = os.path.abspath(os.path.realpath(opts.out_dir))
@@ -321,7 +370,7 @@ def main(args=None):
     else:
         out_dir = opts.in_dir
 
-    make_font(file_paths, out_dir, opts.revision, opts.gsub, opts.gpos)
+    make_font(file_paths, out_dir, opts.revision, opts.gsub, opts.gpos, uvs)
 
 
 if __name__ == "__main__":
