@@ -208,19 +208,18 @@ def make_font(file_paths, out_dir, revision, gsub_path, gpos_path, uvs_lst):
     )
     fb.setupNameTable(name_strings, mac=False)
 
-    fb.setupOS2(fsType=FSTYPE, achVendID=VENDOR,
-                usWinAscent=EM, usWinDescent=DESCENT,
-                sTypoAscender=EM, sTypoDescender=DESCENT,
-                usMaxContext=3)
-
-    fb.setupPost(isFixedPitch=1)
-    fb.setupDummyDSIG()
-
     if gsub_path:
         addOpenTypeFeatures(fb.font, gsub_path, tables=['GSUB'])
 
     if gpos_path:
         addOpenTypeFeatures(fb.font, gpos_path, tables=['GPOS'])
+
+    fb.setupOS2(fsType=FSTYPE, achVendID=VENDOR,
+                usWinAscent=EM, usWinDescent=DESCENT,
+                sTypoAscender=EM, sTypoDescender=DESCENT)
+
+    fb.setupPost(isFixedPitch=1)
+    fb.setupDummyDSIG()
 
     fb.save(os.path.join(out_dir, '{}.otf'.format(PS_NAME)))
 
