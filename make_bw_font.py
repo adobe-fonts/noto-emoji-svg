@@ -254,7 +254,11 @@ def parse_uvs_file(file_path):
         if gname == 'None':
             gname = None
         uni_int.append(gname)
-        uvs_list.append(tuple(uni_int))
+        uvs_item = tuple(uni_int)
+        if uvs_item in uvs_list:
+            log.warning('Line #{} is a duplicate UVS.'.format(i))
+            continue
+        uvs_list.append(uvs_item)
     if not uvs_list:
         log.warning('No Unicode Variation Sequences were found.')
         return None
