@@ -1228,3 +1228,8 @@
 1f4bf;1f4c0 # dvd
 1f4d7;1f4d8 # blue book
 1f4d7;1f4d9 # orange book
+1f34e;1f34f # apple
+
+1f620;1f621 # angry face
+1f627;1f628 # fearful face
+1f431;1f63a # cat face
