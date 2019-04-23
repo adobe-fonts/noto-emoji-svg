@@ -30,7 +30,14 @@ def make_aliases(aliases_list, in_dir):
         if os.path.exists(dst_filename):
             os.remove(dst_filename)
 
-        os.symlink(src_filename, dst_filename)
+        try:
+            os.symlink(src_filename, dst_filename)
+        except OSError as err:
+            if err.args == ('symbolic link privilege not held',):
+                log.error('On Windows this script must be run in Admin mode.')
+            else:
+                log.error('Failure while trying to create alias/symlink.')
+            return 1
 
 
 def parse_emoji_aliases_file(file_path):
