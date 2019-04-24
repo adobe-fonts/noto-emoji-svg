@@ -1,7 +1,7 @@
 # Copyright © 2019 Adobe, Inc.
 # Author: Miguel Sousa
 """
-Creates aliases of SVG files in the same directory.
+Creates aliases of SVG or PNG files in the same directory.
 """
 import argparse
 import io
@@ -11,22 +11,31 @@ import sys
 
 
 FILE_PREFIX = 'emoji_u'
+FILE_EXTENSIONS = ('svg', 'png')
 
 log = logging.getLogger('make_aliases')
+
+
+def sniff_file_extension(src_name):
+    for ext in FILE_EXTENSIONS:
+        src_filename = '{}{}.{}'.format(FILE_PREFIX, src_name, ext)
+        if os.path.exists(src_filename):
+            return src_filename, ext
+    # no file was found
+    return None, None
 
 
 def make_aliases(aliases_list, in_dir):
     os.chdir(in_dir)
 
     for src_name, dst_name in aliases_list:
-        src_filename = '{}{}.svg'.format(FILE_PREFIX, src_name)
-        dst_filename = '{}{}.svg'.format(FILE_PREFIX, dst_name)
-
-        if not os.path.exists(src_filename):
-            log.warning("File named '{}' not found in '{}'".format(
-                src_filename, in_dir))
+        src_filename, ext = sniff_file_extension(src_name)
+        if not src_filename:
+            log.warning("File named '{}{}' not found in '{}'".format(
+                FILE_PREFIX, src_name, in_dir))
             continue
 
+        dst_filename = '{}{}.{}'.format(FILE_PREFIX, dst_name, ext)
         if os.path.exists(dst_filename):
             os.remove(dst_filename)
 
