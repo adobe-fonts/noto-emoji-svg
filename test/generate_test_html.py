@@ -23,6 +23,7 @@ TEST_FILE = os.path.join(TEST_DIR, '../test.html')
 TABLE_ROW = """<tr>
     <th scope="row">#{}<br>{}</th>
     <td class="font_fallback">{}</td>
+    <td><img src="png/{}.png"></td>
     <td><img src="svg/{}.svg"></td>
     <!-- <td class="font_emoji_color">{}</td> -->
     <td><img src="svg_bw/{}.svg"></td>
@@ -70,9 +71,8 @@ def main(args=None):
         # filenames have no 'FE0F' component
         cps_filename = [cp for cp in cps if cp != 'FE0F']
         filename = FILE_PREFIX + '_'.join(cps_filename).lower()
-        html = TABLE_ROW.format(i, ' '.join(cps), cps_html,
-                                filename, cps_html,
-                                filename, cps_html)
+        html = TABLE_ROW.format(i, ' '.join(cps), cps_html, filename,
+                                filename, cps_html, filename, cps_html)
         append_to_file(TEST_FILE, html)
     append_to_file(TEST_FILE, TEST_FOOTER)
 
