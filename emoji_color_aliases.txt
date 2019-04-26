@@ -3,7 +3,9 @@
 # the 'from' sequence should be represented by the image for the 'to' sequence
 # 'fe0f' is not in these sequences
 
-# XXX all of these must be remove when 'person' artwork exists
+1f431;1f63a # cat face
+
+# XXX all of the lines below must be remove when 'person' artwork exists
 
 # police officer
 1f46e_200d_2640;1f46e

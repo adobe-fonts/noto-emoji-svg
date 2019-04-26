@@ -1233,3 +1233,4 @@
 1f620;1f621 # angry face
 1f627;1f628 # fearful face
 1f431;1f63a # cat face
+1f9b0;1f9b3 # hair component
