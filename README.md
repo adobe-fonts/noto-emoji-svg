@@ -6,7 +6,15 @@ OpenType-SVG version of [Noto Emoji](https://github.com/googlefonts/noto-emoji).
 requires using the option `-c core.symlinks=true` and running the command with
 Admin privileges.
 
-	git clone -c core.symlinks=true https://github.com/adobe-fonts/noto-emoji-svg.git
+	git -c core.symlinks=true clone https://github.com/adobe-fonts/noto-emoji-svg.git
+
+You may also need to pull using this command,
+
+	git -c core.symlinks=true pull
+
+and configure the repository with this command,
+
+	git config core.symlinks true
 
 
 ### Requirements
@@ -48,8 +56,8 @@ To generate **color aliases** run this command:
 ## Cleaning/sanitizing the SVG artwork
 
 Whenever the SVG files are edited and saved with Adobe Illustrator they contain
-unnecessary data that can and should be removed. To clean the **black-and-white artwork**
-run this command:
+unnecessary data that can and should be removed. To clean the **black-and-white
+artwork** run this command:
 
 	python3 svg_cleaner.py -k bw svg_bw
 
