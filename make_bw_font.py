@@ -139,6 +139,7 @@ def make_font(file_paths, out_dir, revision, gsub_path, gpos_path, uvs_lst):
 
     fb = FontBuilder(EM, isTTF=False)
     fb.font['head'].fontRevision = float(revision)
+    fb.font['head'].lowestRecPPEM = 12
 
     cs_dict = {}
     for i, svg_file_path in enumerate(validated_fpaths):
