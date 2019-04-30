@@ -182,15 +182,13 @@ class SvgCleaner(object):
             if node.name == 'svg':
                 if viewBox:
                     x, y, width, height = viewBox.split()
+                    nattrs['viewBox'] = viewBox
+                    if (int(x) != 0 or int(y) != 0):
+                        log.warning('viewbox "%s" x: %s y: %s' % (viewBox, x,
+                                                                  y))
                 if not width or not height:
                     if not viewBox:
                         raise ValueError('no viewBox, width, or height')
-                nattrs['width'] = width
-                nattrs['height'] = height
-                # keep for svg use outside of font
-                if viewBox and (int(x) != 0 or int(y) != 0):
-                    log.warn('viewbox "%s" x: %s y: %s' % (viewBox, x, y))
-                    nattrs['viewBox'] = viewBox
             node.attrs = nattrs
 
             # if display:none, skip this and its children
