@@ -19,7 +19,7 @@
   <clipPath id="e">
     <use xlink:href="#f"/>
   </clipPath>
-  <rect clip-path="url(#e)" fill="#424242" height="94.62" transform="matrix(.9796 -.2011 .2011 .9796 -15.887 4.163)" width="9.87" x="7.61" y="32.98"/>
+  <polygon clip-path="url(#e)" fill="#424242" points="-1.8,34.94 7.87,32.95 26.9,125.64 16.23,127.63 "/>
   <path d="m97.95 101.4-65.19-6.35c-3.3-0.32-5.71-3.26-5.39-6.55l6.3-64.73c0.32-3.3 3.26-5.71 6.55-5.39l65.19 6.35-7.46 76.67z" fill="#424242"/>
   <linearGradient id="d" gradientTransform="matrix(1.0341 .1007 -.0969 .9953 4.1404 -6.296)" gradientUnits="userSpaceOnUse" x1="66.384" x2="66.384" y1="9.0964" y2="88.734">
     <stop offset=".0079465" stop-color="#4480F7"/>
@@ -40,7 +40,7 @@
   <clipPath id="a">
     <use xlink:href="#b"/>
   </clipPath>
-  <rect clip-path="url(#a)" fill="#424242" height="95.29" transform="matrix(.9953 .0969 -.0969 .9953 5.0209 -2.8308)" width="9.9" x="26.69" y="2.61"/>
+  <polygon clip-path="url(#a)" fill="#424242" points="31.33,2.35 41.19,3.31 31.95,98.15 21.1,97.2 "/>
   <path d="m122.51 115.99-61.09 5.41c-3.3 0.29-6.21-2.15-6.51-5.45l-5.59-63.13c-0.29-3.3 2.15-6.21 5.45-6.51l61.09-5.41 6.65 75.09z" fill="#424242"/>
   <linearGradient id="l" gradientTransform="matrix(.9961 -.0882 .0882 .9961 -5.6555 7.9061)" gradientUnits="userSpaceOnUse" x1="85.63" x2="85.63" y1="32.142" y2="110.06">
     <stop offset=".0079465" stop-color="#66BB6A"/>
@@ -61,5 +61,5 @@
   <clipPath id="i">
     <use xlink:href="#j"/>
   </clipPath>
-  <rect clip-path="url(#i)" fill="#424242" height="93.23" transform="matrix(.9961 -.0882 .0882 .9961 -6.7246 4.903)" width="9.32" x="47.45" y="31.93"/>
+  <polygon clip-path="url(#i)" fill="#424242" points="43.36,32.52 52.64,31.7 60.86,124.57 50.58,125.39 "/>
 </svg>
