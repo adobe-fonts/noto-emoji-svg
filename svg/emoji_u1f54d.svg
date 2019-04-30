@@ -1,6 +1,5 @@
 <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <pattern id="a" height="15.5" overflow="visible" patternUnits="userSpaceOnUse" viewBox="0 -15.5 15.83 15.5" width="15.83">
-    <rect fill="none" height="15.5" width="15.83" y="-15.5"/>
     <rect fill="#49C0D6" height="15.5" width="15.83" y="-15.5"/>
   </pattern>
   <path d="M68,27.64V24c0-2.21-1.79-4-4-4s-4,1.79-4,4v3.64L20,64v60h88V64L68,27.64z" fill="#49C0D6"/>
@@ -129,8 +128,6 @@
   <g opacity=".2">
     <path d="m122 34v88h-20v-88h20m0-2h-20c-1.1 0-2 0.9-2 2v90h24v-90c0-1.1-0.9-2-2-2z" fill="#424242"/>
   </g>
-  <pattern id="m" patternTransform="translate(6.3755 -4.8745)" xlink:href="#a"/>
-  <line fill="url(#m)" x1="-18.96" x2="-18.96" y1="27.46" y2="42.96"/>
   <pattern id="l" patternTransform="translate(6.3755 -4.8745)" xlink:href="#a"/>
   <path d="m64.2 87.28c-10.75 0-19.5-8.75-19.5-19.5s8.75-19.5 19.5-19.5 19.5 8.75 19.5 19.5-8.74 19.5-19.5 19.5z" fill="url(#l)"/>
   <path d="m64.2 49.28c10.2 0 18.5 8.3 18.5 18.5s-8.3 18.5-18.5 18.5-18.5-8.3-18.5-18.5 8.3-18.5 18.5-18.5m0-2c-11.32 0-20.5 9.18-20.5 20.5s9.18 20.5 20.5 20.5 20.5-9.18 20.5-20.5-9.17-20.5-20.5-20.5z" fill="#34A4A8"/>

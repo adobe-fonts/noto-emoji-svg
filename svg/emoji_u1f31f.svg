@@ -1,5 +1,4 @@
 <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-  <rect fill="#F2F2F2" height=".67" width="0" x="-1228" y="-57.67"/>
   <radialGradient id="a" cx="59.6" cy="54.845" fx="27.165" fy="53.715" gradientUnits="userSpaceOnUse" r="55.464">
     <stop offset="0" stop-color="#FFEB3B"/>
     <stop offset="1" stop-color="#FBC02D"/>
