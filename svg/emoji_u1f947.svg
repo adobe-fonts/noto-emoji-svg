@@ -1,9 +1,4 @@
 <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <font horiz-adv-x="2048">
-    <font-face font-family="Roboto-Bold" underline-position="-150" underline-thickness="100" units-per-em="2048"/>
-    <missing-glyph d="M808,0l-708,0l0,1456l708,0M754,84l0,1287l-274,-643M154,1359l0,-1263l268,632M194,54l515,0l-258,606M451,796l258,606l-515,0z" horiz-adv-x="908"/>
-    <glyph d="M801,0l-289,0l0,1114l-345,-107l0,235l603,216l31,0z" horiz-adv-x="1175" unicode="1"/>
-  </font>
   <defs>
     <rect id="e" height="58.36" width="120.55" x="3.93" y="4.01"/>
   </defs>
@@ -38,8 +33,5 @@
   <g opacity=".2">
     <path d="m64 51c19.3 0 35 15.7 35 35s-15.7 35-35 35-35-15.7-35-35 15.7-35 35-35m0-3c-20.99 0-38 17.01-38 38s17.01 38 38 38 38-17.01 38-38-17.01-38-38-38z" fill="#424242"/>
   </g>
-  <rect fill="none" height="44.4" width="33.4" x="47.3" y="63.59"/>
-  <text fill="#FFA000" font-family="'Roboto-Bold'" font-size="58px" transform="translate(47.298 107.09)">
-1
-  </text>
+  <path d="M69.98,107.09H61.8V75.54l-9.77,3.03v-6.66L69.1,65.8h0.88V107.09z" fill="#FFA000"/>
 </svg>
