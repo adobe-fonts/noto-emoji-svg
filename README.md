@@ -42,6 +42,10 @@ The current output shows Unicode version 11. To generate the file run this comma
 
 	python3 test/generate_test_html.py
 
+To divide the output into multiple files use the `--paginate` option:
+
+	python3 test/generate_test_html.py -p
+
 
 ## Generating aliases
 
