@@ -120,7 +120,7 @@ def main(args=None):
         # XXX skip country flags for now
         if cps[0] in REG_IND_LETTR:
             continue
-        cps_html = ''.join(['&#x{};'.format(cp) for cp in cps])
+        cps_html = ''.join('&#x{};'.format(cp) for cp in cps)
         # filenames have no 'FE0F' component
         cps_filename = [cp for cp in cps if cp != 'FE0F']
         filename = FILE_PREFIX + '_'.join(cps_filename).lower()
