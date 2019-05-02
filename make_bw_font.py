@@ -46,6 +46,8 @@ ASCENT = EM
 DESCENT = 0
 
 
+SPACE_CHARSTRING = T2CharString(program=[EM, 'endchar'])
+
 RE_UNICODE = re.compile(r'^u[0-9a-f]{4,5}$', re.IGNORECASE)
 RE_REVISION = re.compile(r'^[0-9]{1,3}\.[0-9]{3}$')
 
@@ -155,8 +157,8 @@ def make_font(file_paths, out_dir, revision, gsub_path, gpos_path, uvs_lst):
     pen = T2CharStringPen(EM, None)
     draw_notdef(pen)
     cs_dict.update({'.notdef': pen.getCharString(),
-                    'space': T2CharString(program=['endchar']),
-                    'ZWJ': T2CharString(program=['endchar']),
+                    'space': SPACE_CHARSTRING,
+                    'ZWJ': SPACE_CHARSTRING,
                     })
     cmap.update({32: 'space',   # U+0020
                  160: 'space',  # U+00A0
