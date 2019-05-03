@@ -20,6 +20,10 @@ def main(args=None):
     test_file_path = os.path.join(TEST_DIR, '..', TEST_FILE_NAME)
     open(test_file_path, 'w').close()
 
+    # begin the file with the BOM and use utf-16-le encoding
+    # (to make Adobe Illustrator happy)
+    append_to_file(test_file_path, '\uFEFF', 'utf-16-le')
+
     emoji_list = []
     for i, cps in enumerate(cdpts_list, 1):
         # XXX skip country flags for now
@@ -28,7 +32,7 @@ def main(args=None):
         emoji = ''.join(chr(int(cp, 16)) for cp in cps)
         emoji_list.append(emoji)
 
-    append_to_file(test_file_path, ' '.join(emoji_list))
+    append_to_file(test_file_path, ' '.join(emoji_list), 'utf-16-le')
 
 
 if __name__ == "__main__":

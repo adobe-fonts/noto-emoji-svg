@@ -43,8 +43,8 @@ LINK_ROW = """<tr>
 TEST_FOOTER = """</table></div></body></html>"""
 
 
-def append_to_file(fpath, data):
-    with io.open(fpath, 'a', encoding='utf-8') as fp:
+def append_to_file(fpath, data, enc='utf-8'):
+    with io.open(fpath, 'a', encoding=enc) as fp:
         fp.write(data)
 
 
