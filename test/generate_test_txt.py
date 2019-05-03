@@ -16,6 +16,10 @@ def main(args=None):
     # collect the list of codepoints
     cdpts_list = parse_emoji_test_file()
 
+    # start a new file (avoids appending to an existing file)
+    test_file_path = os.path.join(TEST_DIR, '..', TEST_FILE_NAME)
+    open(test_file_path, 'w').close()
+
     emoji_list = []
     for i, cps in enumerate(cdpts_list, 1):
         # XXX skip country flags for now
@@ -24,7 +28,6 @@ def main(args=None):
         emoji = ''.join(chr(int(cp, 16)) for cp in cps)
         emoji_list.append(emoji)
 
-    test_file_path = os.path.join(TEST_DIR, '..', TEST_FILE_NAME)
     append_to_file(test_file_path, ' '.join(emoji_list))
 
 
