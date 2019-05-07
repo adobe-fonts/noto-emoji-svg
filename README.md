@@ -34,6 +34,15 @@ To build the **black-and-white font** use the following command,
 where `x.xxx` is the version number to be assigned to the font (e.g `1.082`).
 
 
+## Subroutinizing the OTFs
+
+The OT-CFF fonts can be subroutinized with the following command:
+
+	sh subroutinize.sh <font file path>
+
+Subroutinizing requires AFDKO's `tx` and `sfntedit` tools.
+
+
 ## Generating the HTML test document
 
 To help thoroughly test the fonts, a script was developed that generates
