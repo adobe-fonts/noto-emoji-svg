@@ -31,6 +31,10 @@ To build the **black-and-white font** use the following command,
 
 	python3 make_bw_font.py -o fonts -r x.xxx --gsub GSUB.fea --gpos GPOS.fea --uvs UVS.txt svg_bw
 
+and to build the **color font** use the following command,
+
+	python3 make_svg_font.py -z -r x.xxx svg fonts/NotoEmoji.otf -v
+
 where `x.xxx` is the version number to be assigned to the font (e.g `1.082`).
 
 
