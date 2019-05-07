@@ -29,7 +29,7 @@ TABLE_ROW = """<tr>
     <td class="font_fallback">{}</td>
     <td><img src="png/{}.png"></td>
     <td><img src="svg/{}.svg"></td>
-    <!-- <td class="font_emoji_color">{}</td> -->
+    <td class="font_emoji_color">{}</td>
     <td><img src="svg_bw/{}.svg"></td>
     <td class="font_emoji_bw">{}</td>
 </tr>
