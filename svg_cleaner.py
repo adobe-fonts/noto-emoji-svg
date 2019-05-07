@@ -36,6 +36,8 @@ import sys
 from xml.parsers import expat
 from xml.sax import saxutils
 
+from make_bw_font import validate_dir_path, normalize_path
+
 log = logging.getLogger('svg_cleaner')
 
 # Expat doesn't allow me to identify empty tags (in particular, with an
@@ -368,18 +370,6 @@ def clean_svg_files(file_paths, out_dir, strip=False, color=True):
     log.info("Saved {} clean SVG files in '{}'.".format(count, out_folder))
 
 
-def _validate_dir_path(path_str):
-    valid_path = os.path.abspath(os.path.realpath(path_str))
-    if not os.path.isdir(valid_path):
-        raise argparse.ArgumentTypeError(
-            "{} is not a valid directory path.".format(path_str))
-    return _normalize_path(path_str)
-
-
-def _normalize_path(path_str):
-    return os.path.normpath(path_str)
-
-
 def main(args=None):
     parser = argparse.ArgumentParser(
         description="Remove superfluous data from SVG files.")
@@ -394,14 +384,14 @@ def main(args=None):
         'in_dir',
         help='input directory',
         metavar='DIR',
-        type=_validate_dir_path,
+        type=validate_dir_path,
     )
     parser.add_argument(
         '-o',
         '--out-dir',
         help='output directory. Defaults to input directory.',
         metavar='DIR',
-        type=_normalize_path,
+        type=normalize_path,
     )
     parser.add_argument(
         '-w',

@@ -9,6 +9,8 @@ import logging
 import os
 import sys
 
+from make_bw_font import validate_dir_path, validate_file_path
+
 
 FILE_PREFIX = 'emoji_u'
 FILE_EXTENSIONS = ('svg', 'png')
@@ -70,26 +72,6 @@ def parse_emoji_aliases_file(file_path):
     return aliases_list
 
 
-def _validate_dir_path(path_str):
-    valid_path = os.path.abspath(os.path.realpath(path_str))
-    if not os.path.isdir(valid_path):
-        raise argparse.ArgumentTypeError(
-            "{} is not a valid directory path.".format(path_str))
-    return _normalize_path(path_str)
-
-
-def _validate_file_path(path_str):
-    valid_path = os.path.abspath(os.path.realpath(path_str))
-    if not os.path.isfile(valid_path):
-        raise argparse.ArgumentTypeError(
-            "{} is not a valid file path.".format(path_str))
-    return _normalize_path(path_str)
-
-
-def _normalize_path(path_str):
-    return os.path.normpath(path_str)
-
-
 def main(args=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -103,13 +85,13 @@ def main(args=None):
         'in_file',
         help='text file containing a listing of the aliases',
         metavar='FILE',
-        type=_validate_file_path,
+        type=validate_file_path,
     )
     parser.add_argument(
         'in_dir',
         help='input directory containing SVG files',
         metavar='DIR',
-        type=_validate_dir_path,
+        type=validate_dir_path,
     )
     opts = parser.parse_args(args)
 

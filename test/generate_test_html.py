@@ -19,10 +19,10 @@ DFLT_ITEMS_PPAGE = 500
 
 FILE_PREFIX = 'emoji_u'
 
+TEST_FILE_NAME = 'test{}.html'
 TEST_DIR = os.path.dirname(os.path.abspath(__file__))
 EMOJI_TEST_FILE = os.path.join(TEST_DIR, 'emoji-test.txt')
 TEST_HEADER_FILE = os.path.join(TEST_DIR, 'test_header.html')
-TEST_FILE_NAME = 'test{}.html'
 
 TABLE_ROW = """<tr>
     <th scope="row">#{}<br>{}</th>
@@ -74,7 +74,7 @@ def parse_emoji_test_file():
     return cdpts_list
 
 
-def _positive_int(int_str):
+def positive_int(int_str):
     try:
         num_items = int(int_str)
     except ValueError:
@@ -95,7 +95,7 @@ def main(args=None):
               'number of items per page is {} and the minimum is {}.'
               ''.format(DFLT_ITEMS_PPAGE, MIN_ITEMS_PPAGE)),
         metavar='INTEGER or blank',
-        type=_positive_int,
+        type=positive_int,
         default=0,
         nargs='?',
     )

@@ -1,7 +1,7 @@
 # Copyright © 2019 Adobe, Inc.
 # Author: Miguel Sousa
 """
-Creates a sans-color emoji font (OTF or TTF) from b&w SVG files.
+Creates a sans-color emoji OT-CFF font from b&w SVG files.
 """
 import argparse
 from collections import deque
@@ -268,27 +268,27 @@ def parse_uvs_file(file_path):
     return uvs_list
 
 
-def _validate_dir_path(path_str):
+def validate_dir_path(path_str):
     valid_path = os.path.abspath(os.path.realpath(path_str))
     if not os.path.isdir(valid_path):
         raise argparse.ArgumentTypeError(
             "{} is not a valid directory path.".format(path_str))
-    return _normalize_path(path_str)
+    return normalize_path(path_str)
 
 
-def _validate_file_path(path_str):
+def validate_file_path(path_str):
     valid_path = os.path.abspath(os.path.realpath(path_str))
     if not os.path.isfile(valid_path):
         raise argparse.ArgumentTypeError(
             "{} is not a valid file path.".format(path_str))
-    return _normalize_path(path_str)
+    return normalize_path(path_str)
 
 
-def _normalize_path(path_str):
+def normalize_path(path_str):
     return os.path.normpath(path_str)
 
 
-def _validate_revision_number(rev_str):
+def validate_revision_number(rev_str):
     if not RE_REVISION.match(rev_str):
         raise argparse.ArgumentTypeError(
             "The revision number must follow this format: 123.456")
@@ -308,36 +308,36 @@ def main(args=None):
         'in_dir',
         help='input directory containing SVG files',
         metavar='DIR',
-        type=_validate_dir_path,
+        type=validate_dir_path,
     )
     parser.add_argument(
         '-o',
         '--out-dir',
         help='directory to save the font in. Defaults to input directory.',
         metavar='DIR',
-        type=_normalize_path,
+        type=normalize_path,
     )
     parser.add_argument(
         '-r',
         '--revision',
         help="the font's revision number. Defaults to %(default)s",
-        type=_validate_revision_number,
+        type=validate_revision_number,
         default='0.001',
     )
     parser.add_argument(
         '--gsub',
         help='path to GSUB features file',
-        type=_validate_file_path,
+        type=validate_file_path,
     )
     parser.add_argument(
         '--gpos',
         help='path to GPOS features file',
-        type=_validate_file_path,
+        type=validate_file_path,
     )
     parser.add_argument(
         '--uvs',
         help='path to Unicode Variation Sequences file',
-        type=_validate_file_path,
+        type=validate_file_path,
     )
     opts = parser.parse_args(args)
 

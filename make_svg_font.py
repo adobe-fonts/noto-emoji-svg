@@ -18,7 +18,7 @@ from fontTools.ttLib import TTFont, TTLibError, newTable
 
 from make_bw_font import (
     FILE_PREFIX, VENDOR, glyph_name_is_valid, get_trimmed_glyph_name,
-    _validate_dir_path, _validate_file_path, _validate_revision_number)
+    validate_dir_path, validate_file_path, validate_revision_number)
 
 FAMILY_NAME = 'Noto Color Emoji SVG'
 FULL_NAME = FAMILY_NAME
@@ -206,7 +206,7 @@ def get_font_revision_number(font_path):
 
 
 def validate_font_path(path_str):
-    valid_file_path = _validate_file_path(path_str)
+    valid_file_path = validate_file_path(path_str)
     try:
         TTFont(valid_file_path).close()
     except TTLibError as err:
@@ -235,13 +235,13 @@ def main(args=None):
         '--revision',
         help=("the font's revision number. Defaults to the revision number "
               "of the input font."),
-        type=_validate_revision_number,
+        type=validate_revision_number,
     )
     parser.add_argument(
         'in_dir',
         help='input directory containing SVG files',
         metavar='DIR',
-        type=_validate_dir_path,
+        type=validate_dir_path,
     )
     parser.add_argument(
         'in_font',
