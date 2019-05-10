@@ -3,6 +3,7 @@
 """
 Generates a simple text file for testing emoji characters.
 """
+import argparse
 import os
 import sys
 
@@ -12,7 +13,30 @@ from generate_test_html import (TEST_DIR, append_to_file, REG_IND_LETTR,
 TEST_FILE_NAME = 'test.txt'
 
 
+def positive_int(int_str):
+    try:
+        num_items = int(int_str)
+    except ValueError:
+        raise argparse.ArgumentTypeError(
+            "'{}' is not an integer.".format(int_str))
+    if num_items < 1:
+        raise argparse.ArgumentTypeError('Number of emoji per line must be 1 '
+                                         'or more.')
+    return num_items
+
+
 def main(args=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        '-e',
+        '--emoji-per-line',
+        help=('splits the single line of emoji characters/sequences by '
+              'introducing line breaks'),
+        metavar='INTEGER',
+        type=positive_int,
+    )
+    opts = parser.parse_args(args)
+
     # collect the list of codepoints
     cdpts_list = parse_emoji_test_file()
 
@@ -32,7 +56,15 @@ def main(args=None):
         emoji = ''.join(chr(int(cp, 16)) for cp in cps)
         emoji_list.append(emoji)
 
-    append_to_file(test_file_path, ' '.join(emoji_list), 'utf-16-le')
+    if opts.emoji_per_line:
+        emoji_stream = ''
+        for i, emoji_group in enumerate(emoji_list, 1):
+            emoji_sep = '\r' if i % opts.emoji_per_line == 0 else ' '
+            emoji_stream += '{}{}'.format(emoji_group, emoji_sep)
+    else:
+        emoji_stream = ' '.join(emoji_list)
+
+    append_to_file(test_file_path, emoji_stream, 'utf-16-le')
 
 
 if __name__ == "__main__":
