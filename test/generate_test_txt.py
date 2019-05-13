@@ -30,10 +30,16 @@ def main(args=None):
     parser.add_argument(
         '-e',
         '--emoji-per-line',
-        help=('splits the single line of emoji characters/sequences by '
+        help=('split the single line of emoji characters/sequences by '
               'introducing line breaks'),
         metavar='INTEGER',
         type=positive_int,
+    )
+    parser.add_argument(
+        '-s',
+        '--space',
+        help=('add space character between emoji characters/sequences'),
+        action='store_true'
     )
     opts = parser.parse_args(args)
 
@@ -56,13 +62,18 @@ def main(args=None):
         emoji = ''.join(chr(int(cp, 16)) for cp in cps)
         emoji_list.append(emoji)
 
+    if opts.space:
+        space = ' '
+    else:
+        space = ''
+
     if opts.emoji_per_line:
         emoji_stream = ''
         for i, emoji_group in enumerate(emoji_list, 1):
-            emoji_sep = '\r' if i % opts.emoji_per_line == 0 else ' '
+            emoji_sep = '\r' if i % opts.emoji_per_line == 0 else space
             emoji_stream += '{}{}'.format(emoji_group, emoji_sep)
     else:
-        emoji_stream = ' '.join(emoji_list)
+        emoji_stream = space.join(emoji_list)
 
     append_to_file(test_file_path, emoji_stream, 'utf-16-le')
 
