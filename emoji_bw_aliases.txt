@@ -3,6 +3,10 @@
 # the 'from' sequence should be represented by the image for the 'to' sequence
 # 'fe0f' is not in these sequences
 
+1f3fb;1f3fc # skin tones
+1f3fb;1f3fd
+1f3fb;1f3fe
+1f3fb;1f3ff
 1f3c2;1f3c2_1f3fb # snowboarder
 1f3c2;1f3c2_1f3fc
 1f3c2;1f3c2_1f3fd
