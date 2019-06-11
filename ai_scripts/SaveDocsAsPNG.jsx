@@ -15,7 +15,7 @@ written permission of Adobe.
 *********************************************************/
 
 /**	Saves every document open in Illustrator
-	as an SVG file in a user specified folder.
+	as an PNG file in a user specified folder.
 */
 
 // Main Code [Execution of script begins here]
@@ -28,12 +28,12 @@ try {
 
 		// Get the folder to save the files into
 		var destFolder = null;
-		destFolder = Folder.selectDialog( 'Select folder for SVG files.', '~' );
+		destFolder = Folder.selectDialog( 'Select folder for PNG files.', '~' );
 
 		if (destFolder != null) {
 			var options, targetFile;
 
-    		// Get the SVG options to be used.
+    		// Get the PNG options to be used.
 			options = this.getOptions();
     		// You can tune these by changing the code in the getOptions() function.
 
@@ -41,21 +41,18 @@ try {
 			while (app.documents.length) {
 				var aiDocument = app.activeDocument;
 
-				// Get the file to save the document as SVG into
-				targetFile = this.getTargetFile(aiDocument.name, '.svg', destFolder);
+				// Get the file to save the document as PNG into
+				targetFile = this.getTargetFile(aiDocument.name, '.png', destFolder);
 
-				// Save as SVG
-				aiDocument.exportFile(targetFile, ExportType.SVG, options);
-				// Note: the doc.exportFile function for SVG is actually a Save As
-				// operation rather than an Export, that is, the document's name
-				// in Illustrator will change to the result of this call.
+				// Save as PNG
+				aiDocument.exportFile(targetFile, ExportType.PNG24, options);
 
 				doc_count ++;
 
 				// Close current document
 				aiDocument.close(SaveOptions.DONOTSAVECHANGES);
 			}
-			alert( doc_count + ' documents saved as SVG to\r' + destFolder );
+			alert( doc_count + ' documents saved as PNG to\r' + destFolder );
 		}
 	}
 	else{
@@ -68,31 +65,27 @@ catch(e) {
 
 
 /** Returns the options to be used for the generated files.
-	@return ExportOptionsSVG object
+	@return ExportOptionsPNG24 object
 */
 function getOptions() {
 	// Create the required options object
-	var options = new ExportOptionsSVG();
-	// See ExportOptionsSVG in the JavaScript Reference for available options
+	var options = new ExportOptionsPNG24();
+	// See ExportOptionsPNG24 in the JavaScript Reference for available options
+
+	var rgb_color = new RGBColor();
+	rgb_color.red = 255;
+	rgb_color.green = 255;
+	rgb_color.blue = 255;
 
 	// Set the options you want below:
-	options.compressed = false;
-	options.coordinatePrecision = 2;
-	options.cssProperties = SVGCSSPropertyLocation.PRESENTATIONATTRIBUTES;
-	options.documentEncoding = SVGDocumentEncoding.UTF8;
-	options.DTD = SVGDTDVersion.SVG1_1;
-	options.embedRasterImages = false;
-	options.fontSubsetting = SVGFontSubsetting.None;
-	options.fontType = SVGFontType.OUTLINEFONT;
-	options.includeFileInfo = false;
-	options.includeUnusedStyles = false;
-	options.includeVariablesAndDatasets = false;
-	options.optimizeForSVGViewer = false;
-	options.preserveEditability = false;
-	options.saveMultipleArtboards = false;
-	options.slices = false;
-	options.sVGAutoKerning = false;
-	options.sVGTextOnPath = false;
+	options.antiAliasing = true;
+	options.artBoardClipping = true;
+	options.horizontalScale = 100.0;
+	options.verticalScale = 100.0;
+	options.matte = true;
+	options.matteColor = rgb_color;
+	options.saveAsHTML = false;
+	options.transparency = true;
 
 	return options;
 }
