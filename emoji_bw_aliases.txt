@@ -784,6 +784,151 @@
 26f9_200d_2642;26f9_1f3fd_200d_2642
 26f9_200d_2642;26f9_1f3fe_200d_2642
 26f9_200d_2642;26f9_1f3ff_200d_2642
+1f469_200d_1f9af;1f469_1f3fb_200d_1f9af # woman with probing cane
+1f469_200d_1f9af;1f469_1f3fc_200d_1f9af
+1f469_200d_1f9af;1f469_1f3fd_200d_1f9af
+1f469_200d_1f9af;1f469_1f3fe_200d_1f9af
+1f469_200d_1f9af;1f469_1f3ff_200d_1f9af
+1f468_200d_1f9af;1f468_1f3fb_200d_1f9af # man with probing cane
+1f468_200d_1f9af;1f468_1f3fc_200d_1f9af
+1f468_200d_1f9af;1f468_1f3fd_200d_1f9af
+1f468_200d_1f9af;1f468_1f3fe_200d_1f9af
+1f468_200d_1f9af;1f468_1f3ff_200d_1f9af
+1f469_200d_1f9bd;1f469_1f3fb_200d_1f9bd # woman in manual wheelchair
+1f469_200d_1f9bd;1f469_1f3fc_200d_1f9bd
+1f469_200d_1f9bd;1f469_1f3fd_200d_1f9bd
+1f469_200d_1f9bd;1f469_1f3fe_200d_1f9bd
+1f469_200d_1f9bd;1f469_1f3ff_200d_1f9bd
+1f468_200d_1f9bd;1f468_1f3fb_200d_1f9bd # man in manual wheelchair
+1f468_200d_1f9bd;1f468_1f3fc_200d_1f9bd
+1f468_200d_1f9bd;1f468_1f3fd_200d_1f9bd
+1f468_200d_1f9bd;1f468_1f3fe_200d_1f9bd
+1f468_200d_1f9bd;1f468_1f3ff_200d_1f9bd
+1f469_200d_1f9bc;1f469_1f3fb_200d_1f9bc # woman in motorized wheelchair
+1f469_200d_1f9bc;1f469_1f3fc_200d_1f9bc
+1f469_200d_1f9bc;1f469_1f3fd_200d_1f9bc
+1f469_200d_1f9bc;1f469_1f3fe_200d_1f9bc
+1f469_200d_1f9bc;1f469_1f3ff_200d_1f9bc
+1f468_200d_1f9bc;1f468_1f3fb_200d_1f9bc # man in motorized wheelchair
+1f468_200d_1f9bc;1f468_1f3fc_200d_1f9bc
+1f468_200d_1f9bc;1f468_1f3fd_200d_1f9bc
+1f468_200d_1f9bc;1f468_1f3fe_200d_1f9bc
+1f468_200d_1f9bc;1f468_1f3ff_200d_1f9bc
+1f9cd;1f9cd_1f3fb # person standing
+1f9cd;1f9cd_1f3fc
+1f9cd;1f9cd_1f3fd
+1f9cd;1f9cd_1f3fe
+1f9cd;1f9cd_1f3ff
+1f9cd_200d_2640;1f9cd_1f3fb_200d_2640 # woman standing
+1f9cd_200d_2640;1f9cd_1f3fc_200d_2640
+1f9cd_200d_2640;1f9cd_1f3fd_200d_2640
+1f9cd_200d_2640;1f9cd_1f3fe_200d_2640
+1f9cd_200d_2640;1f9cd_1f3ff_200d_2640
+1f9cd_200d_2642;1f9cd_1f3fb_200d_2642 # man standing
+1f9cd_200d_2642;1f9cd_1f3fc_200d_2642
+1f9cd_200d_2642;1f9cd_1f3fd_200d_2642
+1f9cd_200d_2642;1f9cd_1f3fe_200d_2642
+1f9cd_200d_2642;1f9cd_1f3ff_200d_2642
+1f9ce;1f9ce_1f3fb # person kneeling
+1f9ce;1f9ce_1f3fc
+1f9ce;1f9ce_1f3fd
+1f9ce;1f9ce_1f3fe
+1f9ce;1f9ce_1f3ff
+1f9ce_200d_2640;1f9ce_1f3fb_200d_2640 # woman kneeling
+1f9ce_200d_2640;1f9ce_1f3fc_200d_2640
+1f9ce_200d_2640;1f9ce_1f3fd_200d_2640
+1f9ce_200d_2640;1f9ce_1f3fe_200d_2640
+1f9ce_200d_2640;1f9ce_1f3ff_200d_2640
+1f9ce_200d_2642;1f9ce_1f3fb_200d_2642 # man kneeling
+1f9ce_200d_2642;1f9ce_1f3fc_200d_2642
+1f9ce_200d_2642;1f9ce_1f3fd_200d_2642
+1f9ce_200d_2642;1f9ce_1f3fe_200d_2642
+1f9ce_200d_2642;1f9ce_1f3ff_200d_2642
+1f9cf;1f9cf_1f3fb # deaf person
+1f9cf;1f9cf_1f3fc
+1f9cf;1f9cf_1f3fd
+1f9cf;1f9cf_1f3fe
+1f9cf;1f9cf_1f3ff
+1f9cf_200d_2640;1f9cf_1f3fb_200d_2640 # deaf woman
+1f9cf_200d_2640;1f9cf_1f3fc_200d_2640
+1f9cf_200d_2640;1f9cf_1f3fd_200d_2640
+1f9cf_200d_2640;1f9cf_1f3fe_200d_2640
+1f9cf_200d_2640;1f9cf_1f3ff_200d_2640
+1f9cf_200d_2642;1f9cf_1f3fb_200d_2642 # deaf man
+1f9cf_200d_2642;1f9cf_1f3fc_200d_2642
+1f9cf_200d_2642;1f9cf_1f3fd_200d_2642
+1f9cf_200d_2642;1f9cf_1f3fe_200d_2642
+1f9cf_200d_2642;1f9cf_1f3ff_200d_2642
+1f9d1_200d_1f91d_200d_1f9d1;1f9d1_1f3fb_200d_1f91d_200d_1f9d1_1f3fb # people holding hands
+1f9d1_200d_1f91d_200d_1f9d1;1f9d1_1f3fc_200d_1f91d_200d_1f9d1_1f3fb
+1f9d1_200d_1f91d_200d_1f9d1;1f9d1_1f3fc_200d_1f91d_200d_1f9d1_1f3fc
+1f9d1_200d_1f91d_200d_1f9d1;1f9d1_1f3fd_200d_1f91d_200d_1f9d1_1f3fb
+1f9d1_200d_1f91d_200d_1f9d1;1f9d1_1f3fd_200d_1f91d_200d_1f9d1_1f3fc
+1f9d1_200d_1f91d_200d_1f9d1;1f9d1_1f3fd_200d_1f91d_200d_1f9d1_1f3fd
+1f9d1_200d_1f91d_200d_1f9d1;1f9d1_1f3fe_200d_1f91d_200d_1f9d1_1f3fb
+1f9d1_200d_1f91d_200d_1f9d1;1f9d1_1f3fe_200d_1f91d_200d_1f9d1_1f3fc
+1f9d1_200d_1f91d_200d_1f9d1;1f9d1_1f3fe_200d_1f91d_200d_1f9d1_1f3fd
+1f9d1_200d_1f91d_200d_1f9d1;1f9d1_1f3fe_200d_1f91d_200d_1f9d1_1f3fe
+1f9d1_200d_1f91d_200d_1f9d1;1f9d1_1f3ff_200d_1f91d_200d_1f9d1_1f3fb
+1f9d1_200d_1f91d_200d_1f9d1;1f9d1_1f3ff_200d_1f91d_200d_1f9d1_1f3fc
+1f9d1_200d_1f91d_200d_1f9d1;1f9d1_1f3ff_200d_1f91d_200d_1f9d1_1f3fd
+1f9d1_200d_1f91d_200d_1f9d1;1f9d1_1f3ff_200d_1f91d_200d_1f9d1_1f3fe
+1f9d1_200d_1f91d_200d_1f9d1;1f9d1_1f3ff_200d_1f91d_200d_1f9d1_1f3ff
+1f46d;1f46d_1f3fb # women holding hands
+1f46d;1f46d_1f3fc
+1f46d;1f46d_1f3fd
+1f46d;1f46d_1f3fe
+1f46d;1f46d_1f3ff
+1f46d;1f469_1f3fc_200d_1f91d_200d_1f469_1f3fb
+1f46d;1f469_1f3fd_200d_1f91d_200d_1f469_1f3fb
+1f46d;1f469_1f3fd_200d_1f91d_200d_1f469_1f3fc
+1f46d;1f469_1f3fe_200d_1f91d_200d_1f469_1f3fb
+1f46d;1f469_1f3fe_200d_1f91d_200d_1f469_1f3fc
+1f46d;1f469_1f3fe_200d_1f91d_200d_1f469_1f3fd
+1f46d;1f469_1f3ff_200d_1f91d_200d_1f469_1f3fb
+1f46d;1f469_1f3ff_200d_1f91d_200d_1f469_1f3fc
+1f46d;1f469_1f3ff_200d_1f91d_200d_1f469_1f3fd
+1f46d;1f469_1f3ff_200d_1f91d_200d_1f469_1f3fe
+1f46b;1f46b_1f3fb # woman and man holding hands
+1f46b;1f46b_1f3fc
+1f46b;1f46b_1f3fd
+1f46b;1f46b_1f3fe
+1f46b;1f46b_1f3ff
+1f46b;1f469_1f3fb_200d_1f91d_200d_1f468_1f3fc
+1f46b;1f469_1f3fb_200d_1f91d_200d_1f468_1f3fd
+1f46b;1f469_1f3fb_200d_1f91d_200d_1f468_1f3fe
+1f46b;1f469_1f3fb_200d_1f91d_200d_1f468_1f3ff
+1f46b;1f469_1f3fc_200d_1f91d_200d_1f468_1f3fb
+1f46b;1f469_1f3fc_200d_1f91d_200d_1f468_1f3fd
+1f46b;1f469_1f3fc_200d_1f91d_200d_1f468_1f3fe
+1f46b;1f469_1f3fc_200d_1f91d_200d_1f468_1f3ff
+1f46b;1f469_1f3fd_200d_1f91d_200d_1f468_1f3fb
+1f46b;1f469_1f3fd_200d_1f91d_200d_1f468_1f3fc
+1f46b;1f469_1f3fd_200d_1f91d_200d_1f468_1f3fe
+1f46b;1f469_1f3fd_200d_1f91d_200d_1f468_1f3ff
+1f46b;1f469_1f3fe_200d_1f91d_200d_1f468_1f3fb
+1f46b;1f469_1f3fe_200d_1f91d_200d_1f468_1f3fc
+1f46b;1f469_1f3fe_200d_1f91d_200d_1f468_1f3fd
+1f46b;1f469_1f3fe_200d_1f91d_200d_1f468_1f3ff
+1f46b;1f469_1f3ff_200d_1f91d_200d_1f468_1f3fb
+1f46b;1f469_1f3ff_200d_1f91d_200d_1f468_1f3fc
+1f46b;1f469_1f3ff_200d_1f91d_200d_1f468_1f3fd
+1f46b;1f469_1f3ff_200d_1f91d_200d_1f468_1f3fe
+1f46c;1f46c_1f3fb # men holding hands
+1f46c;1f46c_1f3fc
+1f46c;1f46c_1f3fd
+1f46c;1f46c_1f3fe
+1f46c;1f46c_1f3ff
+1f46c;1f468_1f3fc_200d_1f91d_200d_1f468_1f3fb
+1f46c;1f468_1f3fd_200d_1f91d_200d_1f468_1f3fb
+1f46c;1f468_1f3fd_200d_1f91d_200d_1f468_1f3fc
+1f46c;1f468_1f3fe_200d_1f91d_200d_1f468_1f3fb
+1f46c;1f468_1f3fe_200d_1f91d_200d_1f468_1f3fc
+1f46c;1f468_1f3fe_200d_1f91d_200d_1f468_1f3fd
+1f46c;1f468_1f3ff_200d_1f91d_200d_1f468_1f3fb
+1f46c;1f468_1f3ff_200d_1f91d_200d_1f468_1f3fc
+1f46c;1f468_1f3ff_200d_1f91d_200d_1f468_1f3fd
+1f46c;1f468_1f3ff_200d_1f91d_200d_1f468_1f3fe
 
 
 1f468_200d_1f3a4;1f468_1f3fb_200d_1f3a4 # man singer
@@ -1008,6 +1153,11 @@
 1f442;1f442_1f3fd
 1f442;1f442_1f3fe
 1f442;1f442_1f3ff
+1f9bb;1f9bb_1f3fb # ear with hearing aid
+1f9bb;1f9bb_1f3fc
+1f9bb;1f9bb_1f3fd
+1f9bb;1f9bb_1f3fe
+1f9bb;1f9bb_1f3ff
 1f443;1f443_1f3fb # nose
 1f443;1f443_1f3fc
 1f443;1f443_1f3fd
@@ -1173,17 +1323,38 @@
 270d;270d_1f3fd
 270d;270d_1f3fe
 270d;270d_1f3ff
+1f90f;1f90f_1f3fb # pinching hand
+1f90f;1f90f_1f3fc
+1f90f;1f90f_1f3fd
+1f90f;1f90f_1f3fe
+1f90f;1f90f_1f3ff
 
 1f536;1f537 # large diamond
 1f538;1f539 # small diamond
-26ab;1f534 # circle
-26ab;1f535 # circle
-2764;1f499 # heart
-2764;1f49a # heart
-2764;1f49b # heart
-2764;1f9e1 # heart
-2764;1f49c # heart
-2764;1f5a4 # heart
+
+26ab;1f534 # circle red
+26ab;1f535 # circle blue
+26ab;1f7e0 # circle orange
+26ab;1f7e1 # circle yellow
+26ab;1f7e2 # circle green
+26ab;1f7e3 # circle purple
+26ab;1f7e4 # circle brown
+
+2b1b;1f7e5 # square red
+2b1b;1f7e6 # square blue
+2b1b;1f7e7 # square orange
+2b1b;1f7e8 # square yellow
+2b1b;1f7e9 # square green
+2b1b;1f7ea # square purple
+2b1b;1f7eb # square brown
+
+2764;1f499 # heart blue
+2764;1f49a # heart green
+2764;1f49b # heart yellow
+2764;1f49c # heart purple
+2764;1f5a4 # heart black
+2764;1f9e1 # heart orange
+2764;1f90e # heart brown
 
 26be;1f94e  # softball
 1f4bf;1f4c0 # dvd
