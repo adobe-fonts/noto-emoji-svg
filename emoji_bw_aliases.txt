@@ -153,11 +153,7 @@
 1f931;1f931_1f3fe
 1f931;1f931_1f3ff
 
-1f46f_200d_2640;1f46f # XXX remove when 'person' artwork exists
-1f9de_200d_2640;1f9de # XXX remove when 'person' artwork exists
-1f9df_200d_2640;1f9df # XXX remove when 'person' artwork exists
 
-1f3c3_200d_2640;1f3c3 # XXX remove when 'person' artwork exists
 1f3c3;1f3c3_1f3fb # person running
 1f3c3;1f3c3_1f3fc
 1f3c3;1f3c3_1f3fd
@@ -173,7 +169,6 @@
 1f3c3_200d_2642;1f3c3_1f3fd_200d_2642
 1f3c3_200d_2642;1f3c3_1f3fe_200d_2642
 1f3c3_200d_2642;1f3c3_1f3ff_200d_2642
-1f3c4_200d_2640;1f3c4 # XXX remove when 'person' artwork exists
 1f3c4;1f3c4_1f3fb # person surfing
 1f3c4;1f3c4_1f3fc
 1f3c4;1f3c4_1f3fd
@@ -189,7 +184,6 @@
 1f3c4_200d_2642;1f3c4_1f3fd_200d_2642
 1f3c4_200d_2642;1f3c4_1f3fe_200d_2642
 1f3c4_200d_2642;1f3c4_1f3ff_200d_2642
-1f3ca_200d_2640;1f3ca # XXX remove when 'person' artwork exists
 1f3ca;1f3ca_1f3fb # person swimming
 1f3ca;1f3ca_1f3fc
 1f3ca;1f3ca_1f3fd
@@ -205,7 +199,6 @@
 1f3ca_200d_2642;1f3ca_1f3fd_200d_2642
 1f3ca_200d_2642;1f3ca_1f3fe_200d_2642
 1f3ca_200d_2642;1f3ca_1f3ff_200d_2642
-1f3cb_200d_2640;1f3cb # XXX remove when 'person' artwork exists
 1f3cb;1f3cb_1f3fb # person lifting weights
 1f3cb;1f3cb_1f3fc
 1f3cb;1f3cb_1f3fd
@@ -221,7 +214,6 @@
 1f3cb_200d_2642;1f3cb_1f3fd_200d_2642
 1f3cb_200d_2642;1f3cb_1f3fe_200d_2642
 1f3cb_200d_2642;1f3cb_1f3ff_200d_2642
-1f3cc_200d_2640;1f3cc # XXX remove when 'person' artwork exists
 1f3cc;1f3cc_1f3fb # person golfing
 1f3cc;1f3cc_1f3fc
 1f3cc;1f3cc_1f3fd
@@ -237,7 +229,6 @@
 1f3cc_200d_2642;1f3cc_1f3fd_200d_2642
 1f3cc_200d_2642;1f3cc_1f3fe_200d_2642
 1f3cc_200d_2642;1f3cc_1f3ff_200d_2642
-1f6a3_200d_2640;1f6a3 # XXX remove when 'person' artwork exists
 1f6a3;1f6a3_1f3fb # person rowing boat
 1f6a3;1f6a3_1f3fc
 1f6a3;1f6a3_1f3fd
@@ -253,7 +244,6 @@
 1f6a3_200d_2642;1f6a3_1f3fd_200d_2642
 1f6a3_200d_2642;1f6a3_1f3fe_200d_2642
 1f6a3_200d_2642;1f6a3_1f3ff_200d_2642
-1f6b4_200d_2640;1f6b4 # XXX remove when 'person' artwork exists
 1f6b4;1f6b4_1f3fb # person biking
 1f6b4;1f6b4_1f3fc
 1f6b4;1f6b4_1f3fd
@@ -269,7 +259,6 @@
 1f6b4_200d_2642;1f6b4_1f3fd_200d_2642
 1f6b4_200d_2642;1f6b4_1f3fe_200d_2642
 1f6b4_200d_2642;1f6b4_1f3ff_200d_2642
-1f6b5_200d_2640;1f6b5 # XXX remove when 'person' artwork exists
 1f6b5;1f6b5_1f3fb # person mountain biking
 1f6b5;1f6b5_1f3fc
 1f6b5;1f6b5_1f3fd
@@ -285,7 +274,6 @@
 1f6b5_200d_2642;1f6b5_1f3fd_200d_2642
 1f6b5_200d_2642;1f6b5_1f3fe_200d_2642
 1f6b5_200d_2642;1f6b5_1f3ff_200d_2642
-1f6b6_200d_2640;1f6b6 # XXX remove when 'person' artwork exists
 1f6b6;1f6b6_1f3fb # person walking
 1f6b6;1f6b6_1f3fc
 1f6b6;1f6b6_1f3fd
@@ -301,7 +289,6 @@
 1f6b6_200d_2642;1f6b6_1f3fd_200d_2642
 1f6b6_200d_2642;1f6b6_1f3fe_200d_2642
 1f6b6_200d_2642;1f6b6_1f3ff_200d_2642
-1f9b8_200d_2640;1f9b8 # XXX remove when 'person' artwork exists
 1f9b8;1f9b8_1f3fb # superhero
 1f9b8;1f9b8_1f3fc
 1f9b8;1f9b8_1f3fd
@@ -317,7 +304,6 @@
 1f9b8_200d_2642;1f9b8_1f3fd_200d_2642
 1f9b8_200d_2642;1f9b8_1f3fe_200d_2642
 1f9b8_200d_2642;1f9b8_1f3ff_200d_2642
-1f9b9_200d_2640;1f9b9 # XXX remove when 'person' artwork exists
 1f9b9;1f9b9_1f3fb # supervillain
 1f9b9;1f9b9_1f3fc
 1f9b9;1f9b9_1f3fd
@@ -333,7 +319,6 @@
 1f9b9_200d_2642;1f9b9_1f3fd_200d_2642
 1f9b9_200d_2642;1f9b9_1f3fe_200d_2642
 1f9b9_200d_2642;1f9b9_1f3ff_200d_2642
-1f9d6_200d_2640;1f9d6 # XXX remove when 'person' artwork exists
 1f9d6;1f9d6_1f3fb # person in steamy room
 1f9d6;1f9d6_1f3fc
 1f9d6;1f9d6_1f3fd
@@ -349,7 +334,6 @@
 1f9d6_200d_2642;1f9d6_1f3fd_200d_2642
 1f9d6_200d_2642;1f9d6_1f3fe_200d_2642
 1f9d6_200d_2642;1f9d6_1f3ff_200d_2642
-1f9d7_200d_2640;1f9d7 # XXX remove when 'person' artwork exists
 1f9d7;1f9d7_1f3fb # person climbing
 1f9d7;1f9d7_1f3fc
 1f9d7;1f9d7_1f3fd
@@ -365,7 +349,6 @@
 1f9d7_200d_2642;1f9d7_1f3fd_200d_2642
 1f9d7_200d_2642;1f9d7_1f3fe_200d_2642
 1f9d7_200d_2642;1f9d7_1f3ff_200d_2642
-1f9d8_200d_2640;1f9d8 # XXX remove when 'person' artwork exists
 1f9d8;1f9d8_1f3fb # person in lotus position
 1f9d8;1f9d8_1f3fc
 1f9d8;1f9d8_1f3fd
@@ -381,7 +364,6 @@
 1f9d8_200d_2642;1f9d8_1f3fd_200d_2642
 1f9d8_200d_2642;1f9d8_1f3fe_200d_2642
 1f9d8_200d_2642;1f9d8_1f3ff_200d_2642
-1f9d9_200d_2640;1f9d9 # XXX remove when 'person' artwork exists
 1f9d9;1f9d9_1f3fb # mage
 1f9d9;1f9d9_1f3fc
 1f9d9;1f9d9_1f3fd
@@ -397,7 +379,6 @@
 1f9d9_200d_2642;1f9d9_1f3fd_200d_2642
 1f9d9_200d_2642;1f9d9_1f3fe_200d_2642
 1f9d9_200d_2642;1f9d9_1f3ff_200d_2642
-1f9da_200d_2640;1f9da # XXX remove when 'person' artwork exists
 1f9da;1f9da_1f3fb # fairy
 1f9da;1f9da_1f3fc
 1f9da;1f9da_1f3fd
@@ -413,7 +394,6 @@
 1f9da_200d_2642;1f9da_1f3fd_200d_2642
 1f9da_200d_2642;1f9da_1f3fe_200d_2642
 1f9da_200d_2642;1f9da_1f3ff_200d_2642
-1f9db_200d_2640;1f9db # XXX remove when 'person' artwork exists
 1f9db;1f9db_1f3fb # vampire
 1f9db;1f9db_1f3fc
 1f9db;1f9db_1f3fd
@@ -429,7 +409,6 @@
 1f9db_200d_2642;1f9db_1f3fd_200d_2642
 1f9db_200d_2642;1f9db_1f3fe_200d_2642
 1f9db_200d_2642;1f9db_1f3ff_200d_2642
-1f9dc_200d_2640;1f9dc # XXX remove when 'person' artwork exists
 1f9dc;1f9dc_1f3fb # merperson
 1f9dc;1f9dc_1f3fc
 1f9dc;1f9dc_1f3fd
@@ -445,7 +424,6 @@
 1f9dc_200d_2642;1f9dc_1f3fd_200d_2642
 1f9dc_200d_2642;1f9dc_1f3fe_200d_2642
 1f9dc_200d_2642;1f9dc_1f3ff_200d_2642
-1f9dd_200d_2640;1f9dd # XXX remove when 'person' artwork exists
 1f9dd;1f9dd_1f3fb # elf
 1f9dd;1f9dd_1f3fc
 1f9dd;1f9dd_1f3fd
@@ -461,7 +439,6 @@
 1f9dd_200d_2642;1f9dd_1f3fd_200d_2642
 1f9dd_200d_2642;1f9dd_1f3fe_200d_2642
 1f9dd_200d_2642;1f9dd_1f3ff_200d_2642
-1f46e_200d_2640;1f46e # XXX remove when 'person' artwork exists
 1f46e;1f46e_1f3fb # police officer
 1f46e;1f46e_1f3fc
 1f46e;1f46e_1f3fd
@@ -477,7 +454,6 @@
 1f46e_200d_2642;1f46e_1f3fd_200d_2642
 1f46e_200d_2642;1f46e_1f3fe_200d_2642
 1f46e_200d_2642;1f46e_1f3ff_200d_2642
-1f64b_200d_2640;1f64b # XXX remove when 'person' artwork exists
 1f64b;1f64b_1f3fb # person raising hand
 1f64b;1f64b_1f3fc
 1f64b;1f64b_1f3fd
@@ -493,7 +469,6 @@
 1f64b_200d_2642;1f64b_1f3fd_200d_2642
 1f64b_200d_2642;1f64b_1f3fe_200d_2642
 1f64b_200d_2642;1f64b_1f3ff_200d_2642
-1f64d_200d_2640;1f64d # XXX remove when 'person' artwork exists
 1f64d;1f64d_1f3fb # person frowning
 1f64d;1f64d_1f3fc
 1f64d;1f64d_1f3fd
@@ -509,7 +484,6 @@
 1f64d_200d_2642;1f64d_1f3fd_200d_2642
 1f64d_200d_2642;1f64d_1f3fe_200d_2642
 1f64d_200d_2642;1f64d_1f3ff_200d_2642
-1f64e_200d_2640;1f64e # XXX remove when 'person' artwork exists
 1f64e;1f64e_1f3fb # person pouting
 1f64e;1f64e_1f3fc
 1f64e;1f64e_1f3fd
@@ -525,7 +499,6 @@
 1f64e_200d_2642;1f64e_1f3fd_200d_2642
 1f64e_200d_2642;1f64e_1f3fe_200d_2642
 1f64e_200d_2642;1f64e_1f3ff_200d_2642
-1f93c_200d_2640;1f93c # XXX remove when 'person' artwork exists
 1f93c;1f93c_1f3fb # people wrestling
 1f93c;1f93c_1f3fc
 1f93c;1f93c_1f3fd
@@ -541,7 +514,6 @@
 1f93c_200d_2642;1f93c_1f3fd_200d_2642
 1f93c_200d_2642;1f93c_1f3fe_200d_2642
 1f93c_200d_2642;1f93c_1f3ff_200d_2642
-1f93d_200d_2640;1f93d # XXX remove when 'person' artwork exists
 1f93d;1f93d_1f3fb # person playing water polo
 1f93d;1f93d_1f3fc
 1f93d;1f93d_1f3fd
@@ -557,7 +529,6 @@
 1f93d_200d_2642;1f93d_1f3fd_200d_2642
 1f93d_200d_2642;1f93d_1f3fe_200d_2642
 1f93d_200d_2642;1f93d_1f3ff_200d_2642
-1f93e_200d_2640;1f93e # XXX remove when 'person' artwork exists
 1f93e;1f93e_1f3fb # person playing handball
 1f93e;1f93e_1f3fc
 1f93e;1f93e_1f3fd
@@ -573,7 +544,6 @@
 1f93e_200d_2642;1f93e_1f3fd_200d_2642
 1f93e_200d_2642;1f93e_1f3fe_200d_2642
 1f93e_200d_2642;1f93e_1f3ff_200d_2642
-1f471_200d_2640;1f471 # XXX remove when 'person' artwork exists
 1f471;1f471_1f3fb # blond-haired person
 1f471;1f471_1f3fc
 1f471;1f471_1f3fd
@@ -589,7 +559,6 @@
 1f471_200d_2642;1f471_1f3fd_200d_2642
 1f471_200d_2642;1f471_1f3fe_200d_2642
 1f471_200d_2642;1f471_1f3ff_200d_2642
-1f473_200d_2640;1f473 # XXX remove when 'person' artwork exists
 1f473;1f473_1f3fb # person wearing turban
 1f473;1f473_1f3fc
 1f473;1f473_1f3fd
@@ -605,7 +574,6 @@
 1f473_200d_2642;1f473_1f3fd_200d_2642
 1f473_200d_2642;1f473_1f3fe_200d_2642
 1f473_200d_2642;1f473_1f3ff_200d_2642
-1f477_200d_2640;1f477 # XXX remove when 'person' artwork exists
 1f477;1f477_1f3fb # construction worker
 1f477;1f477_1f3fc
 1f477;1f477_1f3fd
@@ -621,7 +589,6 @@
 1f477_200d_2642;1f477_1f3fd_200d_2642
 1f477_200d_2642;1f477_1f3fe_200d_2642
 1f477_200d_2642;1f477_1f3ff_200d_2642
-1f481_200d_2640;1f481 # XXX remove when 'person' artwork exists
 1f481;1f481_1f3fb # person tipping hand
 1f481;1f481_1f3fc
 1f481;1f481_1f3fd
@@ -637,7 +604,6 @@
 1f481_200d_2642;1f481_1f3fd_200d_2642
 1f481_200d_2642;1f481_1f3fe_200d_2642
 1f481_200d_2642;1f481_1f3ff_200d_2642
-1f482_200d_2640;1f482 # XXX remove when 'person' artwork exists
 1f482;1f482_1f3fb # guard
 1f482;1f482_1f3fc
 1f482;1f482_1f3fd
@@ -653,7 +619,6 @@
 1f482_200d_2642;1f482_1f3fd_200d_2642
 1f482_200d_2642;1f482_1f3fe_200d_2642
 1f482_200d_2642;1f482_1f3ff_200d_2642
-1f486_200d_2640;1f486 # XXX remove when 'person' artwork exists
 1f486;1f486_1f3fb # person getting massage
 1f486;1f486_1f3fc
 1f486;1f486_1f3fd
@@ -669,7 +634,6 @@
 1f486_200d_2642;1f486_1f3fd_200d_2642
 1f486_200d_2642;1f486_1f3fe_200d_2642
 1f486_200d_2642;1f486_1f3ff_200d_2642
-1f487_200d_2640;1f487 # XXX remove when 'person' artwork exists
 1f487;1f487_1f3fb # person getting haircut
 1f487;1f487_1f3fc
 1f487;1f487_1f3fd
@@ -685,7 +649,6 @@
 1f487_200d_2642;1f487_1f3fd_200d_2642
 1f487_200d_2642;1f487_1f3fe_200d_2642
 1f487_200d_2642;1f487_1f3ff_200d_2642
-1f575_200d_2640;1f575 # XXX remove when 'person' artwork exists
 1f575;1f575_1f3fb # detective
 1f575;1f575_1f3fc
 1f575;1f575_1f3fd
@@ -701,7 +664,6 @@
 1f575_200d_2642;1f575_1f3fd_200d_2642
 1f575_200d_2642;1f575_1f3fe_200d_2642
 1f575_200d_2642;1f575_1f3ff_200d_2642
-1f645_200d_2640;1f645 # XXX remove when 'person' artwork exists
 1f645;1f645_1f3fb # person gesturing NO
 1f645;1f645_1f3fc
 1f645;1f645_1f3fd
@@ -717,7 +679,6 @@
 1f645_200d_2642;1f645_1f3fd_200d_2642
 1f645_200d_2642;1f645_1f3fe_200d_2642
 1f645_200d_2642;1f645_1f3ff_200d_2642
-1f646_200d_2640;1f646 # XXX remove when 'person' artwork exists
 1f646;1f646_1f3fb # person gesturing OK
 1f646;1f646_1f3fc
 1f646;1f646_1f3fd
@@ -733,7 +694,6 @@
 1f646_200d_2642;1f646_1f3fd_200d_2642
 1f646_200d_2642;1f646_1f3fe_200d_2642
 1f646_200d_2642;1f646_1f3ff_200d_2642
-1f647_200d_2640;1f647 # XXX remove when 'person' artwork exists
 1f647;1f647_1f3fb # person bowing
 1f647;1f647_1f3fc
 1f647;1f647_1f3fd
@@ -749,7 +709,6 @@
 1f647_200d_2642;1f647_1f3fd_200d_2642
 1f647_200d_2642;1f647_1f3fe_200d_2642
 1f647_200d_2642;1f647_1f3ff_200d_2642
-1f926_200d_2640;1f926 # XXX remove when 'person' artwork exists
 1f926;1f926_1f3fb # person facepalming
 1f926;1f926_1f3fc
 1f926;1f926_1f3fd
@@ -765,7 +724,6 @@
 1f926_200d_2642;1f926_1f3fd_200d_2642
 1f926_200d_2642;1f926_1f3fe_200d_2642
 1f926_200d_2642;1f926_1f3ff_200d_2642
-1f937_200d_2640;1f937 # XXX remove when 'person' artwork exists
 1f937;1f937_1f3fb # person shrugging
 1f937;1f937_1f3fc
 1f937;1f937_1f3fd
@@ -781,7 +739,6 @@
 1f937_200d_2642;1f937_1f3fd_200d_2642
 1f937_200d_2642;1f937_1f3fe_200d_2642
 1f937_200d_2642;1f937_1f3ff_200d_2642
-1f938_200d_2640;1f938 # XXX remove when 'person' artwork exists
 1f938;1f938_1f3fb # person cartwheeling
 1f938;1f938_1f3fc
 1f938;1f938_1f3fd
@@ -797,7 +754,6 @@
 1f938_200d_2642;1f938_1f3fd_200d_2642
 1f938_200d_2642;1f938_1f3fe_200d_2642
 1f938_200d_2642;1f938_1f3ff_200d_2642
-1f939_200d_2640;1f939 # XXX remove when 'person' artwork exists
 1f939;1f939_1f3fb # person juggling
 1f939;1f939_1f3fc
 1f939;1f939_1f3fd
@@ -813,7 +769,6 @@
 1f939_200d_2642;1f939_1f3fd_200d_2642
 1f939_200d_2642;1f939_1f3fe_200d_2642
 1f939_200d_2642;1f939_1f3ff_200d_2642
-26f9_200d_2640;26f9 # XXX remove when 'person' artwork exists
 26f9;26f9_1f3fb # person bouncing ball
 26f9;26f9_1f3fc
 26f9;26f9_1f3fd
@@ -829,6 +784,7 @@
 26f9_200d_2642;26f9_1f3fd_200d_2642
 26f9_200d_2642;26f9_1f3fe_200d_2642
 26f9_200d_2642;26f9_1f3ff_200d_2642
+
 
 1f468_200d_1f3a4;1f468_1f3fb_200d_1f3a4 # man singer
 1f468_200d_1f3a4;1f468_1f3fc_200d_1f3a4
@@ -1030,6 +986,7 @@
 1f469_200d_2708;1f469_1f3fd_200d_2708
 1f469_200d_2708;1f469_1f3fe_200d_2708
 1f469_200d_2708;1f469_1f3ff_200d_2708
+
 
 1f4aa;1f4aa_1f3fb # flexed biceps
 1f4aa;1f4aa_1f3fc
