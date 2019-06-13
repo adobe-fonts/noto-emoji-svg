@@ -1,38 +1,31 @@
-<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-  <linearGradient id="c" gradientUnits="userSpaceOnUse" x1="63" x2="63" y1="18.717" y2="106.7">
-    <stop offset=".5" stop-color="#FEE133"/>
-    <stop offset=".6118" stop-color="#FEDE32"/>
-    <stop offset=".7076" stop-color="#FCD32F"/>
-    <stop offset=".7975" stop-color="#FAC12B"/>
-    <stop offset=".8834" stop-color="#F7A924"/>
-    <stop offset=".9" stop-color="#F6A323"/>
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <linearGradient id="SVGID_1_" gradientTransform="matrix(1 0 0 1 0 -950)" gradientUnits="userSpaceOnUse" x1="63" x2="63" y1="968.717" y2="1056.7">
+    <stop offset="0.5" style="stop-color:#FEE133"/>
+    <stop offset="0.6118" style="stop-color:#FEDE32"/>
+    <stop offset="0.7076" style="stop-color:#FCD32F"/>
+    <stop offset="0.7975" style="stop-color:#FAC12B"/>
+    <stop offset="0.8834" style="stop-color:#F7A924"/>
+    <stop offset="0.9" style="stop-color:#F6A323"/>
   </linearGradient>
-  <path d="M63,118.89C35.07,118.89,5,101.4,5,63S35.07,7.11,63,7.11c15.48,0,29.81,5.12,40.36,14.43 C114.9,31.72,121,46.06,121,63c0,16.86-6.1,31.17-17.64,41.39C92.78,113.74,78.45,118.89,63,118.89z" fill="url(#c)"/>
-  <path d="m63 9.11c14.99 0 28.86 4.95 39.03 13.93 11.1 9.79 16.97 23.61 16.97 39.96 0 16.27-5.87 30.07-16.97 39.89-10.21 9.03-24.07 14-39.03 14-15.04 0-28.9-4.91-39.04-13.82-11.1-9.75-16.96-23.61-16.96-40.07 0-16.54 5.86-30.42 16.96-40.15 10.11-8.86 23.97-13.74 39.04-13.74m0-4c-31.15 0-60 20-60 57.89 0 37.68 28.85 57.89 60 57.89s60-20.73 60-57.89c0-37.37-28.85-57.89-60-57.89z" fill="#EB8F00"/>
-  <radialGradient id="b" cx="25.701" cy="72.699" gradientTransform="matrix(.9791 0 0 .9301 2.0871 10.544)" gradientUnits="userSpaceOnUse" r="19.444">
-    <stop offset="0" stop-color="#ED7770"/>
-    <stop offset=".9" stop-color="#ED7770" stop-opacity="0"/>
-  </radialGradient>
-  <circle cx="27.25" cy="78.16" fill="url(#b)" opacity=".8" r="17.5"/>
-  <radialGradient id="a" cx="100.77" cy="72.699" gradientTransform="matrix(.9791 0 0 .9301 2.0871 10.544)" gradientUnits="userSpaceOnUse" r="19.444">
-    <stop offset="0" stop-color="#ED7770"/>
-    <stop offset=".9" stop-color="#ED7770" stop-opacity="0"/>
-  </radialGradient>
-  <circle cx="100.75" cy="78.16" fill="url(#a)" opacity=".8" r="17.5"/>
-  <circle cx="39" cy="59.06" fill="#fff" r="19.38"/>
-  <path d="m39 41.68c9.58 0 17.38 7.8 17.38 17.38s-7.8 17.38-17.38 17.38-17.38-7.8-17.38-17.38 7.8-17.38 17.38-17.38m0-4c-11.81 0-21.38 9.57-21.38 21.38s9.57 21.38 21.38 21.38 21.38-9.57 21.38-21.38-9.57-21.38-21.38-21.38z" fill="#EB8F00"/>
-  <circle cx="38.88" cy="58.78" fill="#242424" r="12.5"/>
-  <circle cx="33.77" cy="53.67" fill="#fff" r="3.98"/>
-  <circle cx="46.27" cy="63.9" fill="#fff" r="1.7"/>
-  <circle cx="89" cy="59.06" fill="#fff" r="19.38"/>
-  <path d="m89 41.68c9.58 0 17.38 7.8 17.38 17.38s-7.8 17.38-17.38 17.38-17.38-7.8-17.38-17.38 7.8-17.38 17.38-17.38m0-4c-11.81 0-21.38 9.57-21.38 21.38s9.57 21.38 21.38 21.38 21.38-9.57 21.38-21.38-9.57-21.38-21.38-21.38z" fill="#EB8F00"/>
-  <circle cx="88.88" cy="58.78" fill="#242424" r="12.5"/>
-  <circle cx="83.77" cy="53.67" fill="#fff" r="3.98"/>
-  <circle cx="96.27" cy="63.9" fill="#fff" r="1.7"/>
-  <path d="m62.67 81.05c-12.72 0-24.54-1.07-34.4-2.89-2.45-0.45-4.61 1.7-4.11 4.13 3.28 16.04 19.07 29.21 38.5 29.21 21.27 0 35.58-13.6 38.55-29.27 0.46-2.42-1.7-4.53-4.12-4.08-9.87 1.83-21.7 2.9-34.42 2.9z" fill="none"/>
-  <g fill="#EB8F00" stroke="#EB8F00" stroke-miterlimit="10" stroke-width="1.1806">
-    <path d="m48.19 28.56c0.05-0.02 0.1-0.05 0.15-0.07 2.3-1.21 4.71 1.72 2.48 3.54-1.77 1.39-3.81 2.55-6.04 3.4-6.13 2.36-12.79 2.08-18.1-0.18-2.63-1.17-1.09-4.66 1.44-4.08 6.44 1.4 13.7 0.6 20.07-2.61z"/>
-    <path d="m79.81 28.56c-0.05-0.02-0.1-0.05-0.15-0.07-2.3-1.21-4.71 1.72-2.48 3.54 1.77 1.39 3.81 2.55 6.04 3.4 6.13 2.36 12.79 2.08 18.1-0.18 2.63-1.17 1.09-4.66-1.44-4.08-6.44 1.4-13.7 0.6-20.07-2.61z"/>
+  <path d="M63,118.9c-27.9,0-58-17.5-58-55.9S35.1,7.1,63,7.1c15.5,0,29.8,5.1,40.4,14.4 C114.9,31.7,121,46.1,121,63s-6.1,31.2-17.6,41.4C92.8,113.7,78.4,118.9,63,118.9z" fill="url(#SVGID_1_)"/>
+  <path d="M63,9.1c15,0,28.9,4.9,39,13.9c11.1,9.8,17,23.6,17,40c0,16.3-5.9,30.1-17,39.9c-10.2,9-24.1,14-39,14 c-15,0-28.9-4.9-39-13.8C12.9,93.3,7,79.5,7,63s5.9-30.4,17-40.2C34.1,14,47.9,9.1,63,9.1 M63,5.1C31.9,5.1,3,25.1,3,63 c0,37.7,28.9,57.9,60,57.9s60-20.7,60-57.9C123,25.6,94.2,5.1,63,5.1z" fill="#EB8F00"/>
+  <path d="M86,47.7c9.6,0,17.4,7.8,17.4,17.4S95.6,82.4,86,82.4S68.6,74.6,68.6,65S76.4,47.7,86,47.7" fill="#FFFFFF"/>
+  <g>
+    <path d="M27.4,39.8c-2.2,0.4-2.3,3.6,0.1,3.7 c4.9,0.1,10.2-1.7,14.3-5.4c1.5-1.3,2.8-2.9,3.7-4.5c1.2-2.2-1.6-3.7-3-2.1l-0.1,0.1C38.4,36,32.9,38.9,27.4,39.8z" fill="#EB8F00" stroke="#EB8F00" stroke-miterlimit="10" stroke-width="1.1806"/>
+    <path d="M86.1,31.5L86,31.4 c-1.4-1.6-4.2-0.1-3,2.1c0.9,1.6,2.2,3.2,3.7,4.5c4.1,3.8,9.4,5.6,14.3,5.4c2.4-0.1,2.3-3.3,0.1-3.7C95.7,38.9,90.1,36,86.1,31.5z " fill="#EB8F00" stroke="#EB8F00" stroke-miterlimit="10" stroke-width="1.1806"/>
   </g>
-  <line fill="none" stroke="#242424" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="8" x1="56" x2="71" y1="91" y2="91"/>
+  <path d=" M56,97c0,0,7.1-3.6,15,0" fill="none" stroke="#242424" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="8"/>
+  <g>
+    <path d="M43,47.7c9.6,0,17.4,7.8,17.4,17.4S52.6,82.4,43,82.4S25.6,74.6,25.6,65S33.4,47.7,43,47.7" fill="#FFFFFF"/>
+    <g>
+      <circle cx="42.7" cy="62.8" fill="#242424" r="15.4"/>
+      <ellipse cx="48.13" cy="68.62" fill="#FFFFFF" rx="2.6" ry="2.4" transform="matrix(0.7659 -0.6429 0.6429 0.7659 -32.8489 47.0067)"/>
+    </g>
+    <ellipse cx="38.7" cy="58" fill="#FFFFFF" rx="9" ry="7.3" transform="matrix(0.8021 -0.5971 0.5971 0.8021 -26.9778 34.5874)"/>
+  </g>
+  <g>
+    <circle cx="85.7" cy="62.8" fill="#242424" r="15.4"/>
+    <ellipse cx="91.21" cy="68.56" fill="#FFFFFF" rx="2.6" ry="2.4" transform="matrix(0.7659 -0.6429 0.6429 0.7659 -22.7316 74.6915)"/>
+  </g>
+  <ellipse cx="81.71" cy="58.01" fill="#FFFFFF" rx="9" ry="7.3" transform="matrix(0.8021 -0.5971 0.5971 0.8021 -18.4764 60.2673)"/>
 </svg>
