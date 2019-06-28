@@ -68,7 +68,9 @@ def parse_emoji_test_file():
         if not line or line.startswith('#'):
             continue
         codepoints, status = line.split(';')
-        if 'unqualified' in status or 'non-fully-qualified' in status:
+        if ('unqualified' in status or
+                'non-fully-qualified' in status or
+                'minimally-qualified' in status):
             continue
         cdpts_list.append(codepoints.strip().split())
     return cdpts_list
