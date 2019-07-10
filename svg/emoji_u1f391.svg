@@ -5,8 +5,7 @@
   <clipPath id="a">
     <use xlink:href="#g"/>
   </clipPath>
-  <mask id="f" height="108.2" maskUnits="userSpaceOnUse" width="108.2" x="4" y="4"/>
-  <g clip-path="url(#a)" mask="url(#f)">
+  <g clip-path="url(#a)">
     <radialGradient id="e" cx="43.532" cy="26.472" gradientUnits="userSpaceOnUse" r="85.832">
       <stop offset=".362" stop-color="#FFF59D"/>
       <stop offset=".449" stop-color="#FFF38A"/>
@@ -15,8 +14,6 @@
       <stop offset=".8409" stop-color="#FFEE58"/>
     </radialGradient>
     <circle cx="58.1" cy="58.1" fill="url(#e)" r="54.1"/>
-    <circle cx="58.1" cy="58.1" fill="none" r="54.1"/>
-    <circle cx="58.1" cy="58.1" fill="none" r="54.1"/>
     <radialGradient id="d" cx="24.612" cy="71.183" gradientUnits="userSpaceOnUse" r="12.718">
       <stop offset=".1543" stop-color="#FDD835"/>
       <stop offset=".4262" stop-color="#FDDA38"/>
