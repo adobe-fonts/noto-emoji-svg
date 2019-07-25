@@ -1,6 +1,6 @@
 
 feature kern {
 
-	pos ZWJ <0 0 -2048 0>;
+	pos ZWJ <0 0 -2550 0>;
 
 } kern;

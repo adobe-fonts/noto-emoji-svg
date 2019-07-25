@@ -40,13 +40,19 @@ LICENSE = ('This Font Software is licensed under the SIL Open Font License, '
 LICENSE_URL = 'http://scripts.sil.org/OFL'
 FSTYPE = 0  # Installable embedding
 
-EM = 2048
 SVG_SIZE = 128
-ASCENT = EM
-DESCENT = 0
+UPM = 2048
+EMOJI_H_ADV = 2550
+EMOJI_V_ADV = 2500
+EMOJI_SIZE = EMOJI_H_ADV * 0.9413
+ABOVE_BASELINE = 0.7451
+ASCENT = 1900
+DESCENT = -500
+UNDERLINE_POSITION = -1244
+UNDERLINE_THICKNESS = 131
 
 
-SPACE_CHARSTRING = T2CharString(program=[EM, 'endchar'])
+SPACE_CHARSTRING = T2CharString(program=[EMOJI_H_ADV, 'endchar'])
 
 RE_UNICODE = re.compile(r'^u[0-9a-f]{4,5}$', re.IGNORECASE)
 RE_REVISION = re.compile(r'^[0-9]{1,3}\.[0-9]{3}$')
@@ -58,16 +64,17 @@ log = logging.getLogger('make_bw_font')
 
 
 def draw_notdef(pen):
-    em_10th = EM / 10
-    pen.moveTo((em_10th * 2, em_10th))
-    pen.lineTo((em_10th * 8, em_10th))
-    pen.lineTo((em_10th * 8, em_10th * 9))
-    pen.lineTo((em_10th * 2, em_10th * 9))
+    em_10th = EMOJI_H_ADV / 10
+    v_shift = EMOJI_H_ADV * (ABOVE_BASELINE - 1)
+    pen.moveTo((em_10th * 2, em_10th * 1 + v_shift))
+    pen.lineTo((em_10th * 8, em_10th * 1 + v_shift))
+    pen.lineTo((em_10th * 8, em_10th * 9 + v_shift))
+    pen.lineTo((em_10th * 2, em_10th * 9 + v_shift))
     pen.closePath()
-    pen.moveTo((em_10th * 3, em_10th * 2))
-    pen.lineTo((em_10th * 3, em_10th * 8))
-    pen.lineTo((em_10th * 7, em_10th * 8))
-    pen.lineTo((em_10th * 7, em_10th * 2))
+    pen.moveTo((em_10th * 3, em_10th * 2 + v_shift))
+    pen.lineTo((em_10th * 3, em_10th * 8 + v_shift))
+    pen.lineTo((em_10th * 7, em_10th * 8 + v_shift))
+    pen.lineTo((em_10th * 7, em_10th * 2 + v_shift))
     pen.closePath()
 
 
@@ -139,22 +146,25 @@ def make_font(file_paths, out_dir, revision, gsub_path, gpos_path, uvs_lst):
             uni_int = int(gname[1:], 16)  # trim leading 'u'
             cmap[uni_int] = gname
 
-    fb = FontBuilder(EM, isTTF=False)
+    fb = FontBuilder(UPM, isTTF=False)
     fb.font['head'].fontRevision = float(revision)
     fb.font['head'].lowestRecPPEM = 12
 
     cs_dict = {}
     for i, svg_file_path in enumerate(validated_fpaths):
-        pen = T2CharStringPen(EM, None)
+        pen = T2CharStringPen(EMOJI_H_ADV, None)
         svg = SVGPath(svg_file_path,
-                      transform=(EM / SVG_SIZE, 0, 0, -EM / SVG_SIZE, 0, EM))
+                      transform=(EMOJI_SIZE / SVG_SIZE, 0, 0,
+                                 -EMOJI_SIZE / SVG_SIZE,
+                                 (EMOJI_H_ADV * .5) - (EMOJI_SIZE * .5),
+                                 EMOJI_H_ADV * ABOVE_BASELINE))
         svg.draw(pen)
         cs = pen.getCharString()
         cs_dict[gorder[i]] = cs
 
     # add '.notdef', 'space' and zero-width joiner
     gorder.extendleft(reversed(['.notdef', 'space', 'ZWJ']))
-    pen = T2CharStringPen(EM, None)
+    pen = T2CharStringPen(EMOJI_H_ADV, None)
     draw_notdef(pen)
     cs_dict.update({'.notdef': pen.getCharString(),
                     'space': SPACE_CHARSTRING,
@@ -174,22 +184,39 @@ def make_font(file_paths, out_dir, revision, gsub_path, gpos_path, uvs_lst):
                           'FamilyName': FAMILY_NAME,
                           'Weight': STYLE_NAME}, cs_dict, {})
 
-    advance_widths = {gname: EM for gname in gorder}
-
-    glyphs_lsb = {}
+    glyphs_bearings = {}
     for gname, cs in cs_dict.items():
         gbbox = cs.calcBounds(None)
         if gbbox:
-            glyphs_lsb[gname] = gbbox[0]
+            xmin, ymin, _, ymax = gbbox
+            if ymax > ASCENT:
+                log.warning("Top of glyph '{}' may get clipped. "
+                            "Glyph's ymax={}; Font's ascent={}".format(
+                                gname, ymax, ASCENT))
+            if ymin < DESCENT:
+                log.warning("Bottom of glyph '{}' may get clipped. "
+                            "Glyph's ymin={}; Font's descent={}".format(
+                                gname, ymin, DESCENT))
+            lsb = xmin
+            tsb = EMOJI_V_ADV - ymax - EMOJI_H_ADV * (1 - ABOVE_BASELINE)
+            glyphs_bearings[gname] = (lsb, tsb)
         else:
-            glyphs_lsb[gname] = 0
+            glyphs_bearings[gname] = (0, 0)
 
-    metrics = {}
-    for gname, advanceWidth in advance_widths.items():
-        metrics[gname] = (advanceWidth, glyphs_lsb[gname])
-    fb.setupHorizontalMetrics(metrics)
+    h_metrics = {}
+    v_metrics = {}
+    for gname in gorder:
+        h_metrics[gname] = (EMOJI_H_ADV, glyphs_bearings[gname][0])
+        v_metrics[gname] = (EMOJI_V_ADV, glyphs_bearings[gname][1])
+    fb.setupHorizontalMetrics(h_metrics)
+    fb.setupVerticalMetrics(v_metrics)
 
     fb.setupHorizontalHeader(ascent=ASCENT, descent=DESCENT)
+
+    v_ascent = EMOJI_H_ADV // 2
+    v_descent = EMOJI_H_ADV - v_ascent
+    fb.setupVerticalHeader(
+        ascent=v_ascent, descent=-v_descent, caretSlopeRun=1)
 
     VERSION_STRING = 'Version {};{}'.format(revision, VENDOR)
     UNIQUE_ID = '{};{};{}'.format(revision, VENDOR, PS_NAME)
@@ -211,9 +238,10 @@ def make_font(file_paths, out_dir, revision, gsub_path, gpos_path, uvs_lst):
     )
     fb.setupNameTable(name_strings, mac=False)
 
-    fb.setupOS2(fsType=FSTYPE, achVendID=VENDOR,
-                usWinAscent=EM, usWinDescent=DESCENT,
-                sTypoAscender=EM, sTypoDescender=DESCENT)
+    fb.setupOS2(fsType=FSTYPE, achVendID=VENDOR, fsSelection=0x0040,  # REGULAR
+                usWinAscent=ASCENT, usWinDescent=-DESCENT,
+                sTypoAscender=ASCENT, sTypoDescender=DESCENT,
+                sCapHeight=ASCENT, ulCodePageRange1=(1 << 1))  # set 1st CP bit
 
     if gsub_path:
         addOpenTypeFeatures(fb.font, gsub_path, tables=['GSUB'])
@@ -221,7 +249,10 @@ def make_font(file_paths, out_dir, revision, gsub_path, gpos_path, uvs_lst):
     if gpos_path:
         addOpenTypeFeatures(fb.font, gpos_path, tables=['GPOS'])
 
-    fb.setupPost(isFixedPitch=1)
+    fb.setupPost(isFixedPitch=1,
+                 underlinePosition=UNDERLINE_POSITION,
+                 underlineThickness=UNDERLINE_THICKNESS)
+
     fb.setupDummyDSIG()
 
     fb.save(os.path.join(out_dir, '{}.otf'.format(PS_NAME)))
