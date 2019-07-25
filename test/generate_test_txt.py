@@ -8,7 +8,7 @@ import os
 import sys
 
 from generate_test_html import (TEST_DIR, append_to_file, REG_IND_LETTR,
-                                parse_emoji_test_file)
+                                parse_emoji_test_file, TAG_LAT_LETTR)
 
 TEST_FILE_NAME = 'test.txt'
 
@@ -56,8 +56,8 @@ def main(args=None):
 
     emoji_list = []
     for i, cps in enumerate(cdpts_list, 1):
-        # XXX skip country flags for now
-        if cps[0] in REG_IND_LETTR:
+        # XXX skip country and regional flags for now
+        if len(cps) > 1 and cps[1] in (REG_IND_LETTR + TAG_LAT_LETTR):
             continue
         emoji = ''.join(chr(int(cp, 16)) for cp in cps)
         emoji_list.append(emoji)

@@ -14,6 +14,10 @@ REG_IND_LETTR = ('1F1E6 1F1E7 1F1E8 1F1E9 1F1EA 1F1EB 1F1EC 1F1ED '
                  '1F1F6 1F1F7 1F1F8 1F1F9 1F1FA 1F1FB 1F1FC 1F1FD '
                  '1F1FE 1F1FF').split()
 
+TAG_LAT_LETTR = ('E0061 E0062 E0063 E0064 E0065 E0066 E0067 E0068 E0069 E006A '
+                 'E006B E006C E006D E006E E006F E0070 E0071 E0072 E0073 E0074 '
+                 'E0075 E0076 E0077 E0078 E0079 E007A').split()
+
 MIN_ITEMS_PPAGE = 50
 DFLT_ITEMS_PPAGE = 500
 
@@ -119,8 +123,8 @@ def main(args=None):
     start_file = True
 
     for i, cps in enumerate(cdpts_list, 1):
-        # XXX skip country flags for now
-        if cps[0] in REG_IND_LETTR:
+        # XXX skip country and regional flags for now
+        if len(cps) > 1 and cps[1] in (REG_IND_LETTR + TAG_LAT_LETTR):
             continue
         cps_html = ''.join('&#x{};'.format(cp) for cp in cps)
         # filenames have no 'FE0F' component
