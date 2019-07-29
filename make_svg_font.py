@@ -18,11 +18,28 @@ from fontTools.ttLib import TTFont, TTLibError, newTable
 
 from make_bw_font import (
     FILE_PREFIX, VENDOR, glyph_name_is_valid, get_trimmed_glyph_name,
-    validate_dir_path, validate_file_path, validate_revision_number)
+    validate_dir_path, validate_file_path, validate_revision_number,
+    SVG_SIZE, UPM, EMOJI_SIZE, EMOJI_H_ADV, ASCENT)
 
 FAMILY_NAME = 'Noto Color Emoji SVG'
 FULL_NAME = FAMILY_NAME
 PS_NAME = 'NotoColorEmoji-SVG'
+
+
+def norm_float(value):
+    """
+    Converts a float (whose decimal part is zero) to integer
+    """
+    if isinstance(value, float) and value.is_integer():
+        return int(value)
+    return value
+
+
+VIEWBOX_X_SHIFT = norm_float(
+    (EMOJI_SIZE - EMOJI_H_ADV) / EMOJI_SIZE * SVG_SIZE / 2)
+VIEWBOX_Y_SHIFT = norm_float(SVG_SIZE * ASCENT / EMOJI_SIZE)
+VIEWBOX_SCALE = norm_float(UPM / EMOJI_SIZE)
+
 
 RE_XMLHEADER = re.compile(r"<\?xml .*\?>")
 RE_SVGID = re.compile(r"<svg[^>]+?(id=\".*?\").+?>", re.DOTALL)
@@ -46,14 +63,9 @@ def parse_viewbox_values(vb_str):
     return [literal_eval(val) for val in list_str]
 
 
-def adjust_viewbox(svg_str, v_adjust=0):
+def adjust_viewbox(svg_str, x_shift=0, y_shift=0, scale=1):
     """
-    Changes viewbox's min-y value.
-
-    'v_adjust' is a percentage of the overall dimension of the SVG artwork.
-    A value of 0 (zero) means no vertical shift. A value of 1 (one) means
-    the artwork will be shifted up by 100% of its largest dimension (width
-    or height).
+    Changes viewbox's values.
 
     The regex match will contain 4 groups:
         1. String from '<svg' up to the space before 'viewBox'
@@ -64,9 +76,9 @@ def adjust_viewbox(svg_str, v_adjust=0):
     vb = RE_VIEWBOX.search(svg_str)
     if vb:
         min_x, min_y, width, height = parse_viewbox_values(vb.group(3))
-        adjusted_min_y = min_y + max(width, height) * v_adjust
         new_svg_header = '{} viewBox="{} {} {} {}"{}'.format(
-            vb.group(1), min_x, adjusted_min_y, width, height, vb.group(4))
+            vb.group(1), min_x + x_shift, min_y + y_shift,
+            width * scale, height * scale, vb.group(4))
         svg_str = RE_VIEWBOX.sub(new_svg_header, svg_str)
     return svg_str
 
@@ -138,8 +150,9 @@ def add_svg_table(font_path, file_paths, compress_table=False):
         # Set id value
         svg_item_data = set_svg_id(svg_item_data, gid)
 
-        # Shift the artwork vertically, by adjusting its viewBox
-        svg_item_data = adjust_viewbox(svg_item_data, 1)  # 100% up
+        # Scale and shift the artwork, by adjusting its viewBox
+        svg_item_data = adjust_viewbox(
+            svg_item_data, VIEWBOX_X_SHIFT, VIEWBOX_Y_SHIFT, VIEWBOX_SCALE)
 
         # Clean SVG document
         svg_item_data = clean_svg_doc(svg_item_data)
