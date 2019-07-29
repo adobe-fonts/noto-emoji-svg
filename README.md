@@ -23,6 +23,7 @@ and configure the repository with this command,
 
 * Python 3.6+
 * FontTools
+* AFDKO
 
 
 ## Building the fonts
@@ -36,6 +37,11 @@ and to build the **color font** use the following command,
 	python3 make_svg_font.py -z -r x.xxx svg fonts/NotoEmoji.otf -v
 
 where `x.xxx` is the version number to be assigned to the font (e.g `1.082`).
+
+It's possible to build both fonts (and to subroutinize the BW font) using the shell
+script that combines all commands,
+
+	sh build.sh x.xxx
 
 
 ## Subroutinizing the OTFs
