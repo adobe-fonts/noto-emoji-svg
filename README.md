@@ -75,6 +75,8 @@ To generate the [TXT test file](test.txt) run this command:
 
 This file can be easily imported into Illustrator, Photoshop or InDesign.
 
+The [emoji-test.txt](test/emoji-test.txt) file was obtained from http://unicode.org/Public/emoji/
+
 
 ## Generating aliases
 
