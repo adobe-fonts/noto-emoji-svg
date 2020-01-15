@@ -96,6 +96,17 @@ To generate **PNG color aliases** run this command:
 	python3 make_aliases.py emoji_color_aliases.txt png
 
 
+## Generating PNG and SVG files
+
+In the event that only the original Ai artwork files are provided, use the
+following steps to generate PNG or SVG files:
+
+1. Open the Adobe Illustrator file(s)
+2. Select the menu File > Scripts > Other Script...
+3. Pick one of the scripts from the folder [ai_scripts](ai_scripts)
+4. Select a folder to save the output files into
+
+
 ## Cleaning/sanitizing the SVG artwork
 
 Whenever the SVG files are edited and saved with Adobe Illustrator they contain
