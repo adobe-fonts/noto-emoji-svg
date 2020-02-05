@@ -246,6 +246,30 @@ feature ccmp {
 	sub u1f471 u1f3fd by u1f471_1f3fd;
 	sub u1f471 u1f3fe by u1f471_1f3fe;
 	sub u1f471 u1f3ff by u1f471_1f3ff;
+	sub u1f9d1 ZWJ u1f9b0 by u1f9d1_200d_1f9b0;              # person: red hair
+	sub u1f9d1 u1f3fb ZWJ u1f9b0 by u1f9d1_1f3fb_200d_1f9b0;
+	sub u1f9d1 u1f3fc ZWJ u1f9b0 by u1f9d1_1f3fc_200d_1f9b0;
+	sub u1f9d1 u1f3fd ZWJ u1f9b0 by u1f9d1_1f3fd_200d_1f9b0;
+	sub u1f9d1 u1f3fe ZWJ u1f9b0 by u1f9d1_1f3fe_200d_1f9b0;
+	sub u1f9d1 u1f3ff ZWJ u1f9b0 by u1f9d1_1f3ff_200d_1f9b0;
+	sub u1f9d1 ZWJ u1f9b1        by u1f9d1_200d_1f9b1;       # person: curly hair
+	sub u1f9d1 u1f3fb ZWJ u1f9b1 by u1f9d1_1f3fb_200d_1f9b1;
+	sub u1f9d1 u1f3fc ZWJ u1f9b1 by u1f9d1_1f3fc_200d_1f9b1;
+	sub u1f9d1 u1f3fd ZWJ u1f9b1 by u1f9d1_1f3fd_200d_1f9b1;
+	sub u1f9d1 u1f3fe ZWJ u1f9b1 by u1f9d1_1f3fe_200d_1f9b1;
+	sub u1f9d1 u1f3ff ZWJ u1f9b1 by u1f9d1_1f3ff_200d_1f9b1;
+	sub u1f9d1 ZWJ u1f9b3        by u1f9d1_200d_1f9b3;       # person: white hair
+	sub u1f9d1 u1f3fb ZWJ u1f9b3 by u1f9d1_1f3fb_200d_1f9b3;
+	sub u1f9d1 u1f3fc ZWJ u1f9b3 by u1f9d1_1f3fc_200d_1f9b3;
+	sub u1f9d1 u1f3fd ZWJ u1f9b3 by u1f9d1_1f3fd_200d_1f9b3;
+	sub u1f9d1 u1f3fe ZWJ u1f9b3 by u1f9d1_1f3fe_200d_1f9b3;
+	sub u1f9d1 u1f3ff ZWJ u1f9b3 by u1f9d1_1f3ff_200d_1f9b3;
+	sub u1f9d1 ZWJ u1f9b2        by u1f9d1_200d_1f9b2;       # person: bald
+	sub u1f9d1 u1f3fb ZWJ u1f9b2 by u1f9d1_1f3fb_200d_1f9b2;
+	sub u1f9d1 u1f3fc ZWJ u1f9b2 by u1f9d1_1f3fc_200d_1f9b2;
+	sub u1f9d1 u1f3fd ZWJ u1f9b2 by u1f9d1_1f3fd_200d_1f9b2;
+	sub u1f9d1 u1f3fe ZWJ u1f9b2 by u1f9d1_1f3fe_200d_1f9b2;
+	sub u1f9d1 u1f3ff ZWJ u1f9b2 by u1f9d1_1f3ff_200d_1f9b2;
 	sub u1f468 u1f3fb by u1f468_1f3fb; # man
 	sub u1f468 u1f3fc by u1f468_1f3fc;
 	sub u1f468 u1f3fd by u1f468_1f3fd;
@@ -510,6 +534,12 @@ feature ccmp {
 	sub u1f937 u1f3ff ZWJ u2640 by u1f937_1f3ff_200d_2640;
 
 	# person-role
+	sub u1f9d1 ZWJ u2695        by u1f9d1_200d_2695;       # health worker
+	sub u1f9d1 u1f3fb ZWJ u2695 by u1f9d1_1f3fb_200d_2695;
+	sub u1f9d1 u1f3fc ZWJ u2695 by u1f9d1_1f3fc_200d_2695;
+	sub u1f9d1 u1f3fd ZWJ u2695 by u1f9d1_1f3fd_200d_2695;
+	sub u1f9d1 u1f3fe ZWJ u2695 by u1f9d1_1f3fe_200d_2695;
+	sub u1f9d1 u1f3ff ZWJ u2695 by u1f9d1_1f3ff_200d_2695;
 	sub u1f468 ZWJ u2695        by u1f468_200d_2695;       # man health worker
 	sub u1f468 u1f3fb ZWJ u2695 by u1f468_1f3fb_200d_2695;
 	sub u1f468 u1f3fc ZWJ u2695 by u1f468_1f3fc_200d_2695;
@@ -522,6 +552,12 @@ feature ccmp {
 	sub u1f469 u1f3fd ZWJ u2695 by u1f469_1f3fd_200d_2695;
 	sub u1f469 u1f3fe ZWJ u2695 by u1f469_1f3fe_200d_2695;
 	sub u1f469 u1f3ff ZWJ u2695 by u1f469_1f3ff_200d_2695;
+	sub u1f9d1 ZWJ u1f393        by u1f9d1_200d_1f393;       # student
+	sub u1f9d1 u1f3fb ZWJ u1f393 by u1f9d1_1f3fb_200d_1f393;
+	sub u1f9d1 u1f3fc ZWJ u1f393 by u1f9d1_1f3fc_200d_1f393;
+	sub u1f9d1 u1f3fd ZWJ u1f393 by u1f9d1_1f3fd_200d_1f393;
+	sub u1f9d1 u1f3fe ZWJ u1f393 by u1f9d1_1f3fe_200d_1f393;
+	sub u1f9d1 u1f3ff ZWJ u1f393 by u1f9d1_1f3ff_200d_1f393;
 	sub u1f468 ZWJ u1f393        by u1f468_200d_1f393;       # man student
 	sub u1f468 u1f3fb ZWJ u1f393 by u1f468_1f3fb_200d_1f393;
 	sub u1f468 u1f3fc ZWJ u1f393 by u1f468_1f3fc_200d_1f393;
@@ -534,6 +570,12 @@ feature ccmp {
 	sub u1f469 u1f3fd ZWJ u1f393 by u1f469_1f3fd_200d_1f393;
 	sub u1f469 u1f3fe ZWJ u1f393 by u1f469_1f3fe_200d_1f393;
 	sub u1f469 u1f3ff ZWJ u1f393 by u1f469_1f3ff_200d_1f393;
+	sub u1f9d1 ZWJ u1f3eb        by u1f9d1_200d_1f3eb;       # teacher
+	sub u1f9d1 u1f3fb ZWJ u1f3eb by u1f9d1_1f3fb_200d_1f3eb;
+	sub u1f9d1 u1f3fc ZWJ u1f3eb by u1f9d1_1f3fc_200d_1f3eb;
+	sub u1f9d1 u1f3fd ZWJ u1f3eb by u1f9d1_1f3fd_200d_1f3eb;
+	sub u1f9d1 u1f3fe ZWJ u1f3eb by u1f9d1_1f3fe_200d_1f3eb;
+	sub u1f9d1 u1f3ff ZWJ u1f3eb by u1f9d1_1f3ff_200d_1f3eb;
 	sub u1f468 ZWJ u1f3eb        by u1f468_200d_1f3eb;       # man teacher
 	sub u1f468 u1f3fb ZWJ u1f3eb by u1f468_1f3fb_200d_1f3eb;
 	sub u1f468 u1f3fc ZWJ u1f3eb by u1f468_1f3fc_200d_1f3eb;
@@ -546,6 +588,12 @@ feature ccmp {
 	sub u1f469 u1f3fd ZWJ u1f3eb by u1f469_1f3fd_200d_1f3eb;
 	sub u1f469 u1f3fe ZWJ u1f3eb by u1f469_1f3fe_200d_1f3eb;
 	sub u1f469 u1f3ff ZWJ u1f3eb by u1f469_1f3ff_200d_1f3eb;
+	sub u1f9d1 ZWJ u2696        by u1f9d1_200d_2696;       # judge
+	sub u1f9d1 u1f3fb ZWJ u2696 by u1f9d1_1f3fb_200d_2696;
+	sub u1f9d1 u1f3fc ZWJ u2696 by u1f9d1_1f3fc_200d_2696;
+	sub u1f9d1 u1f3fd ZWJ u2696 by u1f9d1_1f3fd_200d_2696;
+	sub u1f9d1 u1f3fe ZWJ u2696 by u1f9d1_1f3fe_200d_2696;
+	sub u1f9d1 u1f3ff ZWJ u2696 by u1f9d1_1f3ff_200d_2696;
 	sub u1f468 ZWJ u2696        by u1f468_200d_2696;       # man judge
 	sub u1f468 u1f3fb ZWJ u2696 by u1f468_1f3fb_200d_2696;
 	sub u1f468 u1f3fc ZWJ u2696 by u1f468_1f3fc_200d_2696;
@@ -558,6 +606,12 @@ feature ccmp {
 	sub u1f469 u1f3fd ZWJ u2696 by u1f469_1f3fd_200d_2696;
 	sub u1f469 u1f3fe ZWJ u2696 by u1f469_1f3fe_200d_2696;
 	sub u1f469 u1f3ff ZWJ u2696 by u1f469_1f3ff_200d_2696;
+	sub u1f9d1 ZWJ u1f33e        by u1f9d1_200d_1f33e;       # farmer
+	sub u1f9d1 u1f3fb ZWJ u1f33e by u1f9d1_1f3fb_200d_1f33e;
+	sub u1f9d1 u1f3fc ZWJ u1f33e by u1f9d1_1f3fc_200d_1f33e;
+	sub u1f9d1 u1f3fd ZWJ u1f33e by u1f9d1_1f3fd_200d_1f33e;
+	sub u1f9d1 u1f3fe ZWJ u1f33e by u1f9d1_1f3fe_200d_1f33e;
+	sub u1f9d1 u1f3ff ZWJ u1f33e by u1f9d1_1f3ff_200d_1f33e;
 	sub u1f468 ZWJ u1f33e        by u1f468_200d_1f33e;       # man farmer
 	sub u1f468 u1f3fb ZWJ u1f33e by u1f468_1f3fb_200d_1f33e;
 	sub u1f468 u1f3fc ZWJ u1f33e by u1f468_1f3fc_200d_1f33e;
@@ -570,6 +624,12 @@ feature ccmp {
 	sub u1f469 u1f3fd ZWJ u1f33e by u1f469_1f3fd_200d_1f33e;
 	sub u1f469 u1f3fe ZWJ u1f33e by u1f469_1f3fe_200d_1f33e;
 	sub u1f469 u1f3ff ZWJ u1f33e by u1f469_1f3ff_200d_1f33e;
+	sub u1f9d1 ZWJ u1f373        by u1f9d1_200d_1f373;       # cook
+	sub u1f9d1 u1f3fb ZWJ u1f373 by u1f9d1_1f3fb_200d_1f373;
+	sub u1f9d1 u1f3fc ZWJ u1f373 by u1f9d1_1f3fc_200d_1f373;
+	sub u1f9d1 u1f3fd ZWJ u1f373 by u1f9d1_1f3fd_200d_1f373;
+	sub u1f9d1 u1f3fe ZWJ u1f373 by u1f9d1_1f3fe_200d_1f373;
+	sub u1f9d1 u1f3ff ZWJ u1f373 by u1f9d1_1f3ff_200d_1f373;
 	sub u1f468 ZWJ u1f373        by u1f468_200d_1f373;       # man cook
 	sub u1f468 u1f3fb ZWJ u1f373 by u1f468_1f3fb_200d_1f373;
 	sub u1f468 u1f3fc ZWJ u1f373 by u1f468_1f3fc_200d_1f373;
@@ -582,6 +642,12 @@ feature ccmp {
 	sub u1f469 u1f3fd ZWJ u1f373 by u1f469_1f3fd_200d_1f373;
 	sub u1f469 u1f3fe ZWJ u1f373 by u1f469_1f3fe_200d_1f373;
 	sub u1f469 u1f3ff ZWJ u1f373 by u1f469_1f3ff_200d_1f373;
+	sub u1f9d1 ZWJ u1f527        by u1f9d1_200d_1f527;       # mechanic
+	sub u1f9d1 u1f3fb ZWJ u1f527 by u1f9d1_1f3fb_200d_1f527;
+	sub u1f9d1 u1f3fc ZWJ u1f527 by u1f9d1_1f3fc_200d_1f527;
+	sub u1f9d1 u1f3fd ZWJ u1f527 by u1f9d1_1f3fd_200d_1f527;
+	sub u1f9d1 u1f3fe ZWJ u1f527 by u1f9d1_1f3fe_200d_1f527;
+	sub u1f9d1 u1f3ff ZWJ u1f527 by u1f9d1_1f3ff_200d_1f527;
 	sub u1f468 ZWJ u1f527        by u1f468_200d_1f527;       # man mechanic
 	sub u1f468 u1f3fb ZWJ u1f527 by u1f468_1f3fb_200d_1f527;
 	sub u1f468 u1f3fc ZWJ u1f527 by u1f468_1f3fc_200d_1f527;
@@ -594,6 +660,12 @@ feature ccmp {
 	sub u1f469 u1f3fd ZWJ u1f527 by u1f469_1f3fd_200d_1f527;
 	sub u1f469 u1f3fe ZWJ u1f527 by u1f469_1f3fe_200d_1f527;
 	sub u1f469 u1f3ff ZWJ u1f527 by u1f469_1f3ff_200d_1f527;
+	sub u1f9d1 ZWJ u1f3ed        by u1f9d1_200d_1f3ed;       # factory worker
+	sub u1f9d1 u1f3fb ZWJ u1f3ed by u1f9d1_1f3fb_200d_1f3ed;
+	sub u1f9d1 u1f3fc ZWJ u1f3ed by u1f9d1_1f3fc_200d_1f3ed;
+	sub u1f9d1 u1f3fd ZWJ u1f3ed by u1f9d1_1f3fd_200d_1f3ed;
+	sub u1f9d1 u1f3fe ZWJ u1f3ed by u1f9d1_1f3fe_200d_1f3ed;
+	sub u1f9d1 u1f3ff ZWJ u1f3ed by u1f9d1_1f3ff_200d_1f3ed;
 	sub u1f468 ZWJ u1f3ed        by u1f468_200d_1f3ed;       # man factory worker
 	sub u1f468 u1f3fb ZWJ u1f3ed by u1f468_1f3fb_200d_1f3ed;
 	sub u1f468 u1f3fc ZWJ u1f3ed by u1f468_1f3fc_200d_1f3ed;
@@ -606,6 +678,12 @@ feature ccmp {
 	sub u1f469 u1f3fd ZWJ u1f3ed by u1f469_1f3fd_200d_1f3ed;
 	sub u1f469 u1f3fe ZWJ u1f3ed by u1f469_1f3fe_200d_1f3ed;
 	sub u1f469 u1f3ff ZWJ u1f3ed by u1f469_1f3ff_200d_1f3ed;
+	sub u1f9d1 ZWJ u1f4bc        by u1f9d1_200d_1f4bc;       # office worker
+	sub u1f9d1 u1f3fb ZWJ u1f4bc by u1f9d1_1f3fb_200d_1f4bc;
+	sub u1f9d1 u1f3fc ZWJ u1f4bc by u1f9d1_1f3fc_200d_1f4bc;
+	sub u1f9d1 u1f3fd ZWJ u1f4bc by u1f9d1_1f3fd_200d_1f4bc;
+	sub u1f9d1 u1f3fe ZWJ u1f4bc by u1f9d1_1f3fe_200d_1f4bc;
+	sub u1f9d1 u1f3ff ZWJ u1f4bc by u1f9d1_1f3ff_200d_1f4bc;
 	sub u1f468 ZWJ u1f4bc        by u1f468_200d_1f4bc;       # man office worker
 	sub u1f468 u1f3fb ZWJ u1f4bc by u1f468_1f3fb_200d_1f4bc;
 	sub u1f468 u1f3fc ZWJ u1f4bc by u1f468_1f3fc_200d_1f4bc;
@@ -618,6 +696,12 @@ feature ccmp {
 	sub u1f469 u1f3fd ZWJ u1f4bc by u1f469_1f3fd_200d_1f4bc;
 	sub u1f469 u1f3fe ZWJ u1f4bc by u1f469_1f3fe_200d_1f4bc;
 	sub u1f469 u1f3ff ZWJ u1f4bc by u1f469_1f3ff_200d_1f4bc;
+	sub u1f9d1 ZWJ u1f52c        by u1f9d1_200d_1f52c;       # scientist
+	sub u1f9d1 u1f3fb ZWJ u1f52c by u1f9d1_1f3fb_200d_1f52c;
+	sub u1f9d1 u1f3fc ZWJ u1f52c by u1f9d1_1f3fc_200d_1f52c;
+	sub u1f9d1 u1f3fd ZWJ u1f52c by u1f9d1_1f3fd_200d_1f52c;
+	sub u1f9d1 u1f3fe ZWJ u1f52c by u1f9d1_1f3fe_200d_1f52c;
+	sub u1f9d1 u1f3ff ZWJ u1f52c by u1f9d1_1f3ff_200d_1f52c;
 	sub u1f468 ZWJ u1f52c        by u1f468_200d_1f52c;       # man scientist
 	sub u1f468 u1f3fb ZWJ u1f52c by u1f468_1f3fb_200d_1f52c;
 	sub u1f468 u1f3fc ZWJ u1f52c by u1f468_1f3fc_200d_1f52c;
@@ -630,6 +714,12 @@ feature ccmp {
 	sub u1f469 u1f3fd ZWJ u1f52c by u1f469_1f3fd_200d_1f52c;
 	sub u1f469 u1f3fe ZWJ u1f52c by u1f469_1f3fe_200d_1f52c;
 	sub u1f469 u1f3ff ZWJ u1f52c by u1f469_1f3ff_200d_1f52c;
+	sub u1f9d1 ZWJ u1f4bb        by u1f9d1_200d_1f4bb;       # technologist
+	sub u1f9d1 u1f3fb ZWJ u1f4bb by u1f9d1_1f3fb_200d_1f4bb;
+	sub u1f9d1 u1f3fc ZWJ u1f4bb by u1f9d1_1f3fc_200d_1f4bb;
+	sub u1f9d1 u1f3fd ZWJ u1f4bb by u1f9d1_1f3fd_200d_1f4bb;
+	sub u1f9d1 u1f3fe ZWJ u1f4bb by u1f9d1_1f3fe_200d_1f4bb;
+	sub u1f9d1 u1f3ff ZWJ u1f4bb by u1f9d1_1f3ff_200d_1f4bb;
 	sub u1f468 ZWJ u1f4bb        by u1f468_200d_1f4bb;       # man technologist
 	sub u1f468 u1f3fb ZWJ u1f4bb by u1f468_1f3fb_200d_1f4bb;
 	sub u1f468 u1f3fc ZWJ u1f4bb by u1f468_1f3fc_200d_1f4bb;
@@ -642,6 +732,12 @@ feature ccmp {
 	sub u1f469 u1f3fd ZWJ u1f4bb by u1f469_1f3fd_200d_1f4bb;
 	sub u1f469 u1f3fe ZWJ u1f4bb by u1f469_1f3fe_200d_1f4bb;
 	sub u1f469 u1f3ff ZWJ u1f4bb by u1f469_1f3ff_200d_1f4bb;
+	sub u1f9d1 ZWJ u1f3a4        by u1f9d1_200d_1f3a4;       # singer
+	sub u1f9d1 u1f3fb ZWJ u1f3a4 by u1f9d1_1f3fb_200d_1f3a4;
+	sub u1f9d1 u1f3fc ZWJ u1f3a4 by u1f9d1_1f3fc_200d_1f3a4;
+	sub u1f9d1 u1f3fd ZWJ u1f3a4 by u1f9d1_1f3fd_200d_1f3a4;
+	sub u1f9d1 u1f3fe ZWJ u1f3a4 by u1f9d1_1f3fe_200d_1f3a4;
+	sub u1f9d1 u1f3ff ZWJ u1f3a4 by u1f9d1_1f3ff_200d_1f3a4;
 	sub u1f468 ZWJ u1f3a4        by u1f468_200d_1f3a4;       # man singer
 	sub u1f468 u1f3fb ZWJ u1f3a4 by u1f468_1f3fb_200d_1f3a4;
 	sub u1f468 u1f3fc ZWJ u1f3a4 by u1f468_1f3fc_200d_1f3a4;
@@ -654,6 +750,12 @@ feature ccmp {
 	sub u1f469 u1f3fd ZWJ u1f3a4 by u1f469_1f3fd_200d_1f3a4;
 	sub u1f469 u1f3fe ZWJ u1f3a4 by u1f469_1f3fe_200d_1f3a4;
 	sub u1f469 u1f3ff ZWJ u1f3a4 by u1f469_1f3ff_200d_1f3a4;
+	sub u1f9d1 ZWJ u1f3a8        by u1f9d1_200d_1f3a8;       # artist
+	sub u1f9d1 u1f3fb ZWJ u1f3a8 by u1f9d1_1f3fb_200d_1f3a8;
+	sub u1f9d1 u1f3fc ZWJ u1f3a8 by u1f9d1_1f3fc_200d_1f3a8;
+	sub u1f9d1 u1f3fd ZWJ u1f3a8 by u1f9d1_1f3fd_200d_1f3a8;
+	sub u1f9d1 u1f3fe ZWJ u1f3a8 by u1f9d1_1f3fe_200d_1f3a8;
+	sub u1f9d1 u1f3ff ZWJ u1f3a8 by u1f9d1_1f3ff_200d_1f3a8;
 	sub u1f468 ZWJ u1f3a8        by u1f468_200d_1f3a8;       # man artist
 	sub u1f468 u1f3fb ZWJ u1f3a8 by u1f468_1f3fb_200d_1f3a8;
 	sub u1f468 u1f3fc ZWJ u1f3a8 by u1f468_1f3fc_200d_1f3a8;
@@ -666,6 +768,12 @@ feature ccmp {
 	sub u1f469 u1f3fd ZWJ u1f3a8 by u1f469_1f3fd_200d_1f3a8;
 	sub u1f469 u1f3fe ZWJ u1f3a8 by u1f469_1f3fe_200d_1f3a8;
 	sub u1f469 u1f3ff ZWJ u1f3a8 by u1f469_1f3ff_200d_1f3a8;
+	sub u1f9d1 ZWJ u2708        by u1f9d1_200d_2708;       # pilot
+	sub u1f9d1 u1f3fb ZWJ u2708 by u1f9d1_1f3fb_200d_2708;
+	sub u1f9d1 u1f3fc ZWJ u2708 by u1f9d1_1f3fc_200d_2708;
+	sub u1f9d1 u1f3fd ZWJ u2708 by u1f9d1_1f3fd_200d_2708;
+	sub u1f9d1 u1f3fe ZWJ u2708 by u1f9d1_1f3fe_200d_2708;
+	sub u1f9d1 u1f3ff ZWJ u2708 by u1f9d1_1f3ff_200d_2708;
 	sub u1f468 ZWJ u2708        by u1f468_200d_2708;       # man pilot
 	sub u1f468 u1f3fb ZWJ u2708 by u1f468_1f3fb_200d_2708;
 	sub u1f468 u1f3fc ZWJ u2708 by u1f468_1f3fc_200d_2708;
@@ -678,6 +786,12 @@ feature ccmp {
 	sub u1f469 u1f3fd ZWJ u2708 by u1f469_1f3fd_200d_2708;
 	sub u1f469 u1f3fe ZWJ u2708 by u1f469_1f3fe_200d_2708;
 	sub u1f469 u1f3ff ZWJ u2708 by u1f469_1f3ff_200d_2708;
+	sub u1f9d1 ZWJ u1f680        by u1f9d1_200d_1f680;       # astronaut
+	sub u1f9d1 u1f3fb ZWJ u1f680 by u1f9d1_1f3fb_200d_1f680;
+	sub u1f9d1 u1f3fc ZWJ u1f680 by u1f9d1_1f3fc_200d_1f680;
+	sub u1f9d1 u1f3fd ZWJ u1f680 by u1f9d1_1f3fd_200d_1f680;
+	sub u1f9d1 u1f3fe ZWJ u1f680 by u1f9d1_1f3fe_200d_1f680;
+	sub u1f9d1 u1f3ff ZWJ u1f680 by u1f9d1_1f3ff_200d_1f680;
 	sub u1f468 ZWJ u1f680        by u1f468_200d_1f680;       # man astronaut
 	sub u1f468 u1f3fb ZWJ u1f680 by u1f468_1f3fb_200d_1f680;
 	sub u1f468 u1f3fc ZWJ u1f680 by u1f468_1f3fc_200d_1f680;
@@ -690,6 +804,12 @@ feature ccmp {
 	sub u1f469 u1f3fd ZWJ u1f680 by u1f469_1f3fd_200d_1f680;
 	sub u1f469 u1f3fe ZWJ u1f680 by u1f469_1f3fe_200d_1f680;
 	sub u1f469 u1f3ff ZWJ u1f680 by u1f469_1f3ff_200d_1f680;
+	sub u1f9d1 ZWJ u1f692        by u1f9d1_200d_1f692;       # firefighter
+	sub u1f9d1 u1f3fb ZWJ u1f692 by u1f9d1_1f3fb_200d_1f692;
+	sub u1f9d1 u1f3fc ZWJ u1f692 by u1f9d1_1f3fc_200d_1f692;
+	sub u1f9d1 u1f3fd ZWJ u1f692 by u1f9d1_1f3fd_200d_1f692;
+	sub u1f9d1 u1f3fe ZWJ u1f692 by u1f9d1_1f3fe_200d_1f692;
+	sub u1f9d1 u1f3ff ZWJ u1f692 by u1f9d1_1f3ff_200d_1f692;
 	sub u1f468 ZWJ u1f692        by u1f468_200d_1f692;       # man firefighter
 	sub u1f468 u1f3fb ZWJ u1f692 by u1f468_1f3fb_200d_1f692;
 	sub u1f468 u1f3fc ZWJ u1f692 by u1f468_1f3fc_200d_1f692;
@@ -1054,6 +1174,12 @@ feature ccmp {
 	sub u1f9ce u1f3fd ZWJ u2640 by u1f9ce_1f3fd_200d_2640;
 	sub u1f9ce u1f3fe ZWJ u2640 by u1f9ce_1f3fe_200d_2640;
 	sub u1f9ce u1f3ff ZWJ u2640 by u1f9ce_1f3ff_200d_2640;
+	sub u1f9d1 ZWJ u1f9af        by u1f9d1_200d_1f9af;       # person with probing cane
+	sub u1f9d1 u1f3fb ZWJ u1f9af by u1f9d1_1f3fb_200d_1f9af;
+	sub u1f9d1 u1f3fc ZWJ u1f9af by u1f9d1_1f3fc_200d_1f9af;
+	sub u1f9d1 u1f3fd ZWJ u1f9af by u1f9d1_1f3fd_200d_1f9af;
+	sub u1f9d1 u1f3fe ZWJ u1f9af by u1f9d1_1f3fe_200d_1f9af;
+	sub u1f9d1 u1f3ff ZWJ u1f9af by u1f9d1_1f3ff_200d_1f9af;
 	sub u1f468 ZWJ u1f9af        by u1f468_200d_1f9af;       # man with probing cane
 	sub u1f468 u1f3fb ZWJ u1f9af by u1f468_1f3fb_200d_1f9af;
 	sub u1f468 u1f3fc ZWJ u1f9af by u1f468_1f3fc_200d_1f9af;
@@ -1066,6 +1192,12 @@ feature ccmp {
 	sub u1f469 u1f3fd ZWJ u1f9af by u1f469_1f3fd_200d_1f9af;
 	sub u1f469 u1f3fe ZWJ u1f9af by u1f469_1f3fe_200d_1f9af;
 	sub u1f469 u1f3ff ZWJ u1f9af by u1f469_1f3ff_200d_1f9af;
+	sub u1f9d1 ZWJ u1f9bc        by u1f9d1_200d_1f9bc;       # person in motorized wheelchair
+	sub u1f9d1 u1f3fb ZWJ u1f9bc by u1f9d1_1f3fb_200d_1f9bc;
+	sub u1f9d1 u1f3fc ZWJ u1f9bc by u1f9d1_1f3fc_200d_1f9bc;
+	sub u1f9d1 u1f3fd ZWJ u1f9bc by u1f9d1_1f3fd_200d_1f9bc;
+	sub u1f9d1 u1f3fe ZWJ u1f9bc by u1f9d1_1f3fe_200d_1f9bc;
+	sub u1f9d1 u1f3ff ZWJ u1f9bc by u1f9d1_1f3ff_200d_1f9bc;
 	sub u1f468 ZWJ u1f9bc        by u1f468_200d_1f9bc;       # man in motorized wheelchair
 	sub u1f468 u1f3fb ZWJ u1f9bc by u1f468_1f3fb_200d_1f9bc;
 	sub u1f468 u1f3fc ZWJ u1f9bc by u1f468_1f3fc_200d_1f9bc;
@@ -1078,6 +1210,12 @@ feature ccmp {
 	sub u1f469 u1f3fd ZWJ u1f9bc by u1f469_1f3fd_200d_1f9bc;
 	sub u1f469 u1f3fe ZWJ u1f9bc by u1f469_1f3fe_200d_1f9bc;
 	sub u1f469 u1f3ff ZWJ u1f9bc by u1f469_1f3ff_200d_1f9bc;
+	sub u1f9d1 ZWJ u1f9bd        by u1f9d1_200d_1f9bd;       # person in manual wheelchair
+	sub u1f9d1 u1f3fb ZWJ u1f9bd by u1f9d1_1f3fb_200d_1f9bd;
+	sub u1f9d1 u1f3fc ZWJ u1f9bd by u1f9d1_1f3fc_200d_1f9bd;
+	sub u1f9d1 u1f3fd ZWJ u1f9bd by u1f9d1_1f3fd_200d_1f9bd;
+	sub u1f9d1 u1f3fe ZWJ u1f9bd by u1f9d1_1f3fe_200d_1f9bd;
+	sub u1f9d1 u1f3ff ZWJ u1f9bd by u1f9d1_1f3ff_200d_1f9bd;
 	sub u1f468 ZWJ u1f9bd        by u1f468_200d_1f9bd;       # man in manual wheelchair
 	sub u1f468 u1f3fb ZWJ u1f9bd by u1f468_1f3fb_200d_1f9bd;
 	sub u1f468 u1f3fc ZWJ u1f9bd by u1f468_1f3fc_200d_1f9bd;
@@ -1424,15 +1562,25 @@ feature ccmp {
 	# people holding hands
 	sub u1f9d1 ZWJ u1f91d ZWJ u1f9d1 by u1f9d1_200d_1f91d_200d_1f9d1;
 	sub u1f9d1 u1f3fb ZWJ u1f91d ZWJ u1f9d1 u1f3fb by u1f9d1_1f3fb_200d_1f91d_200d__0;  # light
+	sub u1f9d1 u1f3fb ZWJ u1f91d ZWJ u1f9d1 u1f3fc by u1f9d1_1f3fb_200d_1f91d_200d__1;  # light / medium-light
+	sub u1f9d1 u1f3fb ZWJ u1f91d ZWJ u1f9d1 u1f3fd by u1f9d1_1f3fb_200d_1f91d_200d__2;  # light / medium
+	sub u1f9d1 u1f3fb ZWJ u1f91d ZWJ u1f9d1 u1f3fe by u1f9d1_1f3fb_200d_1f91d_200d__3;  # light / medium-dark
+	sub u1f9d1 u1f3fb ZWJ u1f91d ZWJ u1f9d1 u1f3ff by u1f9d1_1f3fb_200d_1f91d_200d__4;  # light / dark
 	sub u1f9d1 u1f3fc ZWJ u1f91d ZWJ u1f9d1 u1f3fb by u1f9d1_1f3fc_200d_1f91d_200d__0;  # medium-light / light
 	sub u1f9d1 u1f3fc ZWJ u1f91d ZWJ u1f9d1 u1f3fc by u1f9d1_1f3fc_200d_1f91d_200d__1;  # medium-light
+	sub u1f9d1 u1f3fc ZWJ u1f91d ZWJ u1f9d1 u1f3fd by u1f9d1_1f3fc_200d_1f91d_200d__2;  # medium-light / medium
+	sub u1f9d1 u1f3fc ZWJ u1f91d ZWJ u1f9d1 u1f3fe by u1f9d1_1f3fc_200d_1f91d_200d__3;  # medium-light / medium-dark
+	sub u1f9d1 u1f3fc ZWJ u1f91d ZWJ u1f9d1 u1f3ff by u1f9d1_1f3fc_200d_1f91d_200d__4;  # medium-light / dark
 	sub u1f9d1 u1f3fd ZWJ u1f91d ZWJ u1f9d1 u1f3fb by u1f9d1_1f3fd_200d_1f91d_200d__0;  # medium / light
 	sub u1f9d1 u1f3fd ZWJ u1f91d ZWJ u1f9d1 u1f3fc by u1f9d1_1f3fd_200d_1f91d_200d__1;  # medium / medium-light
 	sub u1f9d1 u1f3fd ZWJ u1f91d ZWJ u1f9d1 u1f3fd by u1f9d1_1f3fd_200d_1f91d_200d__2;  # medium
+	sub u1f9d1 u1f3fd ZWJ u1f91d ZWJ u1f9d1 u1f3fe by u1f9d1_1f3fd_200d_1f91d_200d__3;  # medium / medium-dark
+	sub u1f9d1 u1f3fd ZWJ u1f91d ZWJ u1f9d1 u1f3ff by u1f9d1_1f3fd_200d_1f91d_200d__4;  # medium / dark
 	sub u1f9d1 u1f3fe ZWJ u1f91d ZWJ u1f9d1 u1f3fb by u1f9d1_1f3fe_200d_1f91d_200d__0;  # medium-dark / light
 	sub u1f9d1 u1f3fe ZWJ u1f91d ZWJ u1f9d1 u1f3fc by u1f9d1_1f3fe_200d_1f91d_200d__1;  # medium-dark / medium-light
 	sub u1f9d1 u1f3fe ZWJ u1f91d ZWJ u1f9d1 u1f3fd by u1f9d1_1f3fe_200d_1f91d_200d__2;  # medium-dark / medium
 	sub u1f9d1 u1f3fe ZWJ u1f91d ZWJ u1f9d1 u1f3fe by u1f9d1_1f3fe_200d_1f91d_200d__3;  # medium-dark
+	sub u1f9d1 u1f3fe ZWJ u1f91d ZWJ u1f9d1 u1f3ff by u1f9d1_1f3fe_200d_1f91d_200d__4;  # medium-dark / dark
 	sub u1f9d1 u1f3ff ZWJ u1f91d ZWJ u1f9d1 u1f3fb by u1f9d1_1f3ff_200d_1f91d_200d__0;  # dark / light
 	sub u1f9d1 u1f3ff ZWJ u1f91d ZWJ u1f9d1 u1f3fc by u1f9d1_1f3ff_200d_1f91d_200d__1;  # dark / medium-light
 	sub u1f9d1 u1f3ff ZWJ u1f91d ZWJ u1f9d1 u1f3fd by u1f9d1_1f3ff_200d_1f91d_200d__2;  # dark / medium
@@ -1445,12 +1593,22 @@ feature ccmp {
 	sub u1f46d u1f3fd by u1f46d_1f3fd;                                                  # medium
 	sub u1f46d u1f3fe by u1f46d_1f3fe;                                                  # medium-dark
 	sub u1f46d u1f3ff by u1f46d_1f3ff;                                                  # dark
+	sub u1f469 u1f3fb ZWJ u1f91d ZWJ u1f469 u1f3fc by u1f469_1f3fb_200d_1f91d_200d__4;  # light / medium-light
+	sub u1f469 u1f3fb ZWJ u1f91d ZWJ u1f469 u1f3fd by u1f469_1f3fb_200d_1f91d_200d__5;  # light / medium
+	sub u1f469 u1f3fb ZWJ u1f91d ZWJ u1f469 u1f3fe by u1f469_1f3fb_200d_1f91d_200d__6;  # light / medium-dark
+	sub u1f469 u1f3fb ZWJ u1f91d ZWJ u1f469 u1f3ff by u1f469_1f3fb_200d_1f91d_200d__7;  # light / dark
 	sub u1f469 u1f3fc ZWJ u1f91d ZWJ u1f469 u1f3fb by u1f469_1f3fc_200d_1f91d_200d__4;  # medium-light / light
+	sub u1f469 u1f3fc ZWJ u1f91d ZWJ u1f469 u1f3fd by u1f469_1f3fc_200d_1f91d_200d__5;  # medium-light / medium
+	sub u1f469 u1f3fc ZWJ u1f91d ZWJ u1f469 u1f3fe by u1f469_1f3fc_200d_1f91d_200d__6;  # medium-light / medium-dark
+	sub u1f469 u1f3fc ZWJ u1f91d ZWJ u1f469 u1f3ff by u1f469_1f3fc_200d_1f91d_200d__7;  # medium-light / dark
 	sub u1f469 u1f3fd ZWJ u1f91d ZWJ u1f469 u1f3fb by u1f469_1f3fd_200d_1f91d_200d__4;  # medium / light
 	sub u1f469 u1f3fd ZWJ u1f91d ZWJ u1f469 u1f3fc by u1f469_1f3fd_200d_1f91d_200d__5;  # medium / medium-light
+	sub u1f469 u1f3fd ZWJ u1f91d ZWJ u1f469 u1f3fe by u1f469_1f3fd_200d_1f91d_200d__6;  # medium / medium-dark
+	sub u1f469 u1f3fd ZWJ u1f91d ZWJ u1f469 u1f3ff by u1f469_1f3fd_200d_1f91d_200d__7;  # medium / dark
 	sub u1f469 u1f3fe ZWJ u1f91d ZWJ u1f469 u1f3fb by u1f469_1f3fe_200d_1f91d_200d__4;  # medium-dark / light
 	sub u1f469 u1f3fe ZWJ u1f91d ZWJ u1f469 u1f3fc by u1f469_1f3fe_200d_1f91d_200d__5;  # medium-dark / medium-light
 	sub u1f469 u1f3fe ZWJ u1f91d ZWJ u1f469 u1f3fd by u1f469_1f3fe_200d_1f91d_200d__6;  # medium-dark / medium
+	sub u1f469 u1f3fe ZWJ u1f91d ZWJ u1f469 u1f3ff by u1f469_1f3fe_200d_1f91d_200d__7;  # medium-dark / dark
 	sub u1f469 u1f3ff ZWJ u1f91d ZWJ u1f469 u1f3fb by u1f469_1f3ff_200d_1f91d_200d__4;  # dark / light
 	sub u1f469 u1f3ff ZWJ u1f91d ZWJ u1f469 u1f3fc by u1f469_1f3ff_200d_1f91d_200d__5;  # dark / medium-light
 	sub u1f469 u1f3ff ZWJ u1f91d ZWJ u1f469 u1f3fd by u1f469_1f3ff_200d_1f91d_200d__6;  # dark / medium
@@ -1489,12 +1647,22 @@ feature ccmp {
 	sub u1f46c u1f3fd by u1f46c_1f3fd;                                                  # medium
 	sub u1f46c u1f3fe by u1f46c_1f3fe;                                                  # medium-dark
 	sub u1f46c u1f3ff by u1f46c_1f3ff;                                                  # dark
+	sub u1f468 u1f3fb ZWJ u1f91d ZWJ u1f468 u1f3fc by u1f468_1f3fb_200d_1f91d_200d__0;  # light / medium-light
+	sub u1f468 u1f3fb ZWJ u1f91d ZWJ u1f468 u1f3fd by u1f468_1f3fb_200d_1f91d_200d__1;  # light / medium
+	sub u1f468 u1f3fb ZWJ u1f91d ZWJ u1f468 u1f3fe by u1f468_1f3fb_200d_1f91d_200d__2;  # light / medium-dark
+	sub u1f468 u1f3fb ZWJ u1f91d ZWJ u1f468 u1f3ff by u1f468_1f3fb_200d_1f91d_200d__3;  # light / dark
 	sub u1f468 u1f3fc ZWJ u1f91d ZWJ u1f468 u1f3fb by u1f468_1f3fc_200d_1f91d_200d__0;  # medium-light / light
+	sub u1f468 u1f3fc ZWJ u1f91d ZWJ u1f468 u1f3fd by u1f468_1f3fc_200d_1f91d_200d__1;  # medium-light / medium
+	sub u1f468 u1f3fc ZWJ u1f91d ZWJ u1f468 u1f3fe by u1f468_1f3fc_200d_1f91d_200d__2;  # medium-light / medium-dark
+	sub u1f468 u1f3fc ZWJ u1f91d ZWJ u1f468 u1f3ff by u1f468_1f3fc_200d_1f91d_200d__3;  # medium-light / dark
 	sub u1f468 u1f3fd ZWJ u1f91d ZWJ u1f468 u1f3fb by u1f468_1f3fd_200d_1f91d_200d__0;  # medium / light
 	sub u1f468 u1f3fd ZWJ u1f91d ZWJ u1f468 u1f3fc by u1f468_1f3fd_200d_1f91d_200d__1;  # medium / medium-light
+	sub u1f468 u1f3fd ZWJ u1f91d ZWJ u1f468 u1f3fe by u1f468_1f3fd_200d_1f91d_200d__2;  # medium / medium-dark
+	sub u1f468 u1f3fd ZWJ u1f91d ZWJ u1f468 u1f3ff by u1f468_1f3fd_200d_1f91d_200d__3;  # medium / dark
 	sub u1f468 u1f3fe ZWJ u1f91d ZWJ u1f468 u1f3fb by u1f468_1f3fe_200d_1f91d_200d__0;  # medium-dark / light
 	sub u1f468 u1f3fe ZWJ u1f91d ZWJ u1f468 u1f3fc by u1f468_1f3fe_200d_1f91d_200d__1;  # medium-dark / medium-light
 	sub u1f468 u1f3fe ZWJ u1f91d ZWJ u1f468 u1f3fd by u1f468_1f3fe_200d_1f91d_200d__2;  # medium-dark / medium
+	sub u1f468 u1f3fe ZWJ u1f91d ZWJ u1f468 u1f3ff by u1f468_1f3fe_200d_1f91d_200d__3;  # medium-dark / dark
 	sub u1f468 u1f3ff ZWJ u1f91d ZWJ u1f468 u1f3fb by u1f468_1f3ff_200d_1f91d_200d__0;  # dark / light
 	sub u1f468 u1f3ff ZWJ u1f91d ZWJ u1f468 u1f3fc by u1f468_1f3ff_200d_1f91d_200d__1;  # dark / medium-light
 	sub u1f468 u1f3ff ZWJ u1f91d ZWJ u1f468 u1f3fd by u1f468_1f3ff_200d_1f91d_200d__2;  # dark / medium
