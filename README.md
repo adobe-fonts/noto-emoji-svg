@@ -57,7 +57,7 @@ Subroutinizing requires AFDKO's `tx` and `sfntedit` tools.
 
 To help thoroughly test the fonts, a script was developed that generates
 [an HTML file](test.html) that lists all official emoji and emoji sequences.
-The current output shows Unicode version 12. To generate the file run this command:
+The current output shows Unicode version 12.1. To generate the file run this command:
 
 	python3 test/generate_test_html.py
 
