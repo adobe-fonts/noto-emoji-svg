@@ -65,6 +65,10 @@ To divide the output into multiple files use the `--paginate` option:
 
 	python3 test/generate_test_html.py -p
 
+To generate a subset of the **test.html** file —named **test-changes.html**— containing
+only the changes from the previous font build, use the `-c/--changes` option. Keep in
+mind that this option depends on the contents of the [changes.txt](test/changes.txt) file.
+
 
 ## Generating the TXT test document
 
@@ -76,6 +80,9 @@ To generate the [TXT test file](test.txt) run this command:
 This file can be easily imported into Illustrator, Photoshop or InDesign.
 
 The [emoji-test.txt](test/emoji-test.txt) file was obtained from http://unicode.org/Public/emoji/
+
+As with the HTML test document, it's possible to generate a subset file named
+**test-changes.txt** by using the `-c/--changes` option.
 
 
 ## Generating aliases

@@ -23,9 +23,11 @@ DFLT_ITEMS_PPAGE = 500
 
 FILE_PREFIX = 'emoji_u'
 
-TEST_FILE_NAME = 'test{}.html'
+TEST_OUTPUT_FILENAME = 'test{}.html'
+CHANGES_OUTPUT_FILENAME = 'test-changes{}.html'
 TEST_DIR = os.path.dirname(os.path.abspath(__file__))
-EMOJI_TEST_FILE = os.path.join(TEST_DIR, 'emoji-test.txt')
+TEST_INPUT_PATH = os.path.join(TEST_DIR, 'emoji-test.txt')
+CHANGES_INPUT_PATH = os.path.join(TEST_DIR, 'changes.txt')
 TEST_HEADER_FILE = os.path.join(TEST_DIR, 'test_header.html')
 
 TABLE_ROW = """<tr>
@@ -52,18 +54,18 @@ def append_to_file(fpath, data, enc='utf-8'):
         fp.write(data)
 
 
-def make_path(file_num):
+def make_path(file_name, file_num):
     num = '' if file_num == 1 else file_num
-    return os.path.join(TEST_DIR, '..', TEST_FILE_NAME.format(num))
+    return os.path.join(TEST_DIR, '..', file_name.format(num))
 
 
-def parse_emoji_test_file():
+def parse_emoji_test_file(filename):
     """
     Parses Unicode's 'emoji-test.txt' file (available from
     http://unicode.org/Public/emoji/M.m/ where 'M.m' is the version number)
     and returns a list of code points.
     """
-    with io.open(EMOJI_TEST_FILE, encoding='utf-8') as fp:
+    with io.open(filename, encoding='utf-8') as fp:
         lines = fp.read().splitlines()
 
     cdpts_list = []
@@ -105,6 +107,14 @@ def main(args=None):
         default=0,
         nargs='?',
     )
+    parser.add_argument(
+        '-c',
+        '--changes',
+        help="generates '{}' instead of '{}'".format(
+            CHANGES_OUTPUT_FILENAME.format(''),
+            TEST_OUTPUT_FILENAME.format('')),
+        action='store_true',
+    )
     opts = parser.parse_args(args)
 
     if opts.paginate == 0:
@@ -116,8 +126,15 @@ def main(args=None):
     else:
         items_ppage = opts.paginate
 
+    if opts.changes:
+        emoji_input_path = CHANGES_INPUT_PATH
+        emoji_output_filename = CHANGES_OUTPUT_FILENAME
+    else:
+        emoji_input_path = TEST_INPUT_PATH
+        emoji_output_filename = TEST_OUTPUT_FILENAME
+
     # collect the list of codepoints
-    cdpts_list = parse_emoji_test_file()
+    cdpts_list = parse_emoji_test_file(emoji_input_path)
 
     html_file_num = 1
     start_file = True
@@ -133,7 +150,7 @@ def main(args=None):
         html = TABLE_ROW.format(i, ' '.join(cps), cps_html, filename,
                                 filename, cps_html, filename, cps_html)
         if start_file:
-            test_file_path = make_path(html_file_num)
+            test_file_path = make_path(emoji_output_filename, html_file_num)
             copyfile(TEST_HEADER_FILE, test_file_path)
             start_file = False
 
@@ -146,7 +163,7 @@ def main(args=None):
             html_file_num += 1
             # add link to the next file
             append_to_file(test_file_path, LINK_ROW.format(
-                TEST_FILE_NAME.format(html_file_num)))
+                emoji_output_filename.format(html_file_num)))
             # finish the current file
             append_to_file(test_file_path, TEST_FOOTER)
 

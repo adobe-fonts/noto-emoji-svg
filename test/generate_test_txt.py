@@ -7,10 +7,18 @@ import argparse
 import os
 import sys
 
-from generate_test_html import (TEST_DIR, append_to_file, REG_IND_LETTR,
-                                parse_emoji_test_file, TAG_LAT_LETTR)
+from generate_test_html import (
+    append_to_file,
+    parse_emoji_test_file,
+    CHANGES_INPUT_PATH,
+    REG_IND_LETTR,
+    TAG_LAT_LETTR,
+    TEST_DIR,
+    TEST_INPUT_PATH,
+)
 
-TEST_FILE_NAME = 'test.txt'
+TEST_OUTPUT_FILENAME = 'test.txt'
+CHANGES_OUTPUT_FILENAME = 'test-changes.txt'
 
 
 def positive_int(int_str):
@@ -41,13 +49,27 @@ def main(args=None):
         help=('add space character between emoji characters/sequences'),
         action='store_true'
     )
+    parser.add_argument(
+        '-c',
+        '--changes',
+        help="generates '{}' instead of '{}'".format(
+            CHANGES_OUTPUT_FILENAME, TEST_OUTPUT_FILENAME),
+        action='store_true',
+    )
     opts = parser.parse_args(args)
 
+    if opts.changes:
+        emoji_input_path = CHANGES_INPUT_PATH
+        emoji_output_filename = CHANGES_OUTPUT_FILENAME
+    else:
+        emoji_input_path = TEST_INPUT_PATH
+        emoji_output_filename = TEST_OUTPUT_FILENAME
+
     # collect the list of codepoints
-    cdpts_list = parse_emoji_test_file()
+    cdpts_list = parse_emoji_test_file(emoji_input_path)
 
     # start a new file (avoids appending to an existing file)
-    test_file_path = os.path.join(TEST_DIR, '..', TEST_FILE_NAME)
+    test_file_path = os.path.join(TEST_DIR, '..', emoji_output_filename)
     open(test_file_path, 'w').close()
 
     # begin the file with the BOM and use utf-16-le encoding
