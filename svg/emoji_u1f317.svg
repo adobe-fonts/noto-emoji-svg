@@ -62,7 +62,7 @@
     <stop offset=".8784" stop-color="#FFEE58"/>
   </radialGradient>
   <path d="m109.45 91c-0.25 2.97-2.85 5.17-5.8 4.91-2.95-0.25-5.14-2.86-4.89-5.83s2.85-5.17 5.8-4.91c2.96 0.25 5.15 2.86 4.89 5.83z" fill="url(#e)"/>
-  <linearGradient id="y" gradientUnits="userSpaceOnUse">
+  <linearGradient id="y" gradientUnits="objectBoundingBox">
     <stop offset=".45" stop-color="#F0C92C" stop-opacity="0"/>
     <stop offset=".51" stop-color="#4C4C4C"/>
   </linearGradient>

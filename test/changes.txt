@@ -1,3 +1,8 @@
+# Bug fixes ================================================
+
+1F313                                      ; fully-qualified     # 🌓 E2.0 first quarter moon
+1F317                                      ; fully-qualified     # 🌗 E2.0 last quarter moon
+
 
 # Artwork updates ==========================================
 

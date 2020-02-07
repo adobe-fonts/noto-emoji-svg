@@ -34,7 +34,7 @@
     <stop offset=".6825" stop-color="#E0A800" stop-opacity="0"/>
   </radialGradient>
   <path d="m110.14 92.69c-0.43 5-4.81 8.72-9.79 8.29s-8.67-4.83-8.25-9.83 4.81-8.72 9.79-8.29c4.99 0.42 8.68 4.83 8.25 9.83z" fill="url(#e)"/>
-  <linearGradient id="y" gradientUnits="userSpaceOnUse">
+  <linearGradient id="y" gradientUnits="objectBoundingBox">
     <stop offset=".49" stop-color="#4C4C4C"/>
     <stop offset=".55" stop-color="#F0C92C" stop-opacity="0"/>
   </linearGradient>
