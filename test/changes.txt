@@ -1,3 +1,13 @@
+############################################
+# NOTE: Do NOT put entries tagged as       #
+#       - 'minimally-qualified',           #
+#       - 'non-fully-qualified' or         #
+#       - 'unqualified'                    #
+#       in here, since they will be        #
+#       ignored by the processing scripts. #
+############################################
+
+
 # Bug fixes ================================================
 
 1F313                                      ; fully-qualified     # 🌓 E2.0 first quarter moon
@@ -41,19 +51,19 @@
 1F471 1F3FE                                ; fully-qualified     # 👱🏾 E2.0 person: medium-dark skin tone, blond hair
 1F471 1F3FF                                ; fully-qualified     # 👱🏿 E2.0 person: dark skin tone, blond hair
 
-1F471 200D 2642                            ; minimally-qualified # 👱‍♂ E4.0 man: blond hair
-1F471 1F3FB 200D 2642                      ; minimally-qualified # 👱🏻‍♂ E4.0 man: light skin tone, blond hair
-1F471 1F3FC 200D 2642                      ; minimally-qualified # 👱🏼‍♂ E4.0 man: medium-light skin tone, blond hair
-1F471 1F3FD 200D 2642                      ; minimally-qualified # 👱🏽‍♂ E4.0 man: medium skin tone, blond hair
-1F471 1F3FE 200D 2642                      ; minimally-qualified # 👱🏾‍♂ E4.0 man: medium-dark skin tone, blond hair
-1F471 1F3FF 200D 2642                      ; minimally-qualified # 👱🏿‍♂ E4.0 man: dark skin tone, blond hair
+1F471 200D 2642 FE0F                       ; fully-qualified     # 👱‍♂️ E4.0 man: blond hair
+1F471 1F3FB 200D 2642 FE0F                 ; fully-qualified     # 👱🏻‍♂️ E4.0 man: light skin tone, blond hair
+1F471 1F3FC 200D 2642 FE0F                 ; fully-qualified     # 👱🏼‍♂️ E4.0 man: medium-light skin tone, blond hair
+1F471 1F3FD 200D 2642 FE0F                 ; fully-qualified     # 👱🏽‍♂️ E4.0 man: medium skin tone, blond hair
+1F471 1F3FE 200D 2642 FE0F                 ; fully-qualified     # 👱🏾‍♂️ E4.0 man: medium-dark skin tone, blond hair
+1F471 1F3FF 200D 2642 FE0F                 ; fully-qualified     # 👱🏿‍♂️ E4.0 man: dark skin tone, blond hair
 
-1F471 200D 2640                            ; minimally-qualified # 👱‍♀ E4.0 woman: blond hair
-1F471 1F3FB 200D 2640                      ; minimally-qualified # 👱🏻‍♀ E4.0 woman: light skin tone, blond hair
-1F471 1F3FC 200D 2640                      ; minimally-qualified # 👱🏼‍♀ E4.0 woman: medium-light skin tone, blond hair
-1F471 1F3FD 200D 2640                      ; minimally-qualified # 👱🏽‍♀ E4.0 woman: medium skin tone, blond hair
-1F471 1F3FE 200D 2640                      ; minimally-qualified # 👱🏾‍♀ E4.0 woman: medium-dark skin tone, blond hair
-1F471 1F3FF 200D 2640                      ; minimally-qualified # 👱🏿‍♀ E4.0 woman: dark skin tone, blond hair
+1F471 200D 2640 FE0F                       ; fully-qualified     # 👱‍♀️ E4.0 woman: blond hair
+1F471 1F3FB 200D 2640 FE0F                 ; fully-qualified     # 👱🏻‍♀️ E4.0 woman: light skin tone, blond hair
+1F471 1F3FC 200D 2640 FE0F                 ; fully-qualified     # 👱🏼‍♀️ E4.0 woman: medium-light skin tone, blond hair
+1F471 1F3FD 200D 2640 FE0F                 ; fully-qualified     # 👱🏽‍♀️ E4.0 woman: medium skin tone, blond hair
+1F471 1F3FE 200D 2640 FE0F                 ; fully-qualified     # 👱🏾‍♀️ E4.0 woman: medium-dark skin tone, blond hair
+1F471 1F3FF 200D 2640 FE0F                 ; fully-qualified     # 👱🏿‍♀️ E4.0 woman: dark skin tone, blond hair
 
 1F468 200D 1F9B2                           ; fully-qualified     # 👨‍🦲 E11.0 man: bald
 1F468 1F3FB 200D 1F9B2                     ; fully-qualified     # 👨🏻‍🦲 E11.0 man: light skin tone, bald
@@ -118,19 +128,19 @@
 1F469 1F3FE 200D 1F373                     ; fully-qualified     # 👩🏾‍🍳 E4.0 woman cook: medium-dark skin tone
 1F469 1F3FF 200D 1F373                     ; fully-qualified     # 👩🏿‍🍳 E4.0 woman cook: dark skin tone
 
-1F468 200D 2695                            ; minimally-qualified # 👨‍⚕ E4.0 man health worker
-1F468 1F3FB 200D 2695                      ; minimally-qualified # 👨🏻‍⚕ E4.0 man health worker: light skin tone
-1F468 1F3FC 200D 2695                      ; minimally-qualified # 👨🏼‍⚕ E4.0 man health worker: medium-light skin tone
-1F468 1F3FD 200D 2695                      ; minimally-qualified # 👨🏽‍⚕ E4.0 man health worker: medium skin tone
-1F468 1F3FE 200D 2695                      ; minimally-qualified # 👨🏾‍⚕ E4.0 man health worker: medium-dark skin tone
-1F468 1F3FF 200D 2695                      ; minimally-qualified # 👨🏿‍⚕ E4.0 man health worker: dark skin tone
+1F468 200D 2695 FE0F                       ; fully-qualified     # 👨‍⚕️ E4.0 man health worker
+1F468 1F3FB 200D 2695 FE0F                 ; fully-qualified     # 👨🏻‍⚕️ E4.0 man health worker: light skin tone
+1F468 1F3FC 200D 2695 FE0F                 ; fully-qualified     # 👨🏼‍⚕️ E4.0 man health worker: medium-light skin tone
+1F468 1F3FD 200D 2695 FE0F                 ; fully-qualified     # 👨🏽‍⚕️ E4.0 man health worker: medium skin tone
+1F468 1F3FE 200D 2695 FE0F                 ; fully-qualified     # 👨🏾‍⚕️ E4.0 man health worker: medium-dark skin tone
+1F468 1F3FF 200D 2695 FE0F                 ; fully-qualified     # 👨🏿‍⚕️ E4.0 man health worker: dark skin tone
 
-1F469 200D 2695                            ; minimally-qualified # 👩‍⚕ E4.0 woman health worker
-1F469 1F3FB 200D 2695                      ; minimally-qualified # 👩🏻‍⚕ E4.0 woman health worker: light skin tone
-1F469 1F3FC 200D 2695                      ; minimally-qualified # 👩🏼‍⚕ E4.0 woman health worker: medium-light skin tone
-1F469 1F3FD 200D 2695                      ; minimally-qualified # 👩🏽‍⚕ E4.0 woman health worker: medium skin tone
-1F469 1F3FE 200D 2695                      ; minimally-qualified # 👩🏾‍⚕ E4.0 woman health worker: medium-dark skin tone
-1F469 1F3FF 200D 2695                      ; minimally-qualified # 👩🏿‍⚕ E4.0 woman health worker: dark skin tone
+1F469 200D 2695 FE0F                       ; fully-qualified     # 👩‍⚕️ E4.0 woman health worker
+1F469 1F3FB 200D 2695 FE0F                 ; fully-qualified     # 👩🏻‍⚕️ E4.0 woman health worker: light skin tone
+1F469 1F3FC 200D 2695 FE0F                 ; fully-qualified     # 👩🏼‍⚕️ E4.0 woman health worker: medium-light skin tone
+1F469 1F3FD 200D 2695 FE0F                 ; fully-qualified     # 👩🏽‍⚕️ E4.0 woman health worker: medium skin tone
+1F469 1F3FE 200D 2695 FE0F                 ; fully-qualified     # 👩🏾‍⚕️ E4.0 woman health worker: medium-dark skin tone
+1F469 1F3FF 200D 2695 FE0F                 ; fully-qualified     # 👩🏿‍⚕️ E4.0 woman health worker: dark skin tone
 
 
 # Unicode v12.1 additions ==================================
@@ -164,12 +174,12 @@
 1F9D1 1F3FF 200D 1F9B2                     ; fully-qualified     # 🧑🏿‍🦲 person: dark skin tone, bald
 
 # subgroup: person-role
-1F9D1 200D 2695                            ; minimally-qualified # 🧑‍⚕ health worker
-1F9D1 1F3FB 200D 2695                      ; minimally-qualified # 🧑🏻‍⚕ health worker: light skin tone
-1F9D1 1F3FC 200D 2695                      ; minimally-qualified # 🧑🏼‍⚕ health worker: medium-light skin tone
-1F9D1 1F3FD 200D 2695                      ; minimally-qualified # 🧑🏽‍⚕ health worker: medium skin tone
-1F9D1 1F3FE 200D 2695                      ; minimally-qualified # 🧑🏾‍⚕ health worker: medium-dark skin tone
-1F9D1 1F3FF 200D 2695                      ; minimally-qualified # 🧑🏿‍⚕ health worker: dark skin tone
+1F9D1 200D 2695 FE0F                       ; fully-qualified     # 🧑‍⚕️ health worker
+1F9D1 1F3FB 200D 2695 FE0F                 ; fully-qualified     # 🧑🏻‍⚕️ health worker: light skin tone
+1F9D1 1F3FC 200D 2695 FE0F                 ; fully-qualified     # 🧑🏼‍⚕️ health worker: medium-light skin tone
+1F9D1 1F3FD 200D 2695 FE0F                 ; fully-qualified     # 🧑🏽‍⚕️ health worker: medium skin tone
+1F9D1 1F3FE 200D 2695 FE0F                 ; fully-qualified     # 🧑🏾‍⚕️ health worker: medium-dark skin tone
+1F9D1 1F3FF 200D 2695 FE0F                 ; fully-qualified     # 🧑🏿‍⚕️ health worker: dark skin tone
 
 1F9D1 200D 1F393                           ; fully-qualified     # 🧑‍🎓 student
 1F9D1 1F3FB 200D 1F393                     ; fully-qualified     # 🧑🏻‍🎓 student: light skin tone
@@ -185,12 +195,12 @@
 1F9D1 1F3FE 200D 1F3EB                     ; fully-qualified     # 🧑🏾‍🏫 teacher: medium-dark skin tone
 1F9D1 1F3FF 200D 1F3EB                     ; fully-qualified     # 🧑🏿‍🏫 teacher: dark skin tone
 
-1F9D1 200D 2696                            ; minimally-qualified # 🧑‍⚖ judge
-1F9D1 1F3FB 200D 2696                      ; minimally-qualified # 🧑🏻‍⚖ judge: light skin tone
-1F9D1 1F3FC 200D 2696                      ; minimally-qualified # 🧑🏼‍⚖ judge: medium-light skin tone
-1F9D1 1F3FD 200D 2696                      ; minimally-qualified # 🧑🏽‍⚖ judge: medium skin tone
-1F9D1 1F3FE 200D 2696                      ; minimally-qualified # 🧑🏾‍⚖ judge: medium-dark skin tone
-1F9D1 1F3FF 200D 2696                      ; minimally-qualified # 🧑🏿‍⚖ judge: dark skin tone
+1F9D1 200D 2696 FE0F                       ; fully-qualified     # 🧑‍⚖️ judge
+1F9D1 1F3FB 200D 2696 FE0F                 ; fully-qualified     # 🧑🏻‍⚖️ judge: light skin tone
+1F9D1 1F3FC 200D 2696 FE0F                 ; fully-qualified     # 🧑🏼‍⚖️ judge: medium-light skin tone
+1F9D1 1F3FD 200D 2696 FE0F                 ; fully-qualified     # 🧑🏽‍⚖️ judge: medium skin tone
+1F9D1 1F3FE 200D 2696 FE0F                 ; fully-qualified     # 🧑🏾‍⚖️ judge: medium-dark skin tone
+1F9D1 1F3FF 200D 2696 FE0F                 ; fully-qualified     # 🧑🏿‍⚖️ judge: dark skin tone
 
 1F9D1 200D 1F33E                           ; fully-qualified     # 🧑‍🌾 farmer
 1F9D1 1F3FB 200D 1F33E                     ; fully-qualified     # 🧑🏻‍🌾 farmer: light skin tone
@@ -255,12 +265,12 @@
 1F9D1 1F3FE 200D 1F3A8                     ; fully-qualified     # 🧑🏾‍🎨 artist: medium-dark skin tone
 1F9D1 1F3FF 200D 1F3A8                     ; fully-qualified     # 🧑🏿‍🎨 artist: dark skin tone
 
-1F9D1 200D 2708                            ; minimally-qualified # 🧑‍✈ pilot
-1F9D1 1F3FB 200D 2708                      ; minimally-qualified # 🧑🏻‍✈ pilot: light skin tone
-1F9D1 1F3FC 200D 2708                      ; minimally-qualified # 🧑🏼‍✈ pilot: medium-light skin tone
-1F9D1 1F3FD 200D 2708                      ; minimally-qualified # 🧑🏽‍✈ pilot: medium skin tone
-1F9D1 1F3FE 200D 2708                      ; minimally-qualified # 🧑🏾‍✈ pilot: medium-dark skin tone
-1F9D1 1F3FF 200D 2708                      ; minimally-qualified # 🧑🏿‍✈ pilot: dark skin tone
+1F9D1 200D 2708 FE0F                       ; fully-qualified     # 🧑‍✈️ pilot
+1F9D1 1F3FB 200D 2708 FE0F                 ; fully-qualified     # 🧑🏻‍✈️ pilot: light skin tone
+1F9D1 1F3FC 200D 2708 FE0F                 ; fully-qualified     # 🧑🏼‍✈️ pilot: medium-light skin tone
+1F9D1 1F3FD 200D 2708 FE0F                 ; fully-qualified     # 🧑🏽‍✈️ pilot: medium skin tone
+1F9D1 1F3FE 200D 2708 FE0F                 ; fully-qualified     # 🧑🏾‍✈️ pilot: medium-dark skin tone
+1F9D1 1F3FF 200D 2708 FE0F                 ; fully-qualified     # 🧑🏿‍✈️ pilot: dark skin tone
 
 1F9D1 200D 1F680                           ; fully-qualified     # 🧑‍🚀 astronaut
 1F9D1 1F3FB 200D 1F680                     ; fully-qualified     # 🧑🏻‍🚀 astronaut: light skin tone
