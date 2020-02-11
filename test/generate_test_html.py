@@ -18,6 +18,8 @@ TAG_LAT_LETTR = ('E0061 E0062 E0063 E0064 E0065 E0066 E0067 E0068 E0069 E006A '
                  'E006B E006C E006D E006E E006F E0070 E0071 E0072 E0073 E0074 '
                  'E0075 E0076 E0077 E0078 E0079 E007A').split()
 
+SKIP_STATUSES = ('unqualified', 'non-fully-qualified', 'minimally-qualified')
+
 MIN_ITEMS_PPAGE = 50
 DFLT_ITEMS_PPAGE = 500
 
@@ -73,10 +75,9 @@ def parse_emoji_test_file(filename):
         line = line.strip()
         if not line or line.startswith('#'):
             continue
-        codepoints, status = line.split(';')
-        if ('unqualified' in status or
-                'non-fully-qualified' in status or
-                'minimally-qualified' in status):
+        codepoints, status_emoname = line.split(';')
+        status = status_emoname.split('#')[0].strip()
+        if status in SKIP_STATUSES:
             continue
         cdpts_list.append(codepoints.strip().split())
     return cdpts_list
