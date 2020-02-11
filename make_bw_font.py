@@ -151,15 +151,23 @@ def make_font(file_paths, out_dir, revision, gsub_path, gpos_path, uvs_lst):
     fb.font['head'].lowestRecPPEM = 12
 
     cs_dict = {}
+    cs_cache = {}
     for i, svg_file_path in enumerate(validated_fpaths):
-        pen = T2CharStringPen(EMOJI_H_ADV, None)
-        svg = SVGPath(svg_file_path,
-                      transform=(EMOJI_SIZE / SVG_SIZE, 0, 0,
-                                 -EMOJI_SIZE / SVG_SIZE,
-                                 (EMOJI_H_ADV * .5) - (EMOJI_SIZE * .5),
-                                 EMOJI_H_ADV * ABOVE_BASELINE))
-        svg.draw(pen)
-        cs = pen.getCharString()
+        svg_file_realpath = os.path.realpath(svg_file_path)
+
+        if svg_file_realpath not in cs_cache:
+            pen = T2CharStringPen(EMOJI_H_ADV, None)
+            svg = SVGPath(svg_file_realpath,
+                          transform=(EMOJI_SIZE / SVG_SIZE, 0, 0,
+                                     -EMOJI_SIZE / SVG_SIZE,
+                                     (EMOJI_H_ADV * .5) - (EMOJI_SIZE * .5),
+                                     EMOJI_H_ADV * ABOVE_BASELINE))
+            svg.draw(pen)
+            cs = pen.getCharString()
+            cs_cache[svg_file_realpath] = cs
+        else:
+            cs = cs_cache.get(svg_file_realpath)
+
         cs_dict[gorder[i]] = cs
 
     # add '.notdef', 'space' and zero-width joiner
