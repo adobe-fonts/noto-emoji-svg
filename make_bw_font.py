@@ -18,8 +18,6 @@ from fontTools.misc.psCharStrings import T2CharString
 from fontTools.pens.t2CharStringPen import T2CharStringPen
 from fontTools.svgLib.path import SVGPath
 
-FILE_PREFIX = 'emoji_'
-
 COPYRIGHT = 'Copyright 2013 Google Inc.'
 TRADEMARK = 'Noto is a trademark of Google Inc.'
 FAMILY_NAME = 'Noto Emoji'
@@ -112,13 +110,10 @@ def get_trimmed_glyph_name(gname, num):
 
 def make_font(file_paths, out_dir, revision, gsub_path, gpos_path, uvs_lst):
     cmap, gorder, validated_fpaths = {}, deque(), []
+    # build glyph order
     for fpath in file_paths:
-        # build glyph order
-        fname = os.path.splitext(os.path.basename(fpath))[0]  # trim extension
-        if fname.startswith(FILE_PREFIX):
-            gname = fname[len(FILE_PREFIX):]
-        else:
-            gname = fname
+        # derive glyph name from file name
+        gname = os.path.splitext(os.path.basename(fpath))[0]  # trim extension
         # validate glyph name
         if not glyph_name_is_valid(gname, fpath):
             continue
@@ -141,7 +136,7 @@ def make_font(file_paths, out_dir, revision, gsub_path, gpos_path, uvs_lst):
             gorder.append(gname)
         validated_fpaths.append(fpath)
 
-        # build cmap
+        # add to cmap
         if RE_UNICODE.match(gname):
             uni_int = int(gname[1:], 16)  # trim leading 'u'
             cmap[uni_int] = gname

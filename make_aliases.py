@@ -12,7 +12,7 @@ import sys
 from make_bw_font import validate_dir_path, validate_file_path
 
 
-FILE_PREFIX = 'emoji_u'
+FILE_PREFIX = 'u'
 FILE_EXTENSIONS = ('svg', 'png')
 
 log = logging.getLogger('make_aliases')
@@ -51,7 +51,7 @@ def make_aliases(aliases_list, in_dir):
             return 1
 
 
-def parse_emoji_aliases_file(file_path):
+def parse_aliases_file(file_path):
     """
     Parses an emoji aliases text file.
     Returns a list of tuples in the form ('src_name', 'dst_name').
@@ -103,7 +103,7 @@ def main(args=None):
         level = "DEBUG"
     logging.basicConfig(level=level)
 
-    aliases_list = parse_emoji_aliases_file(opts.in_file)
+    aliases_list = parse_aliases_file(opts.in_file)
     make_aliases(aliases_list, opts.in_dir)
 
 

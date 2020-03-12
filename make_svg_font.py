@@ -17,7 +17,7 @@ from decimal import Decimal
 from fontTools.ttLib import TTFont, TTLibError, newTable
 
 from make_bw_font import (
-    FILE_PREFIX, VENDOR, glyph_name_is_valid, get_trimmed_glyph_name,
+    VENDOR, glyph_name_is_valid, get_trimmed_glyph_name,
     validate_dir_path, validate_file_path, validate_revision_number,
     SVG_SIZE, UPM, EMOJI_SIZE, EMOJI_H_ADV, ASCENT)
 
@@ -108,11 +108,7 @@ def set_svg_id(data, gid):
 def add_svg_table(font_path, file_paths, compress_table=False):
     gnames_dict = {}  # key: glyph name; value: SVG file path
     for fpath in file_paths:
-        fname = os.path.splitext(os.path.basename(fpath))[0]  # trim extension
-        if fname.startswith(FILE_PREFIX):
-            gname = fname[len(FILE_PREFIX):]
-        else:
-            gname = fname
+        gname = os.path.splitext(os.path.basename(fpath))[0]  # trim extension
         # validate glyph name
         if not glyph_name_is_valid(gname, fpath):
             continue

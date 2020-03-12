@@ -23,7 +23,7 @@ SKIP_STATUSES = ('unqualified', 'non-fully-qualified', 'minimally-qualified')
 MIN_ITEMS_PPAGE = 50
 DFLT_ITEMS_PPAGE = 500
 
-FILE_PREFIX = 'emoji_u'
+FILE_PREFIX = 'u'
 
 TEST_OUTPUT_FILENAME = 'test{}.html'
 CHANGES_OUTPUT_FILENAME = 'test-changes{}.html'
