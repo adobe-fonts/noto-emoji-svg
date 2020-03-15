@@ -339,15 +339,16 @@ def main(args=None):
         default=0
     )
     parser.add_argument(
-        'in_dir',
-        help='input directory containing SVG files',
+        'in_dirs',
+        help='one or more input directories containing SVG files',
         metavar='DIR',
+        nargs='+',
         type=validate_dir_path,
     )
     parser.add_argument(
         '-o',
         '--out-dir',
-        help='directory to save the font in. Defaults to input directory.',
+        help='directory to save the font in. Defaults to 1st input directory.',
         metavar='DIR',
         type=normalize_path,
     )
@@ -383,15 +384,15 @@ def main(args=None):
         level = "DEBUG"
     logging.basicConfig(level=level)
 
-    file_paths = sorted(
-        glob.iglob(os.path.join(opts.in_dir, '*.[sS][vV][gG]')))
-    file_count = len(file_paths)
+    file_paths = []
+    for in_dir in opts.in_dirs:
+        fpaths = sorted(glob.iglob(os.path.join(in_dir, '*.[sS][vV][gG]')))
+        file_paths.extend(fpaths)
+        log.info(f"Found {len(fpaths)} SVG files in '{in_dir}'.")
 
-    if not file_count:
+    if not len(file_paths):
         log.error('Failed to match any SVG files.')
         return 1
-
-    log.info("Found {} SVG files in '{}'.".format(file_count, opts.in_dir))
 
     uvs = None
     if opts.uvs:
@@ -408,7 +409,7 @@ def main(args=None):
             return 1
         out_dir = opts.out_dir
     else:
-        out_dir = opts.in_dir
+        out_dir = opts.in_dirs[0]
 
     make_font(file_paths, out_dir, opts.revision, opts.gsub, opts.gpos, uvs)
 
