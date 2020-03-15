@@ -1,0 +1,50 @@
+# alias table
+# from;to
+# the 'from' sequence should be represented by the image for the 'to' sequence
+# 'fe0f' is not in these sequences
+
+# 2 horiz, black-white
+1f1f2_1f1e8;1f1ee_1f1e9 # Monaco; Indonesia
+1f1f2_1f1e8;1f1fa_1f1e6 #         Ukraine
+
+# 3 horiz, black-white-black
+1f1f3_1f1f1;1f1e6_1f1f9 # Netherlands; Austria
+1f1f3_1f1f1;1f1e7_1f1f4 #              Bolivia
+1f1f3_1f1f1;1f1e7_1f1f6 #              Caribbean Netherlands
+1f1f3_1f1f1;1f1ec_1f1e6 #              Gabon
+1f1f3_1f1f1;1f1ed_1f1fa #              Hungary
+1f1f3_1f1f1;1f1f1_1f1fa #              Luxembourg
+1f1f3_1f1f1;1f1f8_1f1f1 #              Sierra Leone
+1f1f3_1f1f1;1f1fe_1f1ea #              Yemen
+
+# 3 horiz, white-black-white
+1f1e6_1f1f2;1f1e7_1f1ec # Armenia; Bulgaria
+1f1e6_1f1f2;1f1ea_1f1ea #          Estonia
+1f1e6_1f1f2;1f1f1_1f1f9 #          Lithuania
+
+# 3 vert, black-white-black
+1f1eb_1f1f7;1f1e7_1f1ea # France; Belgium
+1f1eb_1f1f7;1f1e7_1f1f1 #         Saint Barthélemy
+1f1eb_1f1f7;1f1e8_1f1ee #         Côte d'Ivoire
+1f1eb_1f1f7;1f1e8_1f1f5 #         Clipperton Island
+1f1eb_1f1f7;1f1ec_1f1f3 #         Guinea
+1f1eb_1f1f7;1f1ee_1f1ea #         Ireland
+1f1eb_1f1f7;1f1ee_1f1f9 #         Italy
+1f1eb_1f1f7;1f1f2_1f1eb #         Saint Martin
+1f1eb_1f1f7;1f1f2_1f1f1 #         Mali
+1f1eb_1f1f7;1f1f3_1f1ec #         Nigeria
+1f1eb_1f1f7;1f1f5_1f1ea #         Peru
+1f1eb_1f1f7;1f1f7_1f1ea #         Réunion
+1f1eb_1f1f7;1f1f7_1f1f4 #         Romania
+1f1eb_1f1f7;1f1f9_1f1e9 #         Chad
+1f1eb_1f1f7;1f1f9_1f1eb #         French Southern Territories
+
+1f1f3_1f1f4;1f1e7_1f1fb # Norway; Bouvet Island
+1f1f3_1f1f4;1f1f8_1f1ef #         Svalbard & Jan Mayen
+
+1f1e6_1f1fa;1f1ed_1f1f2 # Australia; Heard & McDonald Islands
+1f1ea_1f1f8;1f1ea_1f1e6 # Spain; Ceuta & Melilla
+1f1ee_1f1f4;1f1e9_1f1ec # British Indian Ocean Territory; Diego Garcia
+1f1f8_1f1e9;1f1f5_1f1f8 # Sudan; Palestine
+1f1f9_1f1ed;1f1e8_1f1f7 # Thailand; Costa Rica
+1f1fa_1f1f8;1f1fa_1f1f2 # United States Minor Outlying Islands
