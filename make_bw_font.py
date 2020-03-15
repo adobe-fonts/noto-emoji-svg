@@ -62,6 +62,10 @@ RE_VIEWBOX = re.compile(
 VALID_1STCHARS = tuple('_ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz')
 VALID_CHARS = VALID_1STCHARS + tuple('.0123456789')
 
+TAG_LAT_LETTR = ('e0061 e0062 e0063 e0064 e0065 e0066 e0067 e0068 e0069 e006a '
+                 'e006b e006c e006d e006e e006f e0070 e0071 e0072 e0073 e0074 '
+                 'e0075 e0076 e0077 e0078 e0079 e007a e007f').split()
+
 log = logging.getLogger('make_bw_font')
 
 
@@ -220,9 +224,9 @@ def make_font(file_paths, out_dir, revision, gsub_path, gpos_path, uvs_lst):
         cs_dict[gorder[i]] = cs
 
     # add '.notdef', 'space' and zero-width joiner
-    gorder.extendleft(reversed(['.notdef', 'space', 'ZWJ']))
     pen = T2CharStringPen(EMOJI_H_ADV, None)
     draw_notdef(pen)
+    gorder.extendleft(reversed(['.notdef', 'space', 'ZWJ']))
     cs_dict.update({'.notdef': pen.getCharString(),
                     'space': SPACE_CHARSTRING,
                     'ZWJ': SPACE_CHARSTRING,
@@ -231,6 +235,13 @@ def make_font(file_paths, out_dir, revision, gsub_path, gpos_path, uvs_lst):
                  160: 'space',  # U+00A0
                  8205: 'ZWJ',   # U+200D
                  })
+
+    # add TAG LATIN LETTER glyphs and mappings
+    for cdpt in TAG_LAT_LETTR:
+        tag_gname = f'u{cdpt}'
+        gorder.append(tag_gname)
+        cs_dict[tag_gname] = SPACE_CHARSTRING
+        cmap[int(cdpt, 16)] = tag_gname
 
     fb.setupGlyphOrder(list(gorder))  # parts of FontTools require a list
     fb.setupCharacterMap(cmap, uvs=uvs_lst)
