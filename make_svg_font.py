@@ -4,6 +4,7 @@
 Adds an SVG table to an OpenType font.
 """
 import argparse
+from decimal import Decimal
 import glob
 import io
 import logging
@@ -11,15 +12,12 @@ import os
 import re
 import sys
 
-from ast import literal_eval
-from decimal import Decimal
-
 from fontTools.ttLib import TTFont, TTLibError, newTable
 
 from make_bw_font import (
-    VENDOR, glyph_name_is_valid, get_trimmed_glyph_name,
+    VENDOR, glyph_name_is_valid, get_trimmed_glyph_name, parse_viewbox_values,
     validate_dir_path, validate_file_path, validate_revision_number,
-    SVG_SIZE, UPM, EMOJI_SIZE, EMOJI_H_ADV, ASCENT)
+    UPM, EMOJI_SIZE, EMOJI_H_ADV, ASCENT, RE_VIEWBOX)
 
 FAMILY_NAME = 'Noto Color Emoji SVG'
 FULL_NAME = FAMILY_NAME
@@ -35,9 +33,6 @@ def norm_float(value):
     return value
 
 
-VIEWBOX_X_SHIFT = norm_float(
-    (EMOJI_SIZE - EMOJI_H_ADV) / EMOJI_SIZE * SVG_SIZE / 2)
-VIEWBOX_Y_SHIFT = norm_float(SVG_SIZE * ASCENT / EMOJI_SIZE)
 VIEWBOX_SCALE = norm_float(UPM / EMOJI_SIZE)
 
 
@@ -45,25 +40,11 @@ RE_XMLHEADER = re.compile(r"<\?xml .*\?>")
 RE_SVGID = re.compile(r"<svg[^>]+?(id=\".*?\").+?>", re.DOTALL)
 RE_ENABLEBKGD = re.compile(r"( enable-background=[\"|\'][new\d, ]+[\"|\'])")
 RE_SPACEBTWEEN = re.compile(r">\s+<", re.MULTILINE)
-# The value of the viewBox attribute is a list of four numbers
-# min-x, min-y, width and height, separated by whitespace and/or a comma
-RE_VIEWBOX = re.compile(
-    r"(<svg.+?)(\s*viewBox=[\"|\']([-\d,. ]+)[\"|\'])(.+?>)", re.DOTALL)
 
 log = logging.getLogger('make_svg_font')
 
 
-def parse_viewbox_values(vb_str):
-    """
-    Input: viewbox's values string
-    Return: list of integers or floats of viewbox's values
-    """
-    list_str = re.split(r'[\s,]', vb_str)
-    assert len(list_str) == 4, 'viewBox must have 4 values'
-    return [literal_eval(val) for val in list_str]
-
-
-def adjust_viewbox(svg_str, x_shift=0, y_shift=0, scale=1):
+def adjust_viewbox(svg_str, scale=1):
     """
     Changes viewbox's values.
 
@@ -76,10 +57,20 @@ def adjust_viewbox(svg_str, x_shift=0, y_shift=0, scale=1):
     vb = RE_VIEWBOX.search(svg_str)
     if vb:
         min_x, min_y, width, height = parse_viewbox_values(vb.group(3))
+
+        svg_size = width
+
+        x_shift = norm_float(
+            (EMOJI_SIZE - EMOJI_H_ADV) / EMOJI_SIZE * svg_size / 2)
+
+        y_shift = norm_float(svg_size * ASCENT / EMOJI_SIZE)
+
         new_svg_header = '{} viewBox="{} {} {} {}"{}'.format(
             vb.group(1), min_x + x_shift, min_y + y_shift,
             width * scale, height * scale, vb.group(4))
+
         svg_str = RE_VIEWBOX.sub(new_svg_header, svg_str)
+
     return svg_str
 
 
@@ -147,8 +138,7 @@ def add_svg_table(font_path, file_paths, compress_table=False):
         svg_item_data = set_svg_id(svg_item_data, gid)
 
         # Scale and shift the artwork, by adjusting its viewBox
-        svg_item_data = adjust_viewbox(
-            svg_item_data, VIEWBOX_X_SHIFT, VIEWBOX_Y_SHIFT, VIEWBOX_SCALE)
+        svg_item_data = adjust_viewbox(svg_item_data, VIEWBOX_SCALE)
 
         # Clean SVG document
         svg_item_data = clean_svg_doc(svg_item_data)

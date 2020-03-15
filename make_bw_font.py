@@ -4,6 +4,7 @@
 Creates a sans-color emoji OT-CFF font from b&w SVG files.
 """
 import argparse
+from ast import literal_eval
 from collections import deque
 import glob
 import io
@@ -38,7 +39,6 @@ LICENSE = ('This Font Software is licensed under the SIL Open Font License, '
 LICENSE_URL = 'http://scripts.sil.org/OFL'
 FSTYPE = 0  # Installable embedding
 
-SVG_SIZE = 128
 UPM = 2048
 EMOJI_H_ADV = 2550
 EMOJI_V_ADV = 2500
@@ -54,11 +54,60 @@ SPACE_CHARSTRING = T2CharString(program=[EMOJI_H_ADV, 'endchar'])
 
 RE_UNICODE = re.compile(r'^u[0-9a-f]{4,5}$', re.IGNORECASE)
 RE_REVISION = re.compile(r'^[0-9]{1,3}\.[0-9]{3}$')
+# The value of the viewBox attribute is a list of four numbers
+# min-x, min-y, width and height, separated by whitespace and/or a comma
+RE_VIEWBOX = re.compile(
+    r"(<svg.+?)(\s*viewBox=[\"|\']([-\d,. ]+)[\"|\'])(.+?>)", re.DOTALL)
 
 VALID_1STCHARS = tuple('_ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz')
 VALID_CHARS = VALID_1STCHARS + tuple('.0123456789')
 
 log = logging.getLogger('make_bw_font')
+
+
+def parse_viewbox_values(vb_str):
+    """
+    Input: viewbox's values string
+    Return: list of integers or floats of viewbox's values
+    """
+    list_str = re.split(r'[\s,]', vb_str)
+    assert len(list_str) == 4, 'viewBox must have 4 values'
+    return [literal_eval(val) for val in list_str]
+
+
+def get_svg_size(svg_file_path):
+    """
+    Takes a path to an SVG file and reads it.
+    Checks for the existence of a 'viewBox' property in the 'svg' element.
+    Confirms that the viewBox is square.
+    Returns the viewBox dimension as an integer.
+
+    The regex match will contain 4 groups:
+        1. String from '<svg' up to the space before 'viewBox'
+        2. The whole 'viewBox' property (e.g. ' viewBox="0 100 128 128"')
+        3. The 'viewBox' values
+        4. Remainder of the '<svg>' element
+    """
+    with io.open(svg_file_path, encoding='utf-8') as fp:
+        svg_str = fp.read()
+
+    vb = RE_VIEWBOX.search(svg_str)
+    if not vb:
+        log.error(f"'viewBox' property not found in {svg_file_path}")
+        return
+
+    min_x, min_y, width, height = parse_viewbox_values(vb.group(3))
+    if not (min_x == min_y == 0):
+        log.error("The origin of the 'viewBox' is not zero. "
+                  f"min-x: {min_x}; min-y: {min_y}; {svg_file_path}")
+        return
+
+    if width != height:
+        log.error("The 'viewBox' is not square. "
+                  f"width: {width}; height: {height}; {svg_file_path}")
+        return
+
+    return width
 
 
 def draw_notdef(pen):
@@ -151,10 +200,15 @@ def make_font(file_paths, out_dir, revision, gsub_path, gpos_path, uvs_lst):
         svg_file_realpath = os.path.realpath(svg_file_path)
 
         if svg_file_realpath not in cs_cache:
+            svg_size = get_svg_size(svg_file_realpath)
+            if svg_size is None:
+                cs_dict[gorder[i]] = SPACE_CHARSTRING
+                continue
+
             pen = T2CharStringPen(EMOJI_H_ADV, None)
             svg = SVGPath(svg_file_realpath,
-                          transform=(EMOJI_SIZE / SVG_SIZE, 0, 0,
-                                     -EMOJI_SIZE / SVG_SIZE,
+                          transform=(EMOJI_SIZE / svg_size, 0, 0,
+                                     -EMOJI_SIZE / svg_size,
                                      (EMOJI_H_ADV * .5) - (EMOJI_SIZE * .5),
                                      EMOJI_H_ADV * ABOVE_BASELINE))
             svg.draw(pen)
