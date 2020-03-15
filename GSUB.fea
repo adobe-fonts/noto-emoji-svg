@@ -1727,264 +1727,268 @@ feature ccmp {
 	sub u1f3f4 ZWJ u2620 by u1f3f4_200d_2620;   # pirate flag
 
 	# country-flag
-# 	sub A C by u1f1e6_1f1e8;
-# 	sub A D by u1f1e6_1f1e9;
-# 	sub A E by u1f1e6_1f1ea;
-# 	sub A F by u1f1e6_1f1eb;
-# 	sub A G by u1f1e6_1f1ec;
-# 	sub A I by u1f1e6_1f1ee;
-# 	sub A L by u1f1e6_1f1f1;
-# 	sub A M by u1f1e6_1f1f2;
-# 	sub A O by u1f1e6_1f1f4;
-# 	sub A Q by u1f1e6_1f1f6;
-# 	sub A R by u1f1e6_1f1f7;
-# 	sub A S by u1f1e6_1f1f8;
-# 	sub A T by u1f1e6_1f1f9;
-# 	sub A U by u1f1e6_1f1fa;
-# 	sub A W by u1f1e6_1f1fc;
-# 	sub A X by u1f1e6_1f1fd;
-# 	sub A Z by u1f1e6_1f1ff;
-# 	sub B A by u1f1e7_1f1e6;
-# 	sub B B by u1f1e7_1f1e7;
-# 	sub B D by u1f1e7_1f1e9;
-# 	sub B E by u1f1e7_1f1ea;
-# 	sub B F by u1f1e7_1f1eb;
-# 	sub B G by u1f1e7_1f1ec;
-# 	sub B H by u1f1e7_1f1ed;
-# 	sub B I by u1f1e7_1f1ee;
-# 	sub B J by u1f1e7_1f1ef;
-# 	sub B L by u1f1e7_1f1f1;
-# 	sub B M by u1f1e7_1f1f2;
-# 	sub B N by u1f1e7_1f1f3;
-# 	sub B O by u1f1e7_1f1f4;
-# 	sub B Q by u1f1e7_1f1f6;
-# 	sub B R by u1f1e7_1f1f7;
-# 	sub B S by u1f1e7_1f1f8;
-# 	sub B T by u1f1e7_1f1f9;
-# 	sub B V by u1f1e7_1f1fb;
-# 	sub B W by u1f1e7_1f1fc;
-# 	sub B Y by u1f1e7_1f1fe;
-# 	sub B Z by u1f1e7_1f1ff;
-# 	sub C A by u1f1e8_1f1e6;
-# 	sub C C by u1f1e8_1f1e8;
-# 	sub C D by u1f1e8_1f1e9;
-# 	sub C F by u1f1e8_1f1eb;
-# 	sub C G by u1f1e8_1f1ec;
-# 	sub C H by u1f1e8_1f1ed;
-# 	sub C I by u1f1e8_1f1ee;
-# 	sub C K by u1f1e8_1f1f0;
-# 	sub C L by u1f1e8_1f1f1;
-# 	sub C M by u1f1e8_1f1f2;
-# 	sub C N by u1f1e8_1f1f3;
-# 	sub C O by u1f1e8_1f1f4;
-# 	sub C P by u1f1e8_1f1f5;
-# 	sub C R by u1f1e8_1f1f7;
-# 	sub C U by u1f1e8_1f1fa;
-# 	sub C V by u1f1e8_1f1fb;
-# 	sub C W by u1f1e8_1f1fc;
-# 	sub C X by u1f1e8_1f1fd;
-# 	sub C Y by u1f1e8_1f1fe;
-# 	sub C Z by u1f1e8_1f1ff;
-# 	sub D E by u1f1e9_1f1ea;
-# 	sub D G by u1f1e9_1f1ec;
-# 	sub D J by u1f1e9_1f1ef;
-# 	sub D K by u1f1e9_1f1f0;
-# 	sub D M by u1f1e9_1f1f2;
-# 	sub D O by u1f1e9_1f1f4;
-# 	sub D Z by u1f1e9_1f1ff;
-# 	sub E A by u1f1ea_1f1e6;
-# 	sub E C by u1f1ea_1f1e8;
-# 	sub E E by u1f1ea_1f1ea;
-# 	sub E G by u1f1ea_1f1ec;
-# 	sub E H by u1f1ea_1f1ed;
-# 	sub E R by u1f1ea_1f1f7;
-# 	sub E S by u1f1ea_1f1f8;
-# 	sub E T by u1f1ea_1f1f9;
-# 	sub E U by u1f1ea_1f1fa;
-# 	sub F I by u1f1eb_1f1ee;
-# 	sub F J by u1f1eb_1f1ef;
-# 	sub F K by u1f1eb_1f1f0;
-# 	sub F M by u1f1eb_1f1f2;
-# 	sub F O by u1f1eb_1f1f4;
-# 	sub F R by u1f1eb_1f1f7;
-# 	sub G A by u1f1ec_1f1e6;
-# 	sub G B by u1f1ec_1f1e7;
-# 	sub G D by u1f1ec_1f1e9;
-# 	sub G E by u1f1ec_1f1ea;
-# 	sub G F by u1f1ec_1f1eb;
-# 	sub G G by u1f1ec_1f1ec;
-# 	sub G H by u1f1ec_1f1ed;
-# 	sub G I by u1f1ec_1f1ee;
-# 	sub G L by u1f1ec_1f1f1;
-# 	sub G M by u1f1ec_1f1f2;
-# 	sub G N by u1f1ec_1f1f3;
-# 	sub G P by u1f1ec_1f1f5;
-# 	sub G Q by u1f1ec_1f1f6;
-# 	sub G R by u1f1ec_1f1f7;
-# 	sub G S by u1f1ec_1f1f8;
-# 	sub G T by u1f1ec_1f1f9;
-# 	sub G U by u1f1ec_1f1fa;
-# 	sub G W by u1f1ec_1f1fc;
-# 	sub G Y by u1f1ec_1f1fe;
-# 	sub H K by u1f1ed_1f1f0;
-# 	sub H M by u1f1ed_1f1f2;
-# 	sub H N by u1f1ed_1f1f3;
-# 	sub H R by u1f1ed_1f1f7;
-# 	sub H T by u1f1ed_1f1f9;
-# 	sub H U by u1f1ed_1f1fa;
-# 	sub I C by u1f1ee_1f1e8;
-# 	sub I D by u1f1ee_1f1e9;
-# 	sub I E by u1f1ee_1f1ea;
-# 	sub I L by u1f1ee_1f1f1;
-# 	sub I M by u1f1ee_1f1f2;
-# 	sub I N by u1f1ee_1f1f3;
-# 	sub I O by u1f1ee_1f1f4;
-# 	sub I Q by u1f1ee_1f1f6;
-# 	sub I R by u1f1ee_1f1f7;
-# 	sub I S by u1f1ee_1f1f8;
-# 	sub I T by u1f1ee_1f1f9;
-# 	sub J E by u1f1ef_1f1ea;
-# 	sub J M by u1f1ef_1f1f2;
-# 	sub J O by u1f1ef_1f1f4;
-# 	sub J P by u1f1ef_1f1f5;
-# 	sub K E by u1f1f0_1f1ea;
-# 	sub K G by u1f1f0_1f1ec;
-# 	sub K H by u1f1f0_1f1ed;
-# 	sub K I by u1f1f0_1f1ee;
-# 	sub K M by u1f1f0_1f1f2;
-# 	sub K N by u1f1f0_1f1f3;
-# 	sub K P by u1f1f0_1f1f5;
-# 	sub K R by u1f1f0_1f1f7;
-# 	sub K W by u1f1f0_1f1fc;
-# 	sub K Y by u1f1f0_1f1fe;
-# 	sub K Z by u1f1f0_1f1ff;
-# 	sub L A by u1f1f1_1f1e6;
-# 	sub L B by u1f1f1_1f1e7;
-# 	sub L C by u1f1f1_1f1e8;
-# 	sub L I by u1f1f1_1f1ee;
-# 	sub L K by u1f1f1_1f1f0;
-# 	sub L R by u1f1f1_1f1f7;
-# 	sub L S by u1f1f1_1f1f8;
-# 	sub L T by u1f1f1_1f1f9;
-# 	sub L U by u1f1f1_1f1fa;
-# 	sub L V by u1f1f1_1f1fb;
-# 	sub L Y by u1f1f1_1f1fe;
-# 	sub M A by u1f1f2_1f1e6;
-# 	sub M C by u1f1f2_1f1e8;
-# 	sub M D by u1f1f2_1f1e9;
-# 	sub M E by u1f1f2_1f1ea;
-# 	sub M F by u1f1f2_1f1eb;
-# 	sub M G by u1f1f2_1f1ec;
-# 	sub M H by u1f1f2_1f1ed;
-# 	sub M K by u1f1f2_1f1f0;
-# 	sub M L by u1f1f2_1f1f1;
-# 	sub M M by u1f1f2_1f1f2;
-# 	sub M N by u1f1f2_1f1f3;
-# 	sub M O by u1f1f2_1f1f4;
-# 	sub M P by u1f1f2_1f1f5;
-# 	sub M Q by u1f1f2_1f1f6;
-# 	sub M R by u1f1f2_1f1f7;
-# 	sub M S by u1f1f2_1f1f8;
-# 	sub M T by u1f1f2_1f1f9;
-# 	sub M U by u1f1f2_1f1fa;
-# 	sub M V by u1f1f2_1f1fb;
-# 	sub M W by u1f1f2_1f1fc;
-# 	sub M X by u1f1f2_1f1fd;
-# 	sub M Y by u1f1f2_1f1fe;
-# 	sub M Z by u1f1f2_1f1ff;
-# 	sub N A by u1f1f3_1f1e6;
-# 	sub N C by u1f1f3_1f1e8;
-# 	sub N E by u1f1f3_1f1ea;
-# 	sub N F by u1f1f3_1f1eb;
-# 	sub N G by u1f1f3_1f1ec;
-# 	sub N I by u1f1f3_1f1ee;
-# 	sub N L by u1f1f3_1f1f1;
-# 	sub N O by u1f1f3_1f1f4;
-# 	sub N P by u1f1f3_1f1f5;
-# 	sub N R by u1f1f3_1f1f7;
-# 	sub N U by u1f1f3_1f1fa;
-# 	sub N Z by u1f1f3_1f1ff;
-# 	sub O M by u1f1f4_1f1f2;
-# 	sub P A by u1f1f5_1f1e6;
-# 	sub P E by u1f1f5_1f1ea;
-# 	sub P F by u1f1f5_1f1eb;
-# 	sub P G by u1f1f5_1f1ec;
-# 	sub P H by u1f1f5_1f1ed;
-# 	sub P K by u1f1f5_1f1f0;
-# 	sub P L by u1f1f5_1f1f1;
-# 	sub P M by u1f1f5_1f1f2;
-# 	sub P N by u1f1f5_1f1f3;
-# 	sub P R by u1f1f5_1f1f7;
-# 	sub P S by u1f1f5_1f1f8;
-# 	sub P T by u1f1f5_1f1f9;
-# 	sub P W by u1f1f5_1f1fc;
-# 	sub P Y by u1f1f5_1f1fe;
-# 	sub Q A by u1f1f6_1f1e6;
-# 	sub R E by u1f1f7_1f1ea;
-# 	sub R O by u1f1f7_1f1f4;
-# 	sub R S by u1f1f7_1f1f8;
-# 	sub R U by u1f1f7_1f1fa;
-# 	sub R W by u1f1f7_1f1fc;
-# 	sub S A by u1f1f8_1f1e6;
-# 	sub S B by u1f1f8_1f1e7;
-# 	sub S C by u1f1f8_1f1e8;
-# 	sub S D by u1f1f8_1f1e9;
-# 	sub S E by u1f1f8_1f1ea;
-# 	sub S G by u1f1f8_1f1ec;
-# 	sub S H by u1f1f8_1f1ed;
-# 	sub S I by u1f1f8_1f1ee;
-# 	sub S J by u1f1f8_1f1ef;
-# 	sub S K by u1f1f8_1f1f0;
-# 	sub S L by u1f1f8_1f1f1;
-# 	sub S M by u1f1f8_1f1f2;
-# 	sub S N by u1f1f8_1f1f3;
-# 	sub S O by u1f1f8_1f1f4;
-# 	sub S R by u1f1f8_1f1f7;
-# 	sub S S by u1f1f8_1f1f8;
-# 	sub S T by u1f1f8_1f1f9;
-# 	sub S V by u1f1f8_1f1fb;
-# 	sub S X by u1f1f8_1f1fd;
-# 	sub S Y by u1f1f8_1f1fe;
-# 	sub S Z by u1f1f8_1f1ff;
-# 	sub T A by u1f1f9_1f1e6;
-# 	sub T C by u1f1f9_1f1e8;
-# 	sub T D by u1f1f9_1f1e9;
-# 	sub T F by u1f1f9_1f1eb;
-# 	sub T G by u1f1f9_1f1ec;
-# 	sub T H by u1f1f9_1f1ed;
-# 	sub T J by u1f1f9_1f1ef;
-# 	sub T K by u1f1f9_1f1f0;
-# 	sub T L by u1f1f9_1f1f1;
-# 	sub T M by u1f1f9_1f1f2;
-# 	sub T N by u1f1f9_1f1f3;
-# 	sub T O by u1f1f9_1f1f4;
-# 	sub T R by u1f1f9_1f1f7;
-# 	sub T T by u1f1f9_1f1f9;
-# 	sub T V by u1f1f9_1f1fb;
-# 	sub T W by u1f1f9_1f1fc;
-# 	sub T Z by u1f1f9_1f1ff;
-# 	sub U A by u1f1fa_1f1e6;
-# 	sub U G by u1f1fa_1f1ec;
-# 	sub U M by u1f1fa_1f1f2;
-# 	sub U S by u1f1fa_1f1f8;
-# 	sub U Y by u1f1fa_1f1fe;
-# 	sub U Z by u1f1fa_1f1ff;
-# 	sub V A by u1f1fb_1f1e6;
-# 	sub V C by u1f1fb_1f1e8;
-# 	sub V E by u1f1fb_1f1ea;
-# 	sub V G by u1f1fb_1f1ec;
-# 	sub V I by u1f1fb_1f1ee;
-# 	sub V N by u1f1fb_1f1f3;
-# 	sub V U by u1f1fb_1f1fa;
-# 	sub W F by u1f1fc_1f1eb;
-# 	sub W S by u1f1fc_1f1f8;
-# 	sub X K by u1f1fd_1f1f0;
-# 	sub Y E by u1f1fe_1f1ea;
-# 	sub Y T by u1f1fe_1f1f9;
-# 	sub Z A by u1f1ff_1f1e6;
-# 	sub Z M by u1f1ff_1f1f2;
-# 	sub Z W by u1f1ff_1f1fc;
+	sub u1f1e6 u1f1e8 by u1f1e6_1f1e8;  # AC - Ascension Island
+	sub u1f1e6 u1f1e9 by u1f1e6_1f1e9;  # AD - Andorra
+	sub u1f1e6 u1f1ea by u1f1e6_1f1ea;  # AE - United Arab Emirates
+	sub u1f1e6 u1f1eb by u1f1e6_1f1eb;  # AF - Afghanistan
+	sub u1f1e6 u1f1ec by u1f1e6_1f1ec;  # AG - Antigua & Barbuda
+	sub u1f1e6 u1f1ee by u1f1e6_1f1ee;  # AI - Anguilla
+	sub u1f1e6 u1f1f1 by u1f1e6_1f1f1;  # AL - Albania
+	sub u1f1e6 u1f1f2 by u1f1e6_1f1f2;  # AM - Armenia
+	sub u1f1e6 u1f1f4 by u1f1e6_1f1f4;  # AO - Angola
+	sub u1f1e6 u1f1f6 by u1f1e6_1f1f6;  # AQ - Antarctica
+	sub u1f1e6 u1f1f7 by u1f1e6_1f1f7;  # AR - Argentina
+	sub u1f1e6 u1f1f8 by u1f1e6_1f1f8;  # AS - American Samoa
+	sub u1f1e6 u1f1f9 by u1f1e6_1f1f9;  # AT - Austria
+	sub u1f1e6 u1f1fa by u1f1e6_1f1fa;  # AU - Australia
+	sub u1f1e6 u1f1fc by u1f1e6_1f1fc;  # AW - Aruba
+	sub u1f1e6 u1f1fd by u1f1e6_1f1fd;  # AX - Åland Islands
+	sub u1f1e6 u1f1ff by u1f1e6_1f1ff;  # AZ - Azerbaijan
+	sub u1f1e7 u1f1e6 by u1f1e7_1f1e6;  # BA - Bosnia & Herzegovina
+	sub u1f1e7 u1f1e7 by u1f1e7_1f1e7;  # BB - Barbados
+	sub u1f1e7 u1f1e9 by u1f1e7_1f1e9;  # BD - Bangladesh
+	sub u1f1e7 u1f1ea by u1f1e7_1f1ea;  # BE - Belgium
+	sub u1f1e7 u1f1eb by u1f1e7_1f1eb;  # BF - Burkina Faso
+	sub u1f1e7 u1f1ec by u1f1e7_1f1ec;  # BG - Bulgaria
+	sub u1f1e7 u1f1ed by u1f1e7_1f1ed;  # BH - Bahrain
+	sub u1f1e7 u1f1ee by u1f1e7_1f1ee;  # BI - Burundi
+	sub u1f1e7 u1f1ef by u1f1e7_1f1ef;  # BJ - Benin
+	sub u1f1e7 u1f1f1 by u1f1e7_1f1f1;  # BL - St. Barthélemy
+	sub u1f1e7 u1f1f2 by u1f1e7_1f1f2;  # BM - Bermuda
+	sub u1f1e7 u1f1f3 by u1f1e7_1f1f3;  # BN - Brunei
+	sub u1f1e7 u1f1f4 by u1f1e7_1f1f4;  # BO - Bolivia
+	sub u1f1e7 u1f1f6 by u1f1e7_1f1f6;  # BQ - Caribbean Netherlands
+	sub u1f1e7 u1f1f7 by u1f1e7_1f1f7;  # BR - Brazil
+	sub u1f1e7 u1f1f8 by u1f1e7_1f1f8;  # BS - Bahamas
+	sub u1f1e7 u1f1f9 by u1f1e7_1f1f9;  # BT - Bhutan
+	sub u1f1e7 u1f1fb by u1f1e7_1f1fb;  # BV - Bouvet Island
+	sub u1f1e7 u1f1fc by u1f1e7_1f1fc;  # BW - Botswana
+	sub u1f1e7 u1f1fe by u1f1e7_1f1fe;  # BY - Belarus
+	sub u1f1e7 u1f1ff by u1f1e7_1f1ff;  # BZ - Belize
+	sub u1f1e8 u1f1e6 by u1f1e8_1f1e6;  # CA - Canada
+	sub u1f1e8 u1f1e8 by u1f1e8_1f1e8;  # CC - Cocos (Keeling) Islands
+	sub u1f1e8 u1f1e9 by u1f1e8_1f1e9;  # CD - Congo - Kinshasa
+	sub u1f1e8 u1f1eb by u1f1e8_1f1eb;  # CF - Central African Republic
+	sub u1f1e8 u1f1ec by u1f1e8_1f1ec;  # CG - Congo - Brazzaville
+	sub u1f1e8 u1f1ed by u1f1e8_1f1ed;  # CH - Switzerland
+	sub u1f1e8 u1f1ee by u1f1e8_1f1ee;  # CI - Côte d’Ivoire
+	sub u1f1e8 u1f1f0 by u1f1e8_1f1f0;  # CK - Cook Islands
+	sub u1f1e8 u1f1f1 by u1f1e8_1f1f1;  # CL - Chile
+	sub u1f1e8 u1f1f2 by u1f1e8_1f1f2;  # CM - Cameroon
+	sub u1f1e8 u1f1f3 by u1f1e8_1f1f3;  # CN - China
+	sub u1f1e8 u1f1f4 by u1f1e8_1f1f4;  # CO - Colombia
+	sub u1f1e8 u1f1f5 by u1f1e8_1f1f5;  # CP - Clipperton Island
+	sub u1f1e8 u1f1f7 by u1f1e8_1f1f7;  # CR - Costa Rica
+	sub u1f1e8 u1f1fa by u1f1e8_1f1fa;  # CU - Cuba
+	sub u1f1e8 u1f1fb by u1f1e8_1f1fb;  # CV - Cape Verde
+	sub u1f1e8 u1f1fc by u1f1e8_1f1fc;  # CW - Curaçao
+	sub u1f1e8 u1f1fd by u1f1e8_1f1fd;  # CX - Christmas Island
+	sub u1f1e8 u1f1fe by u1f1e8_1f1fe;  # CY - Cyprus
+	sub u1f1e8 u1f1ff by u1f1e8_1f1ff;  # CZ - Czechia
+	sub u1f1e9 u1f1ea by u1f1e9_1f1ea;  # DE - Germany
+	sub u1f1e9 u1f1ec by u1f1e9_1f1ec;  # DG - Diego Garcia
+	sub u1f1e9 u1f1ef by u1f1e9_1f1ef;  # DJ - Djibouti
+	sub u1f1e9 u1f1f0 by u1f1e9_1f1f0;  # DK - Denmark
+	sub u1f1e9 u1f1f2 by u1f1e9_1f1f2;  # DM - Dominica
+	sub u1f1e9 u1f1f4 by u1f1e9_1f1f4;  # DO - Dominican Republic
+	sub u1f1e9 u1f1ff by u1f1e9_1f1ff;  # DZ - Algeria
+	sub u1f1ea u1f1e6 by u1f1ea_1f1e6;  # EA - Ceuta & Melilla
+	sub u1f1ea u1f1e8 by u1f1ea_1f1e8;  # EC - Ecuador
+	sub u1f1ea u1f1ea by u1f1ea_1f1ea;  # EE - Estonia
+	sub u1f1ea u1f1ec by u1f1ea_1f1ec;  # EG - Egypt
+	sub u1f1ea u1f1ed by u1f1ea_1f1ed;  # EH - Western Sahara
+	sub u1f1ea u1f1f7 by u1f1ea_1f1f7;  # ER - Eritrea
+	sub u1f1ea u1f1f8 by u1f1ea_1f1f8;  # ES - Spain
+	sub u1f1ea u1f1f9 by u1f1ea_1f1f9;  # ET - Ethiopia
+	sub u1f1ea u1f1fa by u1f1ea_1f1fa;  # EU - European Union
+	sub u1f1eb u1f1ee by u1f1eb_1f1ee;  # FI - Finland
+	sub u1f1eb u1f1ef by u1f1eb_1f1ef;  # FJ - Fiji
+	sub u1f1eb u1f1f0 by u1f1eb_1f1f0;  # FK - Falkland Islands
+	sub u1f1eb u1f1f2 by u1f1eb_1f1f2;  # FM - Micronesia
+	sub u1f1eb u1f1f4 by u1f1eb_1f1f4;  # FO - Faroe Islands
+	sub u1f1eb u1f1f7 by u1f1eb_1f1f7;  # FR - France
+	sub u1f1ec u1f1e6 by u1f1ec_1f1e6;  # GA - Gabon
+	sub u1f1ec u1f1e7 by u1f1ec_1f1e7;  # GB - United Kingdom
+	sub u1f1ec u1f1e9 by u1f1ec_1f1e9;  # GD - Grenada
+	sub u1f1ec u1f1ea by u1f1ec_1f1ea;  # GE - Georgia
+	sub u1f1ec u1f1eb by u1f1ec_1f1eb;  # GF - French Guiana
+	sub u1f1ec u1f1ec by u1f1ec_1f1ec;  # GG - Guernsey
+	sub u1f1ec u1f1ed by u1f1ec_1f1ed;  # GH - Ghana
+	sub u1f1ec u1f1ee by u1f1ec_1f1ee;  # GI - Gibraltar
+	sub u1f1ec u1f1f1 by u1f1ec_1f1f1;  # GL - Greenland
+	sub u1f1ec u1f1f2 by u1f1ec_1f1f2;  # GM - Gambia
+	sub u1f1ec u1f1f3 by u1f1ec_1f1f3;  # GN - Guinea
+	sub u1f1ec u1f1f5 by u1f1ec_1f1f5;  # GP - Guadeloupe
+	sub u1f1ec u1f1f6 by u1f1ec_1f1f6;  # GQ - Equatorial Guinea
+	sub u1f1ec u1f1f7 by u1f1ec_1f1f7;  # GR - Greece
+	sub u1f1ec u1f1f8 by u1f1ec_1f1f8;  # GS - South Georgia & South Sandwich Islands
+	sub u1f1ec u1f1f9 by u1f1ec_1f1f9;  # GT - Guatemala
+	sub u1f1ec u1f1fa by u1f1ec_1f1fa;  # GU - Guam
+	sub u1f1ec u1f1fc by u1f1ec_1f1fc;  # GW - Guinea-Bissau
+	sub u1f1ec u1f1fe by u1f1ec_1f1fe;  # GY - Guyana
+	sub u1f1ed u1f1f0 by u1f1ed_1f1f0;  # HK - Hong Kong SAR China
+	sub u1f1ed u1f1f2 by u1f1ed_1f1f2;  # HM - Heard & McDonald Islands
+	sub u1f1ed u1f1f3 by u1f1ed_1f1f3;  # HN - Honduras
+	sub u1f1ed u1f1f7 by u1f1ed_1f1f7;  # HR - Croatia
+	sub u1f1ed u1f1f9 by u1f1ed_1f1f9;  # HT - Haiti
+	sub u1f1ed u1f1fa by u1f1ed_1f1fa;  # HU - Hungary
+	sub u1f1ee u1f1e8 by u1f1ee_1f1e8;  # IC - Canary Islands
+	sub u1f1ee u1f1e9 by u1f1ee_1f1e9;  # ID - Indonesia
+	sub u1f1ee u1f1ea by u1f1ee_1f1ea;  # IE - Ireland
+	sub u1f1ee u1f1f1 by u1f1ee_1f1f1;  # IL - Israel
+	sub u1f1ee u1f1f2 by u1f1ee_1f1f2;  # IM - Isle of Man
+	sub u1f1ee u1f1f3 by u1f1ee_1f1f3;  # IN - India
+	sub u1f1ee u1f1f4 by u1f1ee_1f1f4;  # IO - British Indian Ocean Territory
+	sub u1f1ee u1f1f6 by u1f1ee_1f1f6;  # IQ - Iraq
+	sub u1f1ee u1f1f7 by u1f1ee_1f1f7;  # IR - Iran
+	sub u1f1ee u1f1f8 by u1f1ee_1f1f8;  # IS - Iceland
+	sub u1f1ee u1f1f9 by u1f1ee_1f1f9;  # IT - Italy
+	sub u1f1ef u1f1ea by u1f1ef_1f1ea;  # JE - Jersey
+	sub u1f1ef u1f1f2 by u1f1ef_1f1f2;  # JM - Jamaica
+	sub u1f1ef u1f1f4 by u1f1ef_1f1f4;  # JO - Jordan
+	sub u1f1ef u1f1f5 by u1f1ef_1f1f5;  # JP - Japan
+	sub u1f1f0 u1f1ea by u1f1f0_1f1ea;  # KE - Kenya
+	sub u1f1f0 u1f1ec by u1f1f0_1f1ec;  # KG - Kyrgyzstan
+	sub u1f1f0 u1f1ed by u1f1f0_1f1ed;  # KH - Cambodia
+	sub u1f1f0 u1f1ee by u1f1f0_1f1ee;  # KI - Kiribati
+	sub u1f1f0 u1f1f2 by u1f1f0_1f1f2;  # KM - Comoros
+	sub u1f1f0 u1f1f3 by u1f1f0_1f1f3;  # KN - St. Kitts & Nevis
+	sub u1f1f0 u1f1f5 by u1f1f0_1f1f5;  # KP - North Korea
+	sub u1f1f0 u1f1f7 by u1f1f0_1f1f7;  # KR - South Korea
+	sub u1f1f0 u1f1fc by u1f1f0_1f1fc;  # KW - Kuwait
+	sub u1f1f0 u1f1fe by u1f1f0_1f1fe;  # KY - Cayman Islands
+	sub u1f1f0 u1f1ff by u1f1f0_1f1ff;  # KZ - Kazakhstan
+	sub u1f1f1 u1f1e6 by u1f1f1_1f1e6;  # LA - Laos
+	sub u1f1f1 u1f1e7 by u1f1f1_1f1e7;  # LB - Lebanon
+	sub u1f1f1 u1f1e8 by u1f1f1_1f1e8;  # LC - St. Lucia
+	sub u1f1f1 u1f1ee by u1f1f1_1f1ee;  # LI - Liechtenstein
+	sub u1f1f1 u1f1f0 by u1f1f1_1f1f0;  # LK - Sri Lanka
+	sub u1f1f1 u1f1f7 by u1f1f1_1f1f7;  # LR - Liberia
+	sub u1f1f1 u1f1f8 by u1f1f1_1f1f8;  # LS - Lesotho
+	sub u1f1f1 u1f1f9 by u1f1f1_1f1f9;  # LT - Lithuania
+	sub u1f1f1 u1f1fa by u1f1f1_1f1fa;  # LU - Luxembourg
+	sub u1f1f1 u1f1fb by u1f1f1_1f1fb;  # LV - Latvia
+	sub u1f1f1 u1f1fe by u1f1f1_1f1fe;  # LY - Libya
+	sub u1f1f2 u1f1e6 by u1f1f2_1f1e6;  # MA - Morocco
+	sub u1f1f2 u1f1e8 by u1f1f2_1f1e8;  # MC - Monaco
+	sub u1f1f2 u1f1e9 by u1f1f2_1f1e9;  # MD - Moldova
+	sub u1f1f2 u1f1ea by u1f1f2_1f1ea;  # ME - Montenegro
+	sub u1f1f2 u1f1eb by u1f1f2_1f1eb;  # MF - St. Martin
+	sub u1f1f2 u1f1ec by u1f1f2_1f1ec;  # MG - Madagascar
+	sub u1f1f2 u1f1ed by u1f1f2_1f1ed;  # MH - Marshall Islands
+	sub u1f1f2 u1f1f0 by u1f1f2_1f1f0;  # MK - North Macedonia
+	sub u1f1f2 u1f1f1 by u1f1f2_1f1f1;  # ML - Mali
+	sub u1f1f2 u1f1f2 by u1f1f2_1f1f2;  # MM - Myanmar (Burma)
+	sub u1f1f2 u1f1f3 by u1f1f2_1f1f3;  # MN - Mongolia
+	sub u1f1f2 u1f1f4 by u1f1f2_1f1f4;  # MO - Macao SAR China
+	sub u1f1f2 u1f1f5 by u1f1f2_1f1f5;  # MP - Northern Mariana Islands
+	sub u1f1f2 u1f1f6 by u1f1f2_1f1f6;  # MQ - Martinique
+	sub u1f1f2 u1f1f7 by u1f1f2_1f1f7;  # MR - Mauritania
+	sub u1f1f2 u1f1f8 by u1f1f2_1f1f8;  # MS - Montserrat
+	sub u1f1f2 u1f1f9 by u1f1f2_1f1f9;  # MT - Malta
+	sub u1f1f2 u1f1fa by u1f1f2_1f1fa;  # MU - Mauritius
+	sub u1f1f2 u1f1fb by u1f1f2_1f1fb;  # MV - Maldives
+	sub u1f1f2 u1f1fc by u1f1f2_1f1fc;  # MW - Malawi
+	sub u1f1f2 u1f1fd by u1f1f2_1f1fd;  # MX - Mexico
+	sub u1f1f2 u1f1fe by u1f1f2_1f1fe;  # MY - Malaysia
+	sub u1f1f2 u1f1ff by u1f1f2_1f1ff;  # MZ - Mozambique
+	sub u1f1f3 u1f1e6 by u1f1f3_1f1e6;  # NA - Namibia
+	sub u1f1f3 u1f1e8 by u1f1f3_1f1e8;  # NC - New Caledonia
+	sub u1f1f3 u1f1ea by u1f1f3_1f1ea;  # NE - Niger
+	sub u1f1f3 u1f1eb by u1f1f3_1f1eb;  # NF - Norfolk Island
+	sub u1f1f3 u1f1ec by u1f1f3_1f1ec;  # NG - Nigeria
+	sub u1f1f3 u1f1ee by u1f1f3_1f1ee;  # NI - Nicaragua
+	sub u1f1f3 u1f1f1 by u1f1f3_1f1f1;  # NL - Netherlands
+	sub u1f1f3 u1f1f4 by u1f1f3_1f1f4;  # NO - Norway
+	sub u1f1f3 u1f1f5 by u1f1f3_1f1f5;  # NP - Nepal
+	sub u1f1f3 u1f1f7 by u1f1f3_1f1f7;  # NR - Nauru
+	sub u1f1f3 u1f1fa by u1f1f3_1f1fa;  # NU - Niue
+	sub u1f1f3 u1f1ff by u1f1f3_1f1ff;  # NZ - New Zealand
+	sub u1f1f4 u1f1f2 by u1f1f4_1f1f2;  # OM - Oman
+	sub u1f1f5 u1f1e6 by u1f1f5_1f1e6;  # PA - Panama
+	sub u1f1f5 u1f1ea by u1f1f5_1f1ea;  # PE - Peru
+	sub u1f1f5 u1f1eb by u1f1f5_1f1eb;  # PF - French Polynesia
+	sub u1f1f5 u1f1ec by u1f1f5_1f1ec;  # PG - Papua New Guinea
+	sub u1f1f5 u1f1ed by u1f1f5_1f1ed;  # PH - Philippines
+	sub u1f1f5 u1f1f0 by u1f1f5_1f1f0;  # PK - Pakistan
+	sub u1f1f5 u1f1f1 by u1f1f5_1f1f1;  # PL - Poland
+	sub u1f1f5 u1f1f2 by u1f1f5_1f1f2;  # PM - St. Pierre & Miquelon
+	sub u1f1f5 u1f1f3 by u1f1f5_1f1f3;  # PN - Pitcairn Islands
+	sub u1f1f5 u1f1f7 by u1f1f5_1f1f7;  # PR - Puerto Rico
+	sub u1f1f5 u1f1f8 by u1f1f5_1f1f8;  # PS - Palestinian Territories
+	sub u1f1f5 u1f1f9 by u1f1f5_1f1f9;  # PT - Portugal
+	sub u1f1f5 u1f1fc by u1f1f5_1f1fc;  # PW - Palau
+	sub u1f1f5 u1f1fe by u1f1f5_1f1fe;  # PY - Paraguay
+	sub u1f1f6 u1f1e6 by u1f1f6_1f1e6;  # QA - Qatar
+	sub u1f1f7 u1f1ea by u1f1f7_1f1ea;  # RE - Réunion
+	sub u1f1f7 u1f1f4 by u1f1f7_1f1f4;  # RO - Romania
+	sub u1f1f7 u1f1f8 by u1f1f7_1f1f8;  # RS - Serbia
+	sub u1f1f7 u1f1fa by u1f1f7_1f1fa;  # RU - Russia
+	sub u1f1f7 u1f1fc by u1f1f7_1f1fc;  # RW - Rwanda
+	sub u1f1f8 u1f1e6 by u1f1f8_1f1e6;  # SA - Saudi Arabia
+	sub u1f1f8 u1f1e7 by u1f1f8_1f1e7;  # SB - Solomon Islands
+	sub u1f1f8 u1f1e8 by u1f1f8_1f1e8;  # SC - Seychelles
+	sub u1f1f8 u1f1e9 by u1f1f8_1f1e9;  # SD - Sudan
+	sub u1f1f8 u1f1ea by u1f1f8_1f1ea;  # SE - Sweden
+	sub u1f1f8 u1f1ec by u1f1f8_1f1ec;  # SG - Singapore
+	sub u1f1f8 u1f1ed by u1f1f8_1f1ed;  # SH - St. Helena
+	sub u1f1f8 u1f1ee by u1f1f8_1f1ee;  # SI - Slovenia
+	sub u1f1f8 u1f1ef by u1f1f8_1f1ef;  # SJ - Svalbard & Jan Mayen
+	sub u1f1f8 u1f1f0 by u1f1f8_1f1f0;  # SK - Slovakia
+	sub u1f1f8 u1f1f1 by u1f1f8_1f1f1;  # SL - Sierra Leone
+	sub u1f1f8 u1f1f2 by u1f1f8_1f1f2;  # SM - San Marino
+	sub u1f1f8 u1f1f3 by u1f1f8_1f1f3;  # SN - Senegal
+	sub u1f1f8 u1f1f4 by u1f1f8_1f1f4;  # SO - Somalia
+	sub u1f1f8 u1f1f7 by u1f1f8_1f1f7;  # SR - Suriname
+	sub u1f1f8 u1f1f8 by u1f1f8_1f1f8;  # SS - South Sudan
+	sub u1f1f8 u1f1f9 by u1f1f8_1f1f9;  # ST - São Tomé & Príncipe
+	sub u1f1f8 u1f1fb by u1f1f8_1f1fb;  # SV - El Salvador
+	sub u1f1f8 u1f1fd by u1f1f8_1f1fd;  # SX - Sint Maarten
+	sub u1f1f8 u1f1fe by u1f1f8_1f1fe;  # SY - Syria
+	sub u1f1f8 u1f1ff by u1f1f8_1f1ff;  # SZ - Eswatini
+	sub u1f1f9 u1f1e6 by u1f1f9_1f1e6;  # TA - Tristan da Cunha
+	sub u1f1f9 u1f1e8 by u1f1f9_1f1e8;  # TC - Turks & Caicos Islands
+	sub u1f1f9 u1f1e9 by u1f1f9_1f1e9;  # TD - Chad
+	sub u1f1f9 u1f1eb by u1f1f9_1f1eb;  # TF - French Southern Territories
+	sub u1f1f9 u1f1ec by u1f1f9_1f1ec;  # TG - Togo
+	sub u1f1f9 u1f1ed by u1f1f9_1f1ed;  # TH - Thailand
+	sub u1f1f9 u1f1ef by u1f1f9_1f1ef;  # TJ - Tajikistan
+	sub u1f1f9 u1f1f0 by u1f1f9_1f1f0;  # TK - Tokelau
+	sub u1f1f9 u1f1f1 by u1f1f9_1f1f1;  # TL - Timor-Leste
+	sub u1f1f9 u1f1f2 by u1f1f9_1f1f2;  # TM - Turkmenistan
+	sub u1f1f9 u1f1f3 by u1f1f9_1f1f3;  # TN - Tunisia
+	sub u1f1f9 u1f1f4 by u1f1f9_1f1f4;  # TO - Tonga
+	sub u1f1f9 u1f1f7 by u1f1f9_1f1f7;  # TR - Turkey
+	sub u1f1f9 u1f1f9 by u1f1f9_1f1f9;  # TT - Trinidad & Tobago
+	sub u1f1f9 u1f1fb by u1f1f9_1f1fb;  # TV - Tuvalu
+	sub u1f1f9 u1f1fc by u1f1f9_1f1fc;  # TW - Taiwan
+	sub u1f1f9 u1f1ff by u1f1f9_1f1ff;  # TZ - Tanzania
+	sub u1f1fa u1f1e6 by u1f1fa_1f1e6;  # UA - Ukraine
+	sub u1f1fa u1f1ec by u1f1fa_1f1ec;  # UG - Uganda
+	sub u1f1fa u1f1f2 by u1f1fa_1f1f2;  # UM - U.S. Outlying Islands
+	sub u1f1fa u1f1f3 by u1f1fa_1f1f3;  # UN - United Nations
+	sub u1f1fa u1f1f8 by u1f1fa_1f1f8;  # US - United States
+	sub u1f1fa u1f1fe by u1f1fa_1f1fe;  # UY - Uruguay
+	sub u1f1fa u1f1ff by u1f1fa_1f1ff;  # UZ - Uzbekistan
+	sub u1f1fb u1f1e6 by u1f1fb_1f1e6;  # VA - Vatican City
+	sub u1f1fb u1f1e8 by u1f1fb_1f1e8;  # VC - St. Vincent & Grenadines
+	sub u1f1fb u1f1ea by u1f1fb_1f1ea;  # VE - Venezuela
+	sub u1f1fb u1f1ec by u1f1fb_1f1ec;  # VG - British Virgin Islands
+	sub u1f1fb u1f1ee by u1f1fb_1f1ee;  # VI - U.S. Virgin Islands
+	sub u1f1fb u1f1f3 by u1f1fb_1f1f3;  # VN - Vietnam
+	sub u1f1fb u1f1fa by u1f1fb_1f1fa;  # VU - Vanuatu
+	sub u1f1fc u1f1eb by u1f1fc_1f1eb;  # WF - Wallis & Futuna
+	sub u1f1fc u1f1f8 by u1f1fc_1f1f8;  # WS - Samoa
+	sub u1f1fd u1f1f0 by u1f1fd_1f1f0;  # XK - Kosovo
+	sub u1f1fe u1f1ea by u1f1fe_1f1ea;  # YE - Yemen
+	sub u1f1fe u1f1f9 by u1f1fe_1f1f9;  # YT - Mayotte
+	sub u1f1ff u1f1e6 by u1f1ff_1f1e6;  # ZA - South Africa
+	sub u1f1ff u1f1f2 by u1f1ff_1f1f2;  # ZM - Zambia
+	sub u1f1ff u1f1fc by u1f1ff_1f1fc;  # ZW - Zimbabwe
 
 	# subdivision-flag
+	sub u1f3f4 ue0067 ue0062 ue0065 ue006e ue0067 ue007f by u1f3f4_e0067_e0062_e0065_e006_0;  # GB-ENG - England
+	sub u1f3f4 ue0067 ue0062 ue0073 ue0063 ue0074 ue007f by u1f3f4_e0067_e0062_e0073_e006_0;  # GB-SCT - Scotland
+	sub u1f3f4 ue0067 ue0062 ue0077 ue006c ue0073 ue007f by u1f3f4_e0067_e0062_e0077_e006_0;  # GB-WLS - Wales
 
 } ccmp;
