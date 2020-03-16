@@ -30,11 +30,11 @@ and configure the repository with this command,
 
 To build the **black-and-white font** use the following command,
 
-	python3 make_bw_font.py -o fonts -r x.xxx --gsub GSUB.fea --gpos GPOS.fea --uvs UVS.txt svg_bw
+	python3 make_bw_font.py -o fonts -r x.xxx --gsub GSUB.fea --gpos GPOS.fea --uvs UVS.txt svg_bw flags_bw
 
 and to build the **color font** use the following command,
 
-	python3 make_svg_font.py -z -r x.xxx svg fonts/NotoEmoji.otf -v
+	python3 make_svg_font.py -z -r x.xxx svg flags fonts/NotoEmoji.otf -v
 
 where `x.xxx` is the version number to be assigned to the font (e.g `1.082`).
 
@@ -90,7 +90,7 @@ As with the HTML test document, it's possible to generate a subset file named
 Aliases/symbolic links are used extensively to avoid having multiple copies of the
 same artwork.
 
-To generate **black-and-white aliases** run this command:
+To generate **SVG black-and-white aliases** run this command:
 
 	python3 make_aliases.py emoji_bw_aliases.txt svg_bw
 
@@ -102,6 +102,17 @@ To generate **PNG color aliases** run this command:
 
 	python3 make_aliases.py emoji_color_aliases.txt png
 
+To generate **SVG black-and-white flag aliases** run this command:
+
+	python3 make_aliases.py flag_bw_aliases.txt flags_bw
+
+To generate **SVG color flag aliases** run this command:
+
+	python3 make_aliases.py flag_color_aliases.txt flags
+
+To generate **PNG color flag aliases** run this command:
+
+	python3 make_aliases.py flag_color_aliases.txt flags_png
 
 ## Generating PNG and SVG files
 
