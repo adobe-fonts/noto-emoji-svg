@@ -1,0 +1,20 @@
+# alias table
+# from;to
+# the 'from' sequence should be represented by the image for the 'to' sequence
+# 'fe0f' is not in these sequences
+
+1f1eb_1f1f7;1f1e7_1f1f1 # France; Saint Barthélemy
+1f1eb_1f1f7;1f1e8_1f1f5 #         Clipperton Island
+1f1eb_1f1f7;1f1f2_1f1eb #         Saint Martin
+1f1eb_1f1f7;1f1f7_1f1ea #         Réunion
+1f1eb_1f1f7;1f1f9_1f1eb #         French Southern Territories
+
+1f1f3_1f1f4;1f1e7_1f1fb # Norway; Bouvet Island
+1f1f3_1f1f4;1f1f8_1f1ef #         Svalbard & Jan Mayen
+
+1f1e6_1f1fa;1f1ed_1f1f2 # Australia; Heard & McDonald Islands
+1f1ea_1f1f8;1f1ea_1f1e6 # Spain; Ceuta & Melilla
+1f1ee_1f1f4;1f1e9_1f1ec # British Indian Ocean Territory; Diego Garcia
+1f1f3_1f1f1;1f1e7_1f1f6 # Caribbean Netherlands
+1f1f7_1f1f4;1f1f9_1f1e9 # Romania; Chad
+1f1fa_1f1f8;1f1fa_1f1f2 # United States Minor Outlying Islands
