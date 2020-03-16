@@ -8,345 +8,267 @@
 ############################################
 
 
-# Bug fixes ================================================
+# subgroup: country-flag
+1F1E6 1F1E8                                ; fully-qualified     # 🇦🇨 E2.0 flag: Ascension Island
+1F1E6 1F1E9                                ; fully-qualified     # 🇦🇩 E2.0 flag: Andorra
+1F1E6 1F1EA                                ; fully-qualified     # 🇦🇪 E2.0 flag: United Arab Emirates
+1F1E6 1F1EB                                ; fully-qualified     # 🇦🇫 E2.0 flag: Afghanistan
+1F1E6 1F1EC                                ; fully-qualified     # 🇦🇬 E2.0 flag: Antigua & Barbuda
+1F1E6 1F1EE                                ; fully-qualified     # 🇦🇮 E2.0 flag: Anguilla
+1F1E6 1F1F1                                ; fully-qualified     # 🇦🇱 E2.0 flag: Albania
+1F1E6 1F1F2                                ; fully-qualified     # 🇦🇲 E2.0 flag: Armenia
+1F1E6 1F1F4                                ; fully-qualified     # 🇦🇴 E2.0 flag: Angola
+1F1E6 1F1F6                                ; fully-qualified     # 🇦🇶 E2.0 flag: Antarctica
+1F1E6 1F1F7                                ; fully-qualified     # 🇦🇷 E2.0 flag: Argentina
+1F1E6 1F1F8                                ; fully-qualified     # 🇦🇸 E2.0 flag: American Samoa
+1F1E6 1F1F9                                ; fully-qualified     # 🇦🇹 E2.0 flag: Austria
+1F1E6 1F1FA                                ; fully-qualified     # 🇦🇺 E2.0 flag: Australia
+1F1E6 1F1FC                                ; fully-qualified     # 🇦🇼 E2.0 flag: Aruba
+1F1E6 1F1FD                                ; fully-qualified     # 🇦🇽 E2.0 flag: Åland Islands
+1F1E6 1F1FF                                ; fully-qualified     # 🇦🇿 E2.0 flag: Azerbaijan
+1F1E7 1F1E6                                ; fully-qualified     # 🇧🇦 E2.0 flag: Bosnia & Herzegovina
+1F1E7 1F1E7                                ; fully-qualified     # 🇧🇧 E2.0 flag: Barbados
+1F1E7 1F1E9                                ; fully-qualified     # 🇧🇩 E2.0 flag: Bangladesh
+1F1E7 1F1EA                                ; fully-qualified     # 🇧🇪 E2.0 flag: Belgium
+1F1E7 1F1EB                                ; fully-qualified     # 🇧🇫 E2.0 flag: Burkina Faso
+1F1E7 1F1EC                                ; fully-qualified     # 🇧🇬 E2.0 flag: Bulgaria
+1F1E7 1F1ED                                ; fully-qualified     # 🇧🇭 E2.0 flag: Bahrain
+1F1E7 1F1EE                                ; fully-qualified     # 🇧🇮 E2.0 flag: Burundi
+1F1E7 1F1EF                                ; fully-qualified     # 🇧🇯 E2.0 flag: Benin
+1F1E7 1F1F1                                ; fully-qualified     # 🇧🇱 E2.0 flag: St. Barthélemy
+1F1E7 1F1F2                                ; fully-qualified     # 🇧🇲 E2.0 flag: Bermuda
+1F1E7 1F1F3                                ; fully-qualified     # 🇧🇳 E2.0 flag: Brunei
+1F1E7 1F1F4                                ; fully-qualified     # 🇧🇴 E2.0 flag: Bolivia
+1F1E7 1F1F6                                ; fully-qualified     # 🇧🇶 E2.0 flag: Caribbean Netherlands
+1F1E7 1F1F7                                ; fully-qualified     # 🇧🇷 E2.0 flag: Brazil
+1F1E7 1F1F8                                ; fully-qualified     # 🇧🇸 E2.0 flag: Bahamas
+1F1E7 1F1F9                                ; fully-qualified     # 🇧🇹 E2.0 flag: Bhutan
+1F1E7 1F1FB                                ; fully-qualified     # 🇧🇻 E2.0 flag: Bouvet Island
+1F1E7 1F1FC                                ; fully-qualified     # 🇧🇼 E2.0 flag: Botswana
+1F1E7 1F1FE                                ; fully-qualified     # 🇧🇾 E2.0 flag: Belarus
+1F1E7 1F1FF                                ; fully-qualified     # 🇧🇿 E2.0 flag: Belize
+1F1E8 1F1E6                                ; fully-qualified     # 🇨🇦 E2.0 flag: Canada
+1F1E8 1F1E8                                ; fully-qualified     # 🇨🇨 E2.0 flag: Cocos (Keeling) Islands
+1F1E8 1F1E9                                ; fully-qualified     # 🇨🇩 E2.0 flag: Congo - Kinshasa
+1F1E8 1F1EB                                ; fully-qualified     # 🇨🇫 E2.0 flag: Central African Republic
+1F1E8 1F1EC                                ; fully-qualified     # 🇨🇬 E2.0 flag: Congo - Brazzaville
+1F1E8 1F1ED                                ; fully-qualified     # 🇨🇭 E2.0 flag: Switzerland
+1F1E8 1F1EE                                ; fully-qualified     # 🇨🇮 E2.0 flag: Côte d’Ivoire
+1F1E8 1F1F0                                ; fully-qualified     # 🇨🇰 E2.0 flag: Cook Islands
+1F1E8 1F1F1                                ; fully-qualified     # 🇨🇱 E2.0 flag: Chile
+1F1E8 1F1F2                                ; fully-qualified     # 🇨🇲 E2.0 flag: Cameroon
+1F1E8 1F1F3                                ; fully-qualified     # 🇨🇳 E2.0 flag: China
+1F1E8 1F1F4                                ; fully-qualified     # 🇨🇴 E2.0 flag: Colombia
+1F1E8 1F1F5                                ; fully-qualified     # 🇨🇵 E2.0 flag: Clipperton Island
+1F1E8 1F1F7                                ; fully-qualified     # 🇨🇷 E2.0 flag: Costa Rica
+1F1E8 1F1FA                                ; fully-qualified     # 🇨🇺 E2.0 flag: Cuba
+1F1E8 1F1FB                                ; fully-qualified     # 🇨🇻 E2.0 flag: Cape Verde
+1F1E8 1F1FC                                ; fully-qualified     # 🇨🇼 E2.0 flag: Curaçao
+1F1E8 1F1FD                                ; fully-qualified     # 🇨🇽 E2.0 flag: Christmas Island
+1F1E8 1F1FE                                ; fully-qualified     # 🇨🇾 E2.0 flag: Cyprus
+1F1E8 1F1FF                                ; fully-qualified     # 🇨🇿 E2.0 flag: Czechia
+1F1E9 1F1EA                                ; fully-qualified     # 🇩🇪 E2.0 flag: Germany
+1F1E9 1F1EC                                ; fully-qualified     # 🇩🇬 E2.0 flag: Diego Garcia
+1F1E9 1F1EF                                ; fully-qualified     # 🇩🇯 E2.0 flag: Djibouti
+1F1E9 1F1F0                                ; fully-qualified     # 🇩🇰 E2.0 flag: Denmark
+1F1E9 1F1F2                                ; fully-qualified     # 🇩🇲 E2.0 flag: Dominica
+1F1E9 1F1F4                                ; fully-qualified     # 🇩🇴 E2.0 flag: Dominican Republic
+1F1E9 1F1FF                                ; fully-qualified     # 🇩🇿 E2.0 flag: Algeria
+1F1EA 1F1E6                                ; fully-qualified     # 🇪🇦 E2.0 flag: Ceuta & Melilla
+1F1EA 1F1E8                                ; fully-qualified     # 🇪🇨 E2.0 flag: Ecuador
+1F1EA 1F1EA                                ; fully-qualified     # 🇪🇪 E2.0 flag: Estonia
+1F1EA 1F1EC                                ; fully-qualified     # 🇪🇬 E2.0 flag: Egypt
+1F1EA 1F1ED                                ; fully-qualified     # 🇪🇭 E2.0 flag: Western Sahara
+1F1EA 1F1F7                                ; fully-qualified     # 🇪🇷 E2.0 flag: Eritrea
+1F1EA 1F1F8                                ; fully-qualified     # 🇪🇸 E2.0 flag: Spain
+1F1EA 1F1F9                                ; fully-qualified     # 🇪🇹 E2.0 flag: Ethiopia
+1F1EA 1F1FA                                ; fully-qualified     # 🇪🇺 E2.0 flag: European Union
+1F1EB 1F1EE                                ; fully-qualified     # 🇫🇮 E2.0 flag: Finland
+1F1EB 1F1EF                                ; fully-qualified     # 🇫🇯 E2.0 flag: Fiji
+1F1EB 1F1F0                                ; fully-qualified     # 🇫🇰 E2.0 flag: Falkland Islands
+1F1EB 1F1F2                                ; fully-qualified     # 🇫🇲 E2.0 flag: Micronesia
+1F1EB 1F1F4                                ; fully-qualified     # 🇫🇴 E2.0 flag: Faroe Islands
+1F1EB 1F1F7                                ; fully-qualified     # 🇫🇷 E2.0 flag: France
+1F1EC 1F1E6                                ; fully-qualified     # 🇬🇦 E2.0 flag: Gabon
+1F1EC 1F1E7                                ; fully-qualified     # 🇬🇧 E2.0 flag: United Kingdom
+1F1EC 1F1E9                                ; fully-qualified     # 🇬🇩 E2.0 flag: Grenada
+1F1EC 1F1EA                                ; fully-qualified     # 🇬🇪 E2.0 flag: Georgia
+1F1EC 1F1EB                                ; fully-qualified     # 🇬🇫 E2.0 flag: French Guiana
+1F1EC 1F1EC                                ; fully-qualified     # 🇬🇬 E2.0 flag: Guernsey
+1F1EC 1F1ED                                ; fully-qualified     # 🇬🇭 E2.0 flag: Ghana
+1F1EC 1F1EE                                ; fully-qualified     # 🇬🇮 E2.0 flag: Gibraltar
+1F1EC 1F1F1                                ; fully-qualified     # 🇬🇱 E2.0 flag: Greenland
+1F1EC 1F1F2                                ; fully-qualified     # 🇬🇲 E2.0 flag: Gambia
+1F1EC 1F1F3                                ; fully-qualified     # 🇬🇳 E2.0 flag: Guinea
+1F1EC 1F1F5                                ; fully-qualified     # 🇬🇵 E2.0 flag: Guadeloupe
+1F1EC 1F1F6                                ; fully-qualified     # 🇬🇶 E2.0 flag: Equatorial Guinea
+1F1EC 1F1F7                                ; fully-qualified     # 🇬🇷 E2.0 flag: Greece
+1F1EC 1F1F8                                ; fully-qualified     # 🇬🇸 E2.0 flag: South Georgia & South Sandwich Islands
+1F1EC 1F1F9                                ; fully-qualified     # 🇬🇹 E2.0 flag: Guatemala
+1F1EC 1F1FA                                ; fully-qualified     # 🇬🇺 E2.0 flag: Guam
+1F1EC 1F1FC                                ; fully-qualified     # 🇬🇼 E2.0 flag: Guinea-Bissau
+1F1EC 1F1FE                                ; fully-qualified     # 🇬🇾 E2.0 flag: Guyana
+1F1ED 1F1F0                                ; fully-qualified     # 🇭🇰 E2.0 flag: Hong Kong SAR China
+1F1ED 1F1F2                                ; fully-qualified     # 🇭🇲 E2.0 flag: Heard & McDonald Islands
+1F1ED 1F1F3                                ; fully-qualified     # 🇭🇳 E2.0 flag: Honduras
+1F1ED 1F1F7                                ; fully-qualified     # 🇭🇷 E2.0 flag: Croatia
+1F1ED 1F1F9                                ; fully-qualified     # 🇭🇹 E2.0 flag: Haiti
+1F1ED 1F1FA                                ; fully-qualified     # 🇭🇺 E2.0 flag: Hungary
+1F1EE 1F1E8                                ; fully-qualified     # 🇮🇨 E2.0 flag: Canary Islands
+1F1EE 1F1E9                                ; fully-qualified     # 🇮🇩 E2.0 flag: Indonesia
+1F1EE 1F1EA                                ; fully-qualified     # 🇮🇪 E2.0 flag: Ireland
+1F1EE 1F1F1                                ; fully-qualified     # 🇮🇱 E2.0 flag: Israel
+1F1EE 1F1F2                                ; fully-qualified     # 🇮🇲 E2.0 flag: Isle of Man
+1F1EE 1F1F3                                ; fully-qualified     # 🇮🇳 E2.0 flag: India
+1F1EE 1F1F4                                ; fully-qualified     # 🇮🇴 E2.0 flag: British Indian Ocean Territory
+1F1EE 1F1F6                                ; fully-qualified     # 🇮🇶 E2.0 flag: Iraq
+1F1EE 1F1F7                                ; fully-qualified     # 🇮🇷 E2.0 flag: Iran
+1F1EE 1F1F8                                ; fully-qualified     # 🇮🇸 E2.0 flag: Iceland
+1F1EE 1F1F9                                ; fully-qualified     # 🇮🇹 E2.0 flag: Italy
+1F1EF 1F1EA                                ; fully-qualified     # 🇯🇪 E2.0 flag: Jersey
+1F1EF 1F1F2                                ; fully-qualified     # 🇯🇲 E2.0 flag: Jamaica
+1F1EF 1F1F4                                ; fully-qualified     # 🇯🇴 E2.0 flag: Jordan
+1F1EF 1F1F5                                ; fully-qualified     # 🇯🇵 E2.0 flag: Japan
+1F1F0 1F1EA                                ; fully-qualified     # 🇰🇪 E2.0 flag: Kenya
+1F1F0 1F1EC                                ; fully-qualified     # 🇰🇬 E2.0 flag: Kyrgyzstan
+1F1F0 1F1ED                                ; fully-qualified     # 🇰🇭 E2.0 flag: Cambodia
+1F1F0 1F1EE                                ; fully-qualified     # 🇰🇮 E2.0 flag: Kiribati
+1F1F0 1F1F2                                ; fully-qualified     # 🇰🇲 E2.0 flag: Comoros
+1F1F0 1F1F3                                ; fully-qualified     # 🇰🇳 E2.0 flag: St. Kitts & Nevis
+1F1F0 1F1F5                                ; fully-qualified     # 🇰🇵 E2.0 flag: North Korea
+1F1F0 1F1F7                                ; fully-qualified     # 🇰🇷 E2.0 flag: South Korea
+1F1F0 1F1FC                                ; fully-qualified     # 🇰🇼 E2.0 flag: Kuwait
+1F1F0 1F1FE                                ; fully-qualified     # 🇰🇾 E2.0 flag: Cayman Islands
+1F1F0 1F1FF                                ; fully-qualified     # 🇰🇿 E2.0 flag: Kazakhstan
+1F1F1 1F1E6                                ; fully-qualified     # 🇱🇦 E2.0 flag: Laos
+1F1F1 1F1E7                                ; fully-qualified     # 🇱🇧 E2.0 flag: Lebanon
+1F1F1 1F1E8                                ; fully-qualified     # 🇱🇨 E2.0 flag: St. Lucia
+1F1F1 1F1EE                                ; fully-qualified     # 🇱🇮 E2.0 flag: Liechtenstein
+1F1F1 1F1F0                                ; fully-qualified     # 🇱🇰 E2.0 flag: Sri Lanka
+1F1F1 1F1F7                                ; fully-qualified     # 🇱🇷 E2.0 flag: Liberia
+1F1F1 1F1F8                                ; fully-qualified     # 🇱🇸 E2.0 flag: Lesotho
+1F1F1 1F1F9                                ; fully-qualified     # 🇱🇹 E2.0 flag: Lithuania
+1F1F1 1F1FA                                ; fully-qualified     # 🇱🇺 E2.0 flag: Luxembourg
+1F1F1 1F1FB                                ; fully-qualified     # 🇱🇻 E2.0 flag: Latvia
+1F1F1 1F1FE                                ; fully-qualified     # 🇱🇾 E2.0 flag: Libya
+1F1F2 1F1E6                                ; fully-qualified     # 🇲🇦 E2.0 flag: Morocco
+1F1F2 1F1E8                                ; fully-qualified     # 🇲🇨 E2.0 flag: Monaco
+1F1F2 1F1E9                                ; fully-qualified     # 🇲🇩 E2.0 flag: Moldova
+1F1F2 1F1EA                                ; fully-qualified     # 🇲🇪 E2.0 flag: Montenegro
+1F1F2 1F1EB                                ; fully-qualified     # 🇲🇫 E2.0 flag: St. Martin
+1F1F2 1F1EC                                ; fully-qualified     # 🇲🇬 E2.0 flag: Madagascar
+1F1F2 1F1ED                                ; fully-qualified     # 🇲🇭 E2.0 flag: Marshall Islands
+1F1F2 1F1F0                                ; fully-qualified     # 🇲🇰 E2.0 flag: North Macedonia
+1F1F2 1F1F1                                ; fully-qualified     # 🇲🇱 E2.0 flag: Mali
+1F1F2 1F1F2                                ; fully-qualified     # 🇲🇲 E2.0 flag: Myanmar (Burma)
+1F1F2 1F1F3                                ; fully-qualified     # 🇲🇳 E2.0 flag: Mongolia
+1F1F2 1F1F4                                ; fully-qualified     # 🇲🇴 E2.0 flag: Macao SAR China
+1F1F2 1F1F5                                ; fully-qualified     # 🇲🇵 E2.0 flag: Northern Mariana Islands
+1F1F2 1F1F6                                ; fully-qualified     # 🇲🇶 E2.0 flag: Martinique
+1F1F2 1F1F7                                ; fully-qualified     # 🇲🇷 E2.0 flag: Mauritania
+1F1F2 1F1F8                                ; fully-qualified     # 🇲🇸 E2.0 flag: Montserrat
+1F1F2 1F1F9                                ; fully-qualified     # 🇲🇹 E2.0 flag: Malta
+1F1F2 1F1FA                                ; fully-qualified     # 🇲🇺 E2.0 flag: Mauritius
+1F1F2 1F1FB                                ; fully-qualified     # 🇲🇻 E2.0 flag: Maldives
+1F1F2 1F1FC                                ; fully-qualified     # 🇲🇼 E2.0 flag: Malawi
+1F1F2 1F1FD                                ; fully-qualified     # 🇲🇽 E2.0 flag: Mexico
+1F1F2 1F1FE                                ; fully-qualified     # 🇲🇾 E2.0 flag: Malaysia
+1F1F2 1F1FF                                ; fully-qualified     # 🇲🇿 E2.0 flag: Mozambique
+1F1F3 1F1E6                                ; fully-qualified     # 🇳🇦 E2.0 flag: Namibia
+1F1F3 1F1E8                                ; fully-qualified     # 🇳🇨 E2.0 flag: New Caledonia
+1F1F3 1F1EA                                ; fully-qualified     # 🇳🇪 E2.0 flag: Niger
+1F1F3 1F1EB                                ; fully-qualified     # 🇳🇫 E2.0 flag: Norfolk Island
+1F1F3 1F1EC                                ; fully-qualified     # 🇳🇬 E2.0 flag: Nigeria
+1F1F3 1F1EE                                ; fully-qualified     # 🇳🇮 E2.0 flag: Nicaragua
+1F1F3 1F1F1                                ; fully-qualified     # 🇳🇱 E2.0 flag: Netherlands
+1F1F3 1F1F4                                ; fully-qualified     # 🇳🇴 E2.0 flag: Norway
+1F1F3 1F1F5                                ; fully-qualified     # 🇳🇵 E2.0 flag: Nepal
+1F1F3 1F1F7                                ; fully-qualified     # 🇳🇷 E2.0 flag: Nauru
+1F1F3 1F1FA                                ; fully-qualified     # 🇳🇺 E2.0 flag: Niue
+1F1F3 1F1FF                                ; fully-qualified     # 🇳🇿 E2.0 flag: New Zealand
+1F1F4 1F1F2                                ; fully-qualified     # 🇴🇲 E2.0 flag: Oman
+1F1F5 1F1E6                                ; fully-qualified     # 🇵🇦 E2.0 flag: Panama
+1F1F5 1F1EA                                ; fully-qualified     # 🇵🇪 E2.0 flag: Peru
+1F1F5 1F1EB                                ; fully-qualified     # 🇵🇫 E2.0 flag: French Polynesia
+1F1F5 1F1EC                                ; fully-qualified     # 🇵🇬 E2.0 flag: Papua New Guinea
+1F1F5 1F1ED                                ; fully-qualified     # 🇵🇭 E2.0 flag: Philippines
+1F1F5 1F1F0                                ; fully-qualified     # 🇵🇰 E2.0 flag: Pakistan
+1F1F5 1F1F1                                ; fully-qualified     # 🇵🇱 E2.0 flag: Poland
+1F1F5 1F1F2                                ; fully-qualified     # 🇵🇲 E2.0 flag: St. Pierre & Miquelon
+1F1F5 1F1F3                                ; fully-qualified     # 🇵🇳 E2.0 flag: Pitcairn Islands
+1F1F5 1F1F7                                ; fully-qualified     # 🇵🇷 E2.0 flag: Puerto Rico
+1F1F5 1F1F8                                ; fully-qualified     # 🇵🇸 E2.0 flag: Palestinian Territories
+1F1F5 1F1F9                                ; fully-qualified     # 🇵🇹 E2.0 flag: Portugal
+1F1F5 1F1FC                                ; fully-qualified     # 🇵🇼 E2.0 flag: Palau
+1F1F5 1F1FE                                ; fully-qualified     # 🇵🇾 E2.0 flag: Paraguay
+1F1F6 1F1E6                                ; fully-qualified     # 🇶🇦 E2.0 flag: Qatar
+1F1F7 1F1EA                                ; fully-qualified     # 🇷🇪 E2.0 flag: Réunion
+1F1F7 1F1F4                                ; fully-qualified     # 🇷🇴 E2.0 flag: Romania
+1F1F7 1F1F8                                ; fully-qualified     # 🇷🇸 E2.0 flag: Serbia
+1F1F7 1F1FA                                ; fully-qualified     # 🇷🇺 E2.0 flag: Russia
+1F1F7 1F1FC                                ; fully-qualified     # 🇷🇼 E2.0 flag: Rwanda
+1F1F8 1F1E6                                ; fully-qualified     # 🇸🇦 E2.0 flag: Saudi Arabia
+1F1F8 1F1E7                                ; fully-qualified     # 🇸🇧 E2.0 flag: Solomon Islands
+1F1F8 1F1E8                                ; fully-qualified     # 🇸🇨 E2.0 flag: Seychelles
+1F1F8 1F1E9                                ; fully-qualified     # 🇸🇩 E2.0 flag: Sudan
+1F1F8 1F1EA                                ; fully-qualified     # 🇸🇪 E2.0 flag: Sweden
+1F1F8 1F1EC                                ; fully-qualified     # 🇸🇬 E2.0 flag: Singapore
+1F1F8 1F1ED                                ; fully-qualified     # 🇸🇭 E2.0 flag: St. Helena
+1F1F8 1F1EE                                ; fully-qualified     # 🇸🇮 E2.0 flag: Slovenia
+1F1F8 1F1EF                                ; fully-qualified     # 🇸🇯 E2.0 flag: Svalbard & Jan Mayen
+1F1F8 1F1F0                                ; fully-qualified     # 🇸🇰 E2.0 flag: Slovakia
+1F1F8 1F1F1                                ; fully-qualified     # 🇸🇱 E2.0 flag: Sierra Leone
+1F1F8 1F1F2                                ; fully-qualified     # 🇸🇲 E2.0 flag: San Marino
+1F1F8 1F1F3                                ; fully-qualified     # 🇸🇳 E2.0 flag: Senegal
+1F1F8 1F1F4                                ; fully-qualified     # 🇸🇴 E2.0 flag: Somalia
+1F1F8 1F1F7                                ; fully-qualified     # 🇸🇷 E2.0 flag: Suriname
+1F1F8 1F1F8                                ; fully-qualified     # 🇸🇸 E2.0 flag: South Sudan
+1F1F8 1F1F9                                ; fully-qualified     # 🇸🇹 E2.0 flag: São Tomé & Príncipe
+1F1F8 1F1FB                                ; fully-qualified     # 🇸🇻 E2.0 flag: El Salvador
+1F1F8 1F1FD                                ; fully-qualified     # 🇸🇽 E2.0 flag: Sint Maarten
+1F1F8 1F1FE                                ; fully-qualified     # 🇸🇾 E2.0 flag: Syria
+1F1F8 1F1FF                                ; fully-qualified     # 🇸🇿 E2.0 flag: Eswatini
+1F1F9 1F1E6                                ; fully-qualified     # 🇹🇦 E2.0 flag: Tristan da Cunha
+1F1F9 1F1E8                                ; fully-qualified     # 🇹🇨 E2.0 flag: Turks & Caicos Islands
+1F1F9 1F1E9                                ; fully-qualified     # 🇹🇩 E2.0 flag: Chad
+1F1F9 1F1EB                                ; fully-qualified     # 🇹🇫 E2.0 flag: French Southern Territories
+1F1F9 1F1EC                                ; fully-qualified     # 🇹🇬 E2.0 flag: Togo
+1F1F9 1F1ED                                ; fully-qualified     # 🇹🇭 E2.0 flag: Thailand
+1F1F9 1F1EF                                ; fully-qualified     # 🇹🇯 E2.0 flag: Tajikistan
+1F1F9 1F1F0                                ; fully-qualified     # 🇹🇰 E2.0 flag: Tokelau
+1F1F9 1F1F1                                ; fully-qualified     # 🇹🇱 E2.0 flag: Timor-Leste
+1F1F9 1F1F2                                ; fully-qualified     # 🇹🇲 E2.0 flag: Turkmenistan
+1F1F9 1F1F3                                ; fully-qualified     # 🇹🇳 E2.0 flag: Tunisia
+1F1F9 1F1F4                                ; fully-qualified     # 🇹🇴 E2.0 flag: Tonga
+1F1F9 1F1F7                                ; fully-qualified     # 🇹🇷 E2.0 flag: Turkey
+1F1F9 1F1F9                                ; fully-qualified     # 🇹🇹 E2.0 flag: Trinidad & Tobago
+1F1F9 1F1FB                                ; fully-qualified     # 🇹🇻 E2.0 flag: Tuvalu
+1F1F9 1F1FC                                ; fully-qualified     # 🇹🇼 E2.0 flag: Taiwan
+1F1F9 1F1FF                                ; fully-qualified     # 🇹🇿 E2.0 flag: Tanzania
+1F1FA 1F1E6                                ; fully-qualified     # 🇺🇦 E2.0 flag: Ukraine
+1F1FA 1F1EC                                ; fully-qualified     # 🇺🇬 E2.0 flag: Uganda
+1F1FA 1F1F2                                ; fully-qualified     # 🇺🇲 E2.0 flag: U.S. Outlying Islands
+1F1FA 1F1F3                                ; fully-qualified     # 🇺🇳 E4.0 flag: United Nations
+1F1FA 1F1F8                                ; fully-qualified     # 🇺🇸 E2.0 flag: United States
+1F1FA 1F1FE                                ; fully-qualified     # 🇺🇾 E2.0 flag: Uruguay
+1F1FA 1F1FF                                ; fully-qualified     # 🇺🇿 E2.0 flag: Uzbekistan
+1F1FB 1F1E6                                ; fully-qualified     # 🇻🇦 E2.0 flag: Vatican City
+1F1FB 1F1E8                                ; fully-qualified     # 🇻🇨 E2.0 flag: St. Vincent & Grenadines
+1F1FB 1F1EA                                ; fully-qualified     # 🇻🇪 E2.0 flag: Venezuela
+1F1FB 1F1EC                                ; fully-qualified     # 🇻🇬 E2.0 flag: British Virgin Islands
+1F1FB 1F1EE                                ; fully-qualified     # 🇻🇮 E2.0 flag: U.S. Virgin Islands
+1F1FB 1F1F3                                ; fully-qualified     # 🇻🇳 E2.0 flag: Vietnam
+1F1FB 1F1FA                                ; fully-qualified     # 🇻🇺 E2.0 flag: Vanuatu
+1F1FC 1F1EB                                ; fully-qualified     # 🇼🇫 E2.0 flag: Wallis & Futuna
+1F1FC 1F1F8                                ; fully-qualified     # 🇼🇸 E2.0 flag: Samoa
+1F1FD 1F1F0                                ; fully-qualified     # 🇽🇰 E2.0 flag: Kosovo
+1F1FE 1F1EA                                ; fully-qualified     # 🇾🇪 E2.0 flag: Yemen
+1F1FE 1F1F9                                ; fully-qualified     # 🇾🇹 E2.0 flag: Mayotte
+1F1FF 1F1E6                                ; fully-qualified     # 🇿🇦 E2.0 flag: South Africa
+1F1FF 1F1F2                                ; fully-qualified     # 🇿🇲 E2.0 flag: Zambia
+1F1FF 1F1FC                                ; fully-qualified     # 🇿🇼 E2.0 flag: Zimbabwe
 
-1F313                                      ; fully-qualified     # 🌓 E2.0 first quarter moon
-1F317                                      ; fully-qualified     # 🌗 E2.0 last quarter moon
-
-
-# Artwork updates ==========================================
-
-1F468 200D 1F9B0                           ; fully-qualified     # 👨‍🦰 E11.0 man: red hair
-1F468 1F3FB 200D 1F9B0                     ; fully-qualified     # 👨🏻‍🦰 E11.0 man: light skin tone, red hair
-1F468 1F3FC 200D 1F9B0                     ; fully-qualified     # 👨🏼‍🦰 E11.0 man: medium-light skin tone, red hair
-1F468 1F3FD 200D 1F9B0                     ; fully-qualified     # 👨🏽‍🦰 E11.0 man: medium skin tone, red hair
-1F468 1F3FE 200D 1F9B0                     ; fully-qualified     # 👨🏾‍🦰 E11.0 man: medium-dark skin tone, red hair
-1F468 1F3FF 200D 1F9B0                     ; fully-qualified     # 👨🏿‍🦰 E11.0 man: dark skin tone, red hair
-
-1F469 200D 1F9B0                           ; fully-qualified     # 👩‍🦰 E11.0 woman: red hair
-1F469 1F3FB 200D 1F9B0                     ; fully-qualified     # 👩🏻‍🦰 E11.0 woman: light skin tone, red hair
-1F469 1F3FC 200D 1F9B0                     ; fully-qualified     # 👩🏼‍🦰 E11.0 woman: medium-light skin tone, red hair
-1F469 1F3FD 200D 1F9B0                     ; fully-qualified     # 👩🏽‍🦰 E11.0 woman: medium skin tone, red hair
-1F469 1F3FE 200D 1F9B0                     ; fully-qualified     # 👩🏾‍🦰 E11.0 woman: medium-dark skin tone, red hair
-1F469 1F3FF 200D 1F9B0                     ; fully-qualified     # 👩🏿‍🦰 E11.0 woman: dark skin tone, red hair
-
-1F468 200D 1F9B3                           ; fully-qualified     # 👨‍🦳 E11.0 man: white hair
-1F468 1F3FB 200D 1F9B3                     ; fully-qualified     # 👨🏻‍🦳 E11.0 man: light skin tone, white hair
-1F468 1F3FC 200D 1F9B3                     ; fully-qualified     # 👨🏼‍🦳 E11.0 man: medium-light skin tone, white hair
-1F468 1F3FD 200D 1F9B3                     ; fully-qualified     # 👨🏽‍🦳 E11.0 man: medium skin tone, white hair
-1F468 1F3FE 200D 1F9B3                     ; fully-qualified     # 👨🏾‍🦳 E11.0 man: medium-dark skin tone, white hair
-1F468 1F3FF 200D 1F9B3                     ; fully-qualified     # 👨🏿‍🦳 E11.0 man: dark skin tone, white hair
-
-1F469 200D 1F9B3                           ; fully-qualified     # 👩‍🦳 E11.0 woman: white hair
-1F469 1F3FB 200D 1F9B3                     ; fully-qualified     # 👩🏻‍🦳 E11.0 woman: light skin tone, white hair
-1F469 1F3FC 200D 1F9B3                     ; fully-qualified     # 👩🏼‍🦳 E11.0 woman: medium-light skin tone, white hair
-1F469 1F3FD 200D 1F9B3                     ; fully-qualified     # 👩🏽‍🦳 E11.0 woman: medium skin tone, white hair
-1F469 1F3FE 200D 1F9B3                     ; fully-qualified     # 👩🏾‍🦳 E11.0 woman: medium-dark skin tone, white hair
-1F469 1F3FF 200D 1F9B3                     ; fully-qualified     # 👩🏿‍🦳 E11.0 woman: dark skin tone, white hair
-
-1F471                                      ; fully-qualified     # 👱 E2.0 person: blond hair
-1F471 1F3FB                                ; fully-qualified     # 👱🏻 E2.0 person: light skin tone, blond hair
-1F471 1F3FC                                ; fully-qualified     # 👱🏼 E2.0 person: medium-light skin tone, blond hair
-1F471 1F3FD                                ; fully-qualified     # 👱🏽 E2.0 person: medium skin tone, blond hair
-1F471 1F3FE                                ; fully-qualified     # 👱🏾 E2.0 person: medium-dark skin tone, blond hair
-1F471 1F3FF                                ; fully-qualified     # 👱🏿 E2.0 person: dark skin tone, blond hair
-
-1F471 200D 2642 FE0F                       ; fully-qualified     # 👱‍♂️ E4.0 man: blond hair
-1F471 1F3FB 200D 2642 FE0F                 ; fully-qualified     # 👱🏻‍♂️ E4.0 man: light skin tone, blond hair
-1F471 1F3FC 200D 2642 FE0F                 ; fully-qualified     # 👱🏼‍♂️ E4.0 man: medium-light skin tone, blond hair
-1F471 1F3FD 200D 2642 FE0F                 ; fully-qualified     # 👱🏽‍♂️ E4.0 man: medium skin tone, blond hair
-1F471 1F3FE 200D 2642 FE0F                 ; fully-qualified     # 👱🏾‍♂️ E4.0 man: medium-dark skin tone, blond hair
-1F471 1F3FF 200D 2642 FE0F                 ; fully-qualified     # 👱🏿‍♂️ E4.0 man: dark skin tone, blond hair
-
-1F471 200D 2640 FE0F                       ; fully-qualified     # 👱‍♀️ E4.0 woman: blond hair
-1F471 1F3FB 200D 2640 FE0F                 ; fully-qualified     # 👱🏻‍♀️ E4.0 woman: light skin tone, blond hair
-1F471 1F3FC 200D 2640 FE0F                 ; fully-qualified     # 👱🏼‍♀️ E4.0 woman: medium-light skin tone, blond hair
-1F471 1F3FD 200D 2640 FE0F                 ; fully-qualified     # 👱🏽‍♀️ E4.0 woman: medium skin tone, blond hair
-1F471 1F3FE 200D 2640 FE0F                 ; fully-qualified     # 👱🏾‍♀️ E4.0 woman: medium-dark skin tone, blond hair
-1F471 1F3FF 200D 2640 FE0F                 ; fully-qualified     # 👱🏿‍♀️ E4.0 woman: dark skin tone, blond hair
-
-1F468 200D 1F9B2                           ; fully-qualified     # 👨‍🦲 E11.0 man: bald
-1F468 1F3FB 200D 1F9B2                     ; fully-qualified     # 👨🏻‍🦲 E11.0 man: light skin tone, bald
-1F468 1F3FC 200D 1F9B2                     ; fully-qualified     # 👨🏼‍🦲 E11.0 man: medium-light skin tone, bald
-1F468 1F3FD 200D 1F9B2                     ; fully-qualified     # 👨🏽‍🦲 E11.0 man: medium skin tone, bald
-1F468 1F3FE 200D 1F9B2                     ; fully-qualified     # 👨🏾‍🦲 E11.0 man: medium-dark skin tone, bald
-1F468 1F3FF 200D 1F9B2                     ; fully-qualified     # 👨🏿‍🦲 E11.0 man: dark skin tone, bald
-
-1F468 200D 1F3A4                           ; fully-qualified     # 👨‍🎤 E4.0 man singer
-1F468 1F3FB 200D 1F3A4                     ; fully-qualified     # 👨🏻‍🎤 E4.0 man singer: light skin tone
-1F468 1F3FC 200D 1F3A4                     ; fully-qualified     # 👨🏼‍🎤 E4.0 man singer: medium-light skin tone
-1F468 1F3FD 200D 1F3A4                     ; fully-qualified     # 👨🏽‍🎤 E4.0 man singer: medium skin tone
-1F468 1F3FE 200D 1F3A4                     ; fully-qualified     # 👨🏾‍🎤 E4.0 man singer: medium-dark skin tone
-1F468 1F3FF 200D 1F3A4                     ; fully-qualified     # 👨🏿‍🎤 E4.0 man singer: dark skin tone
-
-1F469 200D 1F3A4                           ; fully-qualified     # 👩‍🎤 E4.0 woman singer
-1F469 1F3FB 200D 1F3A4                     ; fully-qualified     # 👩🏻‍🎤 E4.0 woman singer: light skin tone
-1F469 1F3FC 200D 1F3A4                     ; fully-qualified     # 👩🏼‍🎤 E4.0 woman singer: medium-light skin tone
-1F469 1F3FD 200D 1F3A4                     ; fully-qualified     # 👩🏽‍🎤 E4.0 woman singer: medium skin tone
-1F469 1F3FE 200D 1F3A4                     ; fully-qualified     # 👩🏾‍🎤 E4.0 woman singer: medium-dark skin tone
-1F469 1F3FF 200D 1F3A4                     ; fully-qualified     # 👩🏿‍🎤 E4.0 woman singer: dark skin tone
-
-1F468 200D 1F33E                           ; fully-qualified     # 👨‍🌾 E4.0 man farmer
-1F468 1F3FB 200D 1F33E                     ; fully-qualified     # 👨🏻‍🌾 E4.0 man farmer: light skin tone
-1F468 1F3FC 200D 1F33E                     ; fully-qualified     # 👨🏼‍🌾 E4.0 man farmer: medium-light skin tone
-1F468 1F3FD 200D 1F33E                     ; fully-qualified     # 👨🏽‍🌾 E4.0 man farmer: medium skin tone
-1F468 1F3FE 200D 1F33E                     ; fully-qualified     # 👨🏾‍🌾 E4.0 man farmer: medium-dark skin tone
-1F468 1F3FF 200D 1F33E                     ; fully-qualified     # 👨🏿‍🌾 E4.0 man farmer: dark skin tone
-
-1F469 200D 1F33E                           ; fully-qualified     # 👩‍🌾 E4.0 woman farmer
-1F469 1F3FB 200D 1F33E                     ; fully-qualified     # 👩🏻‍🌾 E4.0 woman farmer: light skin tone
-1F469 1F3FC 200D 1F33E                     ; fully-qualified     # 👩🏼‍🌾 E4.0 woman farmer: medium-light skin tone
-1F469 1F3FD 200D 1F33E                     ; fully-qualified     # 👩🏽‍🌾 E4.0 woman farmer: medium skin tone
-1F469 1F3FE 200D 1F33E                     ; fully-qualified     # 👩🏾‍🌾 E4.0 woman farmer: medium-dark skin tone
-1F469 1F3FF 200D 1F33E                     ; fully-qualified     # 👩🏿‍🌾 E4.0 woman farmer: dark skin tone
-
-1F468 200D 1F52C                           ; fully-qualified     # 👨‍🔬 E4.0 man scientist
-1F468 1F3FB 200D 1F52C                     ; fully-qualified     # 👨🏻‍🔬 E4.0 man scientist: light skin tone
-1F468 1F3FC 200D 1F52C                     ; fully-qualified     # 👨🏼‍🔬 E4.0 man scientist: medium-light skin tone
-1F468 1F3FD 200D 1F52C                     ; fully-qualified     # 👨🏽‍🔬 E4.0 man scientist: medium skin tone
-1F468 1F3FE 200D 1F52C                     ; fully-qualified     # 👨🏾‍🔬 E4.0 man scientist: medium-dark skin tone
-1F468 1F3FF 200D 1F52C                     ; fully-qualified     # 👨🏿‍🔬 E4.0 man scientist: dark skin tone
-
-1F469 200D 1F52C                           ; fully-qualified     # 👩‍🔬 E4.0 woman scientist
-1F469 1F3FB 200D 1F52C                     ; fully-qualified     # 👩🏻‍🔬 E4.0 woman scientist: light skin tone
-1F469 1F3FC 200D 1F52C                     ; fully-qualified     # 👩🏼‍🔬 E4.0 woman scientist: medium-light skin tone
-1F469 1F3FD 200D 1F52C                     ; fully-qualified     # 👩🏽‍🔬 E4.0 woman scientist: medium skin tone
-1F469 1F3FE 200D 1F52C                     ; fully-qualified     # 👩🏾‍🔬 E4.0 woman scientist: medium-dark skin tone
-1F469 1F3FF 200D 1F52C                     ; fully-qualified     # 👩🏿‍🔬 E4.0 woman scientist: dark skin tone
-
-1F468 200D 1F373                           ; fully-qualified     # 👨‍🍳 E4.0 man cook
-1F468 1F3FB 200D 1F373                     ; fully-qualified     # 👨🏻‍🍳 E4.0 man cook: light skin tone
-1F468 1F3FC 200D 1F373                     ; fully-qualified     # 👨🏼‍🍳 E4.0 man cook: medium-light skin tone
-1F468 1F3FD 200D 1F373                     ; fully-qualified     # 👨🏽‍🍳 E4.0 man cook: medium skin tone
-1F468 1F3FE 200D 1F373                     ; fully-qualified     # 👨🏾‍🍳 E4.0 man cook: medium-dark skin tone
-1F468 1F3FF 200D 1F373                     ; fully-qualified     # 👨🏿‍🍳 E4.0 man cook: dark skin tone
-
-1F469 200D 1F373                           ; fully-qualified     # 👩‍🍳 E4.0 woman cook
-1F469 1F3FB 200D 1F373                     ; fully-qualified     # 👩🏻‍🍳 E4.0 woman cook: light skin tone
-1F469 1F3FC 200D 1F373                     ; fully-qualified     # 👩🏼‍🍳 E4.0 woman cook: medium-light skin tone
-1F469 1F3FD 200D 1F373                     ; fully-qualified     # 👩🏽‍🍳 E4.0 woman cook: medium skin tone
-1F469 1F3FE 200D 1F373                     ; fully-qualified     # 👩🏾‍🍳 E4.0 woman cook: medium-dark skin tone
-1F469 1F3FF 200D 1F373                     ; fully-qualified     # 👩🏿‍🍳 E4.0 woman cook: dark skin tone
-
-1F468 200D 2695 FE0F                       ; fully-qualified     # 👨‍⚕️ E4.0 man health worker
-1F468 1F3FB 200D 2695 FE0F                 ; fully-qualified     # 👨🏻‍⚕️ E4.0 man health worker: light skin tone
-1F468 1F3FC 200D 2695 FE0F                 ; fully-qualified     # 👨🏼‍⚕️ E4.0 man health worker: medium-light skin tone
-1F468 1F3FD 200D 2695 FE0F                 ; fully-qualified     # 👨🏽‍⚕️ E4.0 man health worker: medium skin tone
-1F468 1F3FE 200D 2695 FE0F                 ; fully-qualified     # 👨🏾‍⚕️ E4.0 man health worker: medium-dark skin tone
-1F468 1F3FF 200D 2695 FE0F                 ; fully-qualified     # 👨🏿‍⚕️ E4.0 man health worker: dark skin tone
-
-1F469 200D 2695 FE0F                       ; fully-qualified     # 👩‍⚕️ E4.0 woman health worker
-1F469 1F3FB 200D 2695 FE0F                 ; fully-qualified     # 👩🏻‍⚕️ E4.0 woman health worker: light skin tone
-1F469 1F3FC 200D 2695 FE0F                 ; fully-qualified     # 👩🏼‍⚕️ E4.0 woman health worker: medium-light skin tone
-1F469 1F3FD 200D 2695 FE0F                 ; fully-qualified     # 👩🏽‍⚕️ E4.0 woman health worker: medium skin tone
-1F469 1F3FE 200D 2695 FE0F                 ; fully-qualified     # 👩🏾‍⚕️ E4.0 woman health worker: medium-dark skin tone
-1F469 1F3FF 200D 2695 FE0F                 ; fully-qualified     # 👩🏿‍⚕️ E4.0 woman health worker: dark skin tone
-
-
-# Unicode v12.1 additions ==================================
-
-1F9D1 200D 1F9B0                           ; fully-qualified     # 🧑‍🦰 person: red hair
-1F9D1 1F3FB 200D 1F9B0                     ; fully-qualified     # 🧑🏻‍🦰 person: light skin tone, red hair
-1F9D1 1F3FC 200D 1F9B0                     ; fully-qualified     # 🧑🏼‍🦰 person: medium-light skin tone, red hair
-1F9D1 1F3FD 200D 1F9B0                     ; fully-qualified     # 🧑🏽‍🦰 person: medium skin tone, red hair
-1F9D1 1F3FE 200D 1F9B0                     ; fully-qualified     # 🧑🏾‍🦰 person: medium-dark skin tone, red hair
-1F9D1 1F3FF 200D 1F9B0                     ; fully-qualified     # 🧑🏿‍🦰 person: dark skin tone, red hair
-
-1F9D1 200D 1F9B1                           ; fully-qualified     # 🧑‍🦱 person: curly hair
-1F9D1 1F3FB 200D 1F9B1                     ; fully-qualified     # 🧑🏻‍🦱 person: light skin tone, curly hair
-1F9D1 1F3FC 200D 1F9B1                     ; fully-qualified     # 🧑🏼‍🦱 person: medium-light skin tone, curly hair
-1F9D1 1F3FD 200D 1F9B1                     ; fully-qualified     # 🧑🏽‍🦱 person: medium skin tone, curly hair
-1F9D1 1F3FE 200D 1F9B1                     ; fully-qualified     # 🧑🏾‍🦱 person: medium-dark skin tone, curly hair
-1F9D1 1F3FF 200D 1F9B1                     ; fully-qualified     # 🧑🏿‍🦱 person: dark skin tone, curly hair
-
-1F9D1 200D 1F9B3                           ; fully-qualified     # 🧑‍🦳 person: white hair
-1F9D1 1F3FB 200D 1F9B3                     ; fully-qualified     # 🧑🏻‍🦳 person: light skin tone, white hair
-1F9D1 1F3FC 200D 1F9B3                     ; fully-qualified     # 🧑🏼‍🦳 person: medium-light skin tone, white hair
-1F9D1 1F3FD 200D 1F9B3                     ; fully-qualified     # 🧑🏽‍🦳 person: medium skin tone, white hair
-1F9D1 1F3FE 200D 1F9B3                     ; fully-qualified     # 🧑🏾‍🦳 person: medium-dark skin tone, white hair
-1F9D1 1F3FF 200D 1F9B3                     ; fully-qualified     # 🧑🏿‍🦳 person: dark skin tone, white hair
-
-1F9D1 200D 1F9B2                           ; fully-qualified     # 🧑‍🦲 person: bald
-1F9D1 1F3FB 200D 1F9B2                     ; fully-qualified     # 🧑🏻‍🦲 person: light skin tone, bald
-1F9D1 1F3FC 200D 1F9B2                     ; fully-qualified     # 🧑🏼‍🦲 person: medium-light skin tone, bald
-1F9D1 1F3FD 200D 1F9B2                     ; fully-qualified     # 🧑🏽‍🦲 person: medium skin tone, bald
-1F9D1 1F3FE 200D 1F9B2                     ; fully-qualified     # 🧑🏾‍🦲 person: medium-dark skin tone, bald
-1F9D1 1F3FF 200D 1F9B2                     ; fully-qualified     # 🧑🏿‍🦲 person: dark skin tone, bald
-
-# subgroup: person-role
-1F9D1 200D 2695 FE0F                       ; fully-qualified     # 🧑‍⚕️ health worker
-1F9D1 1F3FB 200D 2695 FE0F                 ; fully-qualified     # 🧑🏻‍⚕️ health worker: light skin tone
-1F9D1 1F3FC 200D 2695 FE0F                 ; fully-qualified     # 🧑🏼‍⚕️ health worker: medium-light skin tone
-1F9D1 1F3FD 200D 2695 FE0F                 ; fully-qualified     # 🧑🏽‍⚕️ health worker: medium skin tone
-1F9D1 1F3FE 200D 2695 FE0F                 ; fully-qualified     # 🧑🏾‍⚕️ health worker: medium-dark skin tone
-1F9D1 1F3FF 200D 2695 FE0F                 ; fully-qualified     # 🧑🏿‍⚕️ health worker: dark skin tone
-
-1F9D1 200D 1F393                           ; fully-qualified     # 🧑‍🎓 student
-1F9D1 1F3FB 200D 1F393                     ; fully-qualified     # 🧑🏻‍🎓 student: light skin tone
-1F9D1 1F3FC 200D 1F393                     ; fully-qualified     # 🧑🏼‍🎓 student: medium-light skin tone
-1F9D1 1F3FD 200D 1F393                     ; fully-qualified     # 🧑🏽‍🎓 student: medium skin tone
-1F9D1 1F3FE 200D 1F393                     ; fully-qualified     # 🧑🏾‍🎓 student: medium-dark skin tone
-1F9D1 1F3FF 200D 1F393                     ; fully-qualified     # 🧑🏿‍🎓 student: dark skin tone
-
-1F9D1 200D 1F3EB                           ; fully-qualified     # 🧑‍🏫 teacher
-1F9D1 1F3FB 200D 1F3EB                     ; fully-qualified     # 🧑🏻‍🏫 teacher: light skin tone
-1F9D1 1F3FC 200D 1F3EB                     ; fully-qualified     # 🧑🏼‍🏫 teacher: medium-light skin tone
-1F9D1 1F3FD 200D 1F3EB                     ; fully-qualified     # 🧑🏽‍🏫 teacher: medium skin tone
-1F9D1 1F3FE 200D 1F3EB                     ; fully-qualified     # 🧑🏾‍🏫 teacher: medium-dark skin tone
-1F9D1 1F3FF 200D 1F3EB                     ; fully-qualified     # 🧑🏿‍🏫 teacher: dark skin tone
-
-1F9D1 200D 2696 FE0F                       ; fully-qualified     # 🧑‍⚖️ judge
-1F9D1 1F3FB 200D 2696 FE0F                 ; fully-qualified     # 🧑🏻‍⚖️ judge: light skin tone
-1F9D1 1F3FC 200D 2696 FE0F                 ; fully-qualified     # 🧑🏼‍⚖️ judge: medium-light skin tone
-1F9D1 1F3FD 200D 2696 FE0F                 ; fully-qualified     # 🧑🏽‍⚖️ judge: medium skin tone
-1F9D1 1F3FE 200D 2696 FE0F                 ; fully-qualified     # 🧑🏾‍⚖️ judge: medium-dark skin tone
-1F9D1 1F3FF 200D 2696 FE0F                 ; fully-qualified     # 🧑🏿‍⚖️ judge: dark skin tone
-
-1F9D1 200D 1F33E                           ; fully-qualified     # 🧑‍🌾 farmer
-1F9D1 1F3FB 200D 1F33E                     ; fully-qualified     # 🧑🏻‍🌾 farmer: light skin tone
-1F9D1 1F3FC 200D 1F33E                     ; fully-qualified     # 🧑🏼‍🌾 farmer: medium-light skin tone
-1F9D1 1F3FD 200D 1F33E                     ; fully-qualified     # 🧑🏽‍🌾 farmer: medium skin tone
-1F9D1 1F3FE 200D 1F33E                     ; fully-qualified     # 🧑🏾‍🌾 farmer: medium-dark skin tone
-1F9D1 1F3FF 200D 1F33E                     ; fully-qualified     # 🧑🏿‍🌾 farmer: dark skin tone
-
-1F9D1 200D 1F373                           ; fully-qualified     # 🧑‍🍳 cook
-1F9D1 1F3FB 200D 1F373                     ; fully-qualified     # 🧑🏻‍🍳 cook: light skin tone
-1F9D1 1F3FC 200D 1F373                     ; fully-qualified     # 🧑🏼‍🍳 cook: medium-light skin tone
-1F9D1 1F3FD 200D 1F373                     ; fully-qualified     # 🧑🏽‍🍳 cook: medium skin tone
-1F9D1 1F3FE 200D 1F373                     ; fully-qualified     # 🧑🏾‍🍳 cook: medium-dark skin tone
-1F9D1 1F3FF 200D 1F373                     ; fully-qualified     # 🧑🏿‍🍳 cook: dark skin tone
-
-1F9D1 200D 1F527                           ; fully-qualified     # 🧑‍🔧 mechanic
-1F9D1 1F3FB 200D 1F527                     ; fully-qualified     # 🧑🏻‍🔧 mechanic: light skin tone
-1F9D1 1F3FC 200D 1F527                     ; fully-qualified     # 🧑🏼‍🔧 mechanic: medium-light skin tone
-1F9D1 1F3FD 200D 1F527                     ; fully-qualified     # 🧑🏽‍🔧 mechanic: medium skin tone
-1F9D1 1F3FE 200D 1F527                     ; fully-qualified     # 🧑🏾‍🔧 mechanic: medium-dark skin tone
-1F9D1 1F3FF 200D 1F527                     ; fully-qualified     # 🧑🏿‍🔧 mechanic: dark skin tone
-
-1F9D1 200D 1F3ED                           ; fully-qualified     # 🧑‍🏭 factory worker
-1F9D1 1F3FB 200D 1F3ED                     ; fully-qualified     # 🧑🏻‍🏭 factory worker: light skin tone
-1F9D1 1F3FC 200D 1F3ED                     ; fully-qualified     # 🧑🏼‍🏭 factory worker: medium-light skin tone
-1F9D1 1F3FD 200D 1F3ED                     ; fully-qualified     # 🧑🏽‍🏭 factory worker: medium skin tone
-1F9D1 1F3FE 200D 1F3ED                     ; fully-qualified     # 🧑🏾‍🏭 factory worker: medium-dark skin tone
-1F9D1 1F3FF 200D 1F3ED                     ; fully-qualified     # 🧑🏿‍🏭 factory worker: dark skin tone
-
-1F9D1 200D 1F4BC                           ; fully-qualified     # 🧑‍💼 office worker
-1F9D1 1F3FB 200D 1F4BC                     ; fully-qualified     # 🧑🏻‍💼 office worker: light skin tone
-1F9D1 1F3FC 200D 1F4BC                     ; fully-qualified     # 🧑🏼‍💼 office worker: medium-light skin tone
-1F9D1 1F3FD 200D 1F4BC                     ; fully-qualified     # 🧑🏽‍💼 office worker: medium skin tone
-1F9D1 1F3FE 200D 1F4BC                     ; fully-qualified     # 🧑🏾‍💼 office worker: medium-dark skin tone
-1F9D1 1F3FF 200D 1F4BC                     ; fully-qualified     # 🧑🏿‍💼 office worker: dark skin tone
-
-1F9D1 200D 1F52C                           ; fully-qualified     # 🧑‍🔬 scientist
-1F9D1 1F3FB 200D 1F52C                     ; fully-qualified     # 🧑🏻‍🔬 scientist: light skin tone
-1F9D1 1F3FC 200D 1F52C                     ; fully-qualified     # 🧑🏼‍🔬 scientist: medium-light skin tone
-1F9D1 1F3FD 200D 1F52C                     ; fully-qualified     # 🧑🏽‍🔬 scientist: medium skin tone
-1F9D1 1F3FE 200D 1F52C                     ; fully-qualified     # 🧑🏾‍🔬 scientist: medium-dark skin tone
-1F9D1 1F3FF 200D 1F52C                     ; fully-qualified     # 🧑🏿‍🔬 scientist: dark skin tone
-
-1F9D1 200D 1F4BB                           ; fully-qualified     # 🧑‍💻 technologist
-1F9D1 1F3FB 200D 1F4BB                     ; fully-qualified     # 🧑🏻‍💻 technologist: light skin tone
-1F9D1 1F3FC 200D 1F4BB                     ; fully-qualified     # 🧑🏼‍💻 technologist: medium-light skin tone
-1F9D1 1F3FD 200D 1F4BB                     ; fully-qualified     # 🧑🏽‍💻 technologist: medium skin tone
-1F9D1 1F3FE 200D 1F4BB                     ; fully-qualified     # 🧑🏾‍💻 technologist: medium-dark skin tone
-1F9D1 1F3FF 200D 1F4BB                     ; fully-qualified     # 🧑🏿‍💻 technologist: dark skin tone
-
-1F9D1 200D 1F3A4                           ; fully-qualified     # 🧑‍🎤 singer
-1F9D1 1F3FB 200D 1F3A4                     ; fully-qualified     # 🧑🏻‍🎤 singer: light skin tone
-1F9D1 1F3FC 200D 1F3A4                     ; fully-qualified     # 🧑🏼‍🎤 singer: medium-light skin tone
-1F9D1 1F3FD 200D 1F3A4                     ; fully-qualified     # 🧑🏽‍🎤 singer: medium skin tone
-1F9D1 1F3FE 200D 1F3A4                     ; fully-qualified     # 🧑🏾‍🎤 singer: medium-dark skin tone
-1F9D1 1F3FF 200D 1F3A4                     ; fully-qualified     # 🧑🏿‍🎤 singer: dark skin tone
-
-1F9D1 200D 1F3A8                           ; fully-qualified     # 🧑‍🎨 artist
-1F9D1 1F3FB 200D 1F3A8                     ; fully-qualified     # 🧑🏻‍🎨 artist: light skin tone
-1F9D1 1F3FC 200D 1F3A8                     ; fully-qualified     # 🧑🏼‍🎨 artist: medium-light skin tone
-1F9D1 1F3FD 200D 1F3A8                     ; fully-qualified     # 🧑🏽‍🎨 artist: medium skin tone
-1F9D1 1F3FE 200D 1F3A8                     ; fully-qualified     # 🧑🏾‍🎨 artist: medium-dark skin tone
-1F9D1 1F3FF 200D 1F3A8                     ; fully-qualified     # 🧑🏿‍🎨 artist: dark skin tone
-
-1F9D1 200D 2708 FE0F                       ; fully-qualified     # 🧑‍✈️ pilot
-1F9D1 1F3FB 200D 2708 FE0F                 ; fully-qualified     # 🧑🏻‍✈️ pilot: light skin tone
-1F9D1 1F3FC 200D 2708 FE0F                 ; fully-qualified     # 🧑🏼‍✈️ pilot: medium-light skin tone
-1F9D1 1F3FD 200D 2708 FE0F                 ; fully-qualified     # 🧑🏽‍✈️ pilot: medium skin tone
-1F9D1 1F3FE 200D 2708 FE0F                 ; fully-qualified     # 🧑🏾‍✈️ pilot: medium-dark skin tone
-1F9D1 1F3FF 200D 2708 FE0F                 ; fully-qualified     # 🧑🏿‍✈️ pilot: dark skin tone
-
-1F9D1 200D 1F680                           ; fully-qualified     # 🧑‍🚀 astronaut
-1F9D1 1F3FB 200D 1F680                     ; fully-qualified     # 🧑🏻‍🚀 astronaut: light skin tone
-1F9D1 1F3FC 200D 1F680                     ; fully-qualified     # 🧑🏼‍🚀 astronaut: medium-light skin tone
-1F9D1 1F3FD 200D 1F680                     ; fully-qualified     # 🧑🏽‍🚀 astronaut: medium skin tone
-1F9D1 1F3FE 200D 1F680                     ; fully-qualified     # 🧑🏾‍🚀 astronaut: medium-dark skin tone
-1F9D1 1F3FF 200D 1F680                     ; fully-qualified     # 🧑🏿‍🚀 astronaut: dark skin tone
-
-1F9D1 200D 1F692                           ; fully-qualified     # 🧑‍🚒 firefighter
-1F9D1 1F3FB 200D 1F692                     ; fully-qualified     # 🧑🏻‍🚒 firefighter: light skin tone
-1F9D1 1F3FC 200D 1F692                     ; fully-qualified     # 🧑🏼‍🚒 firefighter: medium-light skin tone
-1F9D1 1F3FD 200D 1F692                     ; fully-qualified     # 🧑🏽‍🚒 firefighter: medium skin tone
-1F9D1 1F3FE 200D 1F692                     ; fully-qualified     # 🧑🏾‍🚒 firefighter: medium-dark skin tone
-1F9D1 1F3FF 200D 1F692                     ; fully-qualified     # 🧑🏿‍🚒 firefighter: dark skin tone
-
-# subgroup: person-activity
-1F9D1 200D 1F9AF                           ; fully-qualified     # 🧑‍🦯 person with probing cane
-1F9D1 1F3FB 200D 1F9AF                     ; fully-qualified     # 🧑🏻‍🦯 person with probing cane: light skin tone
-1F9D1 1F3FC 200D 1F9AF                     ; fully-qualified     # 🧑🏼‍🦯 person with probing cane: medium-light skin tone
-1F9D1 1F3FD 200D 1F9AF                     ; fully-qualified     # 🧑🏽‍🦯 person with probing cane: medium skin tone
-1F9D1 1F3FE 200D 1F9AF                     ; fully-qualified     # 🧑🏾‍🦯 person with probing cane: medium-dark skin tone
-1F9D1 1F3FF 200D 1F9AF                     ; fully-qualified     # 🧑🏿‍🦯 person with probing cane: dark skin tone
-
-1F9D1 200D 1F9BC                           ; fully-qualified     # 🧑‍🦼 person in motorized wheelchair
-1F9D1 1F3FB 200D 1F9BC                     ; fully-qualified     # 🧑🏻‍🦼 person in motorized wheelchair: light skin tone
-1F9D1 1F3FC 200D 1F9BC                     ; fully-qualified     # 🧑🏼‍🦼 person in motorized wheelchair: medium-light skin tone
-1F9D1 1F3FD 200D 1F9BC                     ; fully-qualified     # 🧑🏽‍🦼 person in motorized wheelchair: medium skin tone
-1F9D1 1F3FE 200D 1F9BC                     ; fully-qualified     # 🧑🏾‍🦼 person in motorized wheelchair: medium-dark skin tone
-1F9D1 1F3FF 200D 1F9BC                     ; fully-qualified     # 🧑🏿‍🦼 person in motorized wheelchair: dark skin tone
-
-1F9D1 200D 1F9BD                           ; fully-qualified     # 🧑‍🦽 person in manual wheelchair
-1F9D1 1F3FB 200D 1F9BD                     ; fully-qualified     # 🧑🏻‍🦽 person in manual wheelchair: light skin tone
-1F9D1 1F3FC 200D 1F9BD                     ; fully-qualified     # 🧑🏼‍🦽 person in manual wheelchair: medium-light skin tone
-1F9D1 1F3FD 200D 1F9BD                     ; fully-qualified     # 🧑🏽‍🦽 person in manual wheelchair: medium skin tone
-1F9D1 1F3FE 200D 1F9BD                     ; fully-qualified     # 🧑🏾‍🦽 person in manual wheelchair: medium-dark skin tone
-1F9D1 1F3FF 200D 1F9BD                     ; fully-qualified     # 🧑🏿‍🦽 person in manual wheelchair: dark skin tone
-
-# subgroup: family
-1F9D1 1F3FB 200D 1F91D 200D 1F9D1 1F3FC    ; fully-qualified     # 🧑🏻‍🤝‍🧑🏼 people holding hands: light skin tone, medium-light skin tone
-1F9D1 1F3FB 200D 1F91D 200D 1F9D1 1F3FD    ; fully-qualified     # 🧑🏻‍🤝‍🧑🏽 people holding hands: light skin tone, medium skin tone
-1F9D1 1F3FB 200D 1F91D 200D 1F9D1 1F3FE    ; fully-qualified     # 🧑🏻‍🤝‍🧑🏾 people holding hands: light skin tone, medium-dark skin tone
-1F9D1 1F3FB 200D 1F91D 200D 1F9D1 1F3FF    ; fully-qualified     # 🧑🏻‍🤝‍🧑🏿 people holding hands: light skin tone, dark skin tone
-
-1F9D1 1F3FC 200D 1F91D 200D 1F9D1 1F3FD    ; fully-qualified     # 🧑🏼‍🤝‍🧑🏽 people holding hands: medium-light skin tone, medium skin tone
-1F9D1 1F3FC 200D 1F91D 200D 1F9D1 1F3FE    ; fully-qualified     # 🧑🏼‍🤝‍🧑🏾 people holding hands: medium-light skin tone, medium-dark skin tone
-1F9D1 1F3FC 200D 1F91D 200D 1F9D1 1F3FF    ; fully-qualified     # 🧑🏼‍🤝‍🧑🏿 people holding hands: medium-light skin tone, dark skin tone
-
-1F9D1 1F3FD 200D 1F91D 200D 1F9D1 1F3FE    ; fully-qualified     # 🧑🏽‍🤝‍🧑🏾 people holding hands: medium skin tone, medium-dark skin tone
-1F9D1 1F3FD 200D 1F91D 200D 1F9D1 1F3FF    ; fully-qualified     # 🧑🏽‍🤝‍🧑🏿 people holding hands: medium skin tone, dark skin tone
-
-1F9D1 1F3FE 200D 1F91D 200D 1F9D1 1F3FF    ; fully-qualified     # 🧑🏾‍🤝‍🧑🏿 people holding hands: medium-dark skin tone, dark skin tone
-
-1F469 1F3FB 200D 1F91D 200D 1F469 1F3FC    ; fully-qualified     # 👩🏻‍🤝‍👩🏼 women holding hands: light skin tone, medium-light skin tone
-1F469 1F3FB 200D 1F91D 200D 1F469 1F3FD    ; fully-qualified     # 👩🏻‍🤝‍👩🏽 women holding hands: light skin tone, medium skin tone
-1F469 1F3FB 200D 1F91D 200D 1F469 1F3FE    ; fully-qualified     # 👩🏻‍🤝‍👩🏾 women holding hands: light skin tone, medium-dark skin tone
-1F469 1F3FB 200D 1F91D 200D 1F469 1F3FF    ; fully-qualified     # 👩🏻‍🤝‍👩🏿 women holding hands: light skin tone, dark skin tone
-
-1F469 1F3FC 200D 1F91D 200D 1F469 1F3FD    ; fully-qualified     # 👩🏼‍🤝‍👩🏽 women holding hands: medium-light skin tone, medium skin tone
-1F469 1F3FC 200D 1F91D 200D 1F469 1F3FE    ; fully-qualified     # 👩🏼‍🤝‍👩🏾 women holding hands: medium-light skin tone, medium-dark skin tone
-1F469 1F3FC 200D 1F91D 200D 1F469 1F3FF    ; fully-qualified     # 👩🏼‍🤝‍👩🏿 women holding hands: medium-light skin tone, dark skin tone
-
-1F469 1F3FD 200D 1F91D 200D 1F469 1F3FE    ; fully-qualified     # 👩🏽‍🤝‍👩🏾 women holding hands: medium skin tone, medium-dark skin tone
-1F469 1F3FD 200D 1F91D 200D 1F469 1F3FF    ; fully-qualified     # 👩🏽‍🤝‍👩🏿 women holding hands: medium skin tone, dark skin tone
-
-1F469 1F3FE 200D 1F91D 200D 1F469 1F3FF    ; fully-qualified     # 👩🏾‍🤝‍👩🏿 women holding hands: medium-dark skin tone, dark skin tone
-
-1F468 1F3FB 200D 1F91D 200D 1F468 1F3FC    ; fully-qualified     # 👨🏻‍🤝‍👨🏼 men holding hands: light skin tone, medium-light skin tone
-1F468 1F3FB 200D 1F91D 200D 1F468 1F3FD    ; fully-qualified     # 👨🏻‍🤝‍👨🏽 men holding hands: light skin tone, medium skin tone
-1F468 1F3FB 200D 1F91D 200D 1F468 1F3FE    ; fully-qualified     # 👨🏻‍🤝‍👨🏾 men holding hands: light skin tone, medium-dark skin tone
-1F468 1F3FB 200D 1F91D 200D 1F468 1F3FF    ; fully-qualified     # 👨🏻‍🤝‍👨🏿 men holding hands: light skin tone, dark skin tone
-
-1F468 1F3FC 200D 1F91D 200D 1F468 1F3FD    ; fully-qualified     # 👨🏼‍🤝‍👨🏽 men holding hands: medium-light skin tone, medium skin tone
-1F468 1F3FC 200D 1F91D 200D 1F468 1F3FE    ; fully-qualified     # 👨🏼‍🤝‍👨🏾 men holding hands: medium-light skin tone, medium-dark skin tone
-1F468 1F3FC 200D 1F91D 200D 1F468 1F3FF    ; fully-qualified     # 👨🏼‍🤝‍👨🏿 men holding hands: medium-light skin tone, dark skin tone
-
-1F468 1F3FD 200D 1F91D 200D 1F468 1F3FE    ; fully-qualified     # 👨🏽‍🤝‍👨🏾 men holding hands: medium skin tone, medium-dark skin tone
-1F468 1F3FD 200D 1F91D 200D 1F468 1F3FF    ; fully-qualified     # 👨🏽‍🤝‍👨🏿 men holding hands: medium skin tone, dark skin tone
-
-1F468 1F3FE 200D 1F91D 200D 1F468 1F3FF    ; fully-qualified     # 👨🏾‍🤝‍👨🏿 men holding hands: medium-dark skin tone, dark skin tone
+# subgroup: subdivision-flag
+1F3F4 E0067 E0062 E0065 E006E E0067 E007F  ; fully-qualified     # 🏴󠁧󠁢󠁥󠁮󠁧󠁿 E5.0 flag: England
+1F3F4 E0067 E0062 E0073 E0063 E0074 E007F  ; fully-qualified     # 🏴󠁧󠁢󠁳󠁣󠁴󠁿 E5.0 flag: Scotland
+1F3F4 E0067 E0062 E0077 E006C E0073 E007F  ; fully-qualified     # 🏴󠁧󠁢󠁷󠁬󠁳󠁿 E5.0 flag: Wales
