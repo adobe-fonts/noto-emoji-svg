@@ -35,10 +35,10 @@ TEST_HEADER_FILE = os.path.join(TEST_DIR, 'test_header.html')
 TABLE_ROW = """<tr>
     <th scope="row">#{}<br>{}</th>
     <td class="font_fallback">{}</td>
-    <td><img src="png/{}.png"></td>
-    <td><img src="svg/{}.svg"></td>
+    <td><img src="{}/{}.png"></td>
+    <td><img src="{}/{}.svg"></td>
     <td class="font_emoji_color">{}</td>
-    <td><img src="svg_bw/{}.svg"></td>
+    <td><img src="{}/{}.svg"></td>
     <td class="font_emoji_bw">{}</td>
 </tr>
 """
@@ -141,15 +141,27 @@ def main(args=None):
     start_file = True
 
     for i, cps in enumerate(cdpts_list, 1):
-        # XXX skip country and regional flags for now
+        # determine if it's a country/regional flag
+        is_flag = False
         if len(cps) > 1 and cps[1] in (REG_IND_LETTR + TAG_LAT_LETTR):
-            continue
+            is_flag = True
+
         cps_html = ''.join('&#x{};'.format(cp) for cp in cps)
-        # filenames have no 'FE0F' component
-        cps_filename = [cp for cp in cps if cp != 'FE0F']
+
+        # filenames have no 'FE0F' or 'E007F' components
+        cps_filename = [cp for cp in cps if cp not in ('FE0F', 'E007F')]
         filename = FILE_PREFIX + '_'.join(cps_filename).lower()
-        html = TABLE_ROW.format(i, ' '.join(cps), cps_html, filename,
-                                filename, cps_html, filename, cps_html)
+
+        png_dir = 'flags_png' if is_flag else 'png'
+        svg_dir = 'flags' if is_flag else 'svg'
+        sbw_dir = 'flags_bw' if is_flag else 'svg_bw'
+        html = TABLE_ROW.format(i, ' '.join(cps),
+                                cps_html,
+                                png_dir, filename,
+                                svg_dir, filename,
+                                cps_html,
+                                sbw_dir, filename,
+                                cps_html)
         if start_file:
             test_file_path = make_path(emoji_output_filename, html_file_num)
             copyfile(TEST_HEADER_FILE, test_file_path)
