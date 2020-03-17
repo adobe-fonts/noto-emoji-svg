@@ -44,7 +44,7 @@ RE_SPACEBTWEEN = re.compile(r">\s+<", re.MULTILINE)
 log = logging.getLogger('make_svg_font')
 
 
-def adjust_viewbox(svg_str, scale=1):
+def adjust_viewbox(svg_str, svg_file_path, scale=1):
     """
     Changes viewbox's values.
 
@@ -57,6 +57,10 @@ def adjust_viewbox(svg_str, scale=1):
     vb = RE_VIEWBOX.search(svg_str)
     if vb:
         min_x, min_y, width, height = parse_viewbox_values(vb.group(3))
+
+        if width != height:
+            log.error("The 'viewBox' is not square. "
+                      f"width: {width}; height: {height}; {svg_file_path}")
 
         svg_size = width
 
@@ -138,7 +142,8 @@ def add_svg_table(font_path, file_paths, compress_table=False):
         svg_item_data = set_svg_id(svg_item_data, gid)
 
         # Scale and shift the artwork, by adjusting its viewBox
-        svg_item_data = adjust_viewbox(svg_item_data, VIEWBOX_SCALE)
+        svg_item_data = adjust_viewbox(
+            svg_item_data, svg_file_path, VIEWBOX_SCALE)
 
         # Clean SVG document
         svg_item_data = clean_svg_doc(svg_item_data)
