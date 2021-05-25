@@ -21,19 +21,19 @@ and configure the repository with this command,
 
 ### :warning: NOTE 2 :warning:
 
-As of March 16 2020, the only browser that displays the OT-SVG font
-correctly is **Microsoft Edge**.
+As of May 25 2021, the only browser that displays the OT-SVG font
+correctly is **Microsoft Edge Legacy** (Tested in v44). Edge Legacy is the Chromium-free version of Edge. [Information on how to install Edge Legacy](https://techcommunity.microsoft.com/t5/discussions/tutorial-how-to-run-legacy-and-chromium-based-edge/m-p/1121216)
 
 **Firefox** supports OT-SVG but has a problem in the way it displays
 the SVG artwork: the size of the color artwork is correct only if the
-font's UPM value is 1000. (Tested in v74.0)
+font's UPM value is 1000. (Tested in v88.0)
 
 **Safari** also supports OT-SVG, but the color artwork won't be
 displayed if the font's `SVG` table contains more than 2000 items.
 Also, whenever the matrix of a `gradientTransform` contains a zero
-value the gradient fill won't be displayed. (Tested in v13.0.5)
+value the gradient fill won't be displayed. (Tested in v14.0)
 
-**Google Chrome** does not support OT-SVG. (Tested in v80.0)
+**Google Chrome** does not support OT-SVG. (Tested in v90.0)
 
 
 ### Requirements
