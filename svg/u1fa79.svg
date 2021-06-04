@@ -1,95 +1,87 @@
-<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <g id="Layer_6">
-    <g>
-      <g>
-        <linearGradient id="SVGID_1_" gradientTransform="matrix(0.7071 0.7071 0.7071 -0.7071 -1898.6761 1184.3029)" gradientUnits="userSpaceOnUse" x1="595.4945" x2="595.7945" y1="2071.5608" y2="2283.0208">
-          <stop offset="0" style="stop-color:#A1775D"/>
-          <stop offset="0.11" style="stop-color:#B98865"/>
-          <stop offset="0.22" style="stop-color:#CC956B"/>
-          <stop offset="0.34" style="stop-color:#D79C6F"/>
-          <stop offset="0.47" style="stop-color:#DB9F70"/>
-          <stop offset="0.63" style="stop-color:#D89D6F"/>
-          <stop offset="0.76" style="stop-color:#CE966C"/>
-          <stop offset="0.87" style="stop-color:#BD8B66"/>
-          <stop offset="0.98" style="stop-color:#A67B5F"/>
-          <stop offset="1" style="stop-color:#A1775D"/>
-        </linearGradient>
-        <path d="M114.74,11.34l0.52,0.52c10.2,10.2,10.2,26.73,0,36.93c0,0,0,0-0.01,0.01l-67.88,67.88 c-9.42,9.42-24.68,9.42-34.1,0l0,0l-0.52-0.52c-10.2-10.19-10.21-26.72-0.01-36.93c0,0,0,0,0.01-0.01l67.88-67.88 c9.41-9.42,24.68-9.43,34.1-0.01C114.73,11.33,114.73,11.33,114.74,11.34z" fill="url(#SVGID_1_)"/>
-        <circle cx="31.03" cy="87.97" fill="#825A41" r="2.65"/>
-        <circle cx="40.01" cy="96.97" fill="#825A41" r="2.65"/>
-        <circle cx="18.55" cy="100.45" fill="#825A41" r="2.65"/>
-        <circle cx="27.53" cy="109.45" fill="#825A41" r="2.65"/>
-        <circle cx="32.68" cy="77.15" fill="#825A41" r="2.65"/>
-        <circle cx="50.85" cy="95.32" fill="#825A41" r="2.65"/>
-        <circle cx="42.07" cy="86.54" fill="#825A41" r="2.65"/>
-        <circle cx="20.2" cy="89.63" fill="#825A41" r="2.65"/>
-        <circle cx="38.36" cy="107.8" fill="#825A41" r="2.65"/>
-        <circle cx="29.6" cy="99.03" fill="#825A41" r="2.65"/>
-        <circle cx="96.97" cy="40.02" fill="#825A41" r="2.65"/>
-        <circle cx="87.98" cy="31.02" fill="#825A41" r="2.65"/>
-        <circle cx="109.45" cy="27.54" fill="#825A41" r="2.65"/>
-        <circle cx="100.46" cy="18.54" fill="#825A41" r="2.65"/>
-        <circle cx="95.32" cy="50.85" fill="#825A41" r="2.65"/>
-        <circle cx="77.15" cy="32.68" fill="#825A41" r="2.65"/>
-        <circle cx="85.94" cy="41.46" fill="#825A41" r="2.65"/>
-        <circle cx="107.8" cy="38.37" fill="#825A41" r="2.65"/>
-        <circle cx="89.63" cy="20.2" fill="#825A41" r="2.65"/>
-        <circle cx="98.41" cy="28.97" fill="#825A41" r="2.65"/>
-        <g opacity="0.2">
-          <path d="M97.69,7.27c5.6-0.01,10.98,2.21,14.93,6.18l0.51,0.51c9.01,9.03,9.01,23.66,0,32.69l-67.89,67.89 c-8.24,8.25-21.61,8.25-29.85,0.01c0,0,0,0-0.01-0.01l-0.51-0.51c-9.03-9.02-9.03-23.66-0.01-32.68c0,0,0.01-0.01,0.01-0.01 l67.89-67.88C86.71,9.49,92.08,7.26,97.69,7.27 M97.69,4.27c-6.4-0.01-12.53,2.53-17.05,7.06L12.75,79.22 c-10.2,10.2-10.2,26.73,0,36.93c0,0,0,0,0,0l0.51,0.51c9.41,9.42,24.68,9.42,34.1,0c0,0,0,0,0,0l67.88-67.88 c10.2-10.2,10.2-26.73,0-36.93c0,0,0,0,0,0l-0.51-0.51C110.22,6.81,104.08,4.27,97.69,4.27z" fill="#212121"/>
-        </g>
-      </g>
-      <g>
-        <linearGradient id="SVGID_3_" gradientTransform="matrix(0.7071 0.7071 0.7071 -0.7071 -1898.6761 1184.3029)" gradientUnits="userSpaceOnUse" x1="595.4945" x2="595.7945" y1="2071.5608" y2="2283.0208">
-          <stop offset="0" style="stop-color:#A1775D"/>
-          <stop offset="0.11" style="stop-color:#B98865"/>
-          <stop offset="0.22" style="stop-color:#CC956B"/>
-          <stop offset="0.3394" style="stop-color:#D79C6F"/>
-          <stop offset="0.4748" style="stop-color:#DB9F70"/>
-          <stop offset="0.63" style="stop-color:#D89D6F"/>
-          <stop offset="0.76" style="stop-color:#CE966C"/>
-          <stop offset="0.87" style="stop-color:#BD8B66"/>
-          <stop offset="0.98" style="stop-color:#A67B5F"/>
-          <stop offset="1" style="stop-color:#A1775D"/>
-        </linearGradient>
-        <path d="M114.74,11.34l0.52,0.52c10.2,10.2,10.2,26.73,0,36.93c0,0,0,0-0.01,0.01l-67.88,67.88 c-9.42,9.42-24.68,9.42-34.1,0l0,0l-0.52-0.52c-10.2-10.19-10.21-26.72-0.01-36.93c0,0,0,0,0.01-0.01l67.88-67.88 c9.41-9.42,24.68-9.43,34.1-0.01C114.73,11.33,114.73,11.33,114.74,11.34z" fill="url(#SVGID_3_)"/>
-        <circle cx="31.03" cy="87.97" fill="#825A41" r="2.65"/>
-        <circle cx="40.01" cy="96.97" fill="#825A41" r="2.65"/>
-        <circle cx="18.55" cy="100.45" fill="#825A41" r="2.65"/>
-        <circle cx="27.53" cy="109.45" fill="#825A41" r="2.65"/>
-        <circle cx="32.68" cy="77.15" fill="#825A41" r="2.65"/>
-        <circle cx="50.85" cy="95.32" fill="#825A41" r="2.65"/>
-        <circle cx="42.07" cy="86.54" fill="#825A41" r="2.65"/>
-        <circle cx="20.2" cy="89.63" fill="#825A41" r="2.65"/>
-        <circle cx="38.36" cy="107.8" fill="#825A41" r="2.65"/>
-        <circle cx="29.6" cy="99.03" fill="#825A41" r="2.65"/>
-        <circle cx="96.97" cy="40.02" fill="#825A41" r="2.65"/>
-        <circle cx="87.98" cy="31.02" fill="#825A41" r="2.65"/>
-        <circle cx="109.45" cy="27.54" fill="#825A41" r="2.65"/>
-        <circle cx="100.46" cy="18.54" fill="#825A41" r="2.65"/>
-        <circle cx="95.32" cy="50.85" fill="#825A41" r="2.65"/>
-        <circle cx="77.15" cy="32.68" fill="#825A41" r="2.65"/>
-        <circle cx="85.94" cy="41.46" fill="#825A41" r="2.65"/>
-        <circle cx="107.8" cy="38.37" fill="#825A41" r="2.65"/>
-        <circle cx="89.63" cy="20.2" fill="#825A41" r="2.65"/>
-        <circle cx="98.41" cy="28.97" fill="#825A41" r="2.65"/>
-        <g opacity="0.2">
-          <path d="M97.69,7.27c5.6-0.01,10.98,2.21,14.93,6.18l0.51,0.51c9.01,9.03,9.01,23.66,0,32.69l-67.89,67.89 c-8.24,8.25-21.61,8.25-29.85,0.01c0,0,0,0-0.01-0.01l-0.51-0.51c-9.03-9.02-9.03-23.66-0.01-32.68c0,0,0.01-0.01,0.01-0.01 l67.89-67.88C86.71,9.49,92.08,7.26,97.69,7.27 M97.69,4.27c-6.4-0.01-12.53,2.53-17.05,7.06L12.75,79.22 c-10.2,10.2-10.2,26.73,0,36.93c0,0,0,0,0,0l0.51,0.51c9.41,9.42,24.68,9.42,34.1,0c0,0,0,0,0,0l67.88-67.88 c10.2-10.2,10.2-26.73,0-36.93c0,0,0,0,0,0l-0.51-0.51C110.22,6.81,104.08,4.27,97.69,4.27z" fill="#212121"/>
-        </g>
-        <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="64" x2="64" y1="40.9182" y2="93.0818">
-          <stop offset="0.2412" style="stop-color:#FFD0AB"/>
-          <stop offset="0.2908" style="stop-color:#FBCBA5"/>
-          <stop offset="0.3572" style="stop-color:#F1BD94"/>
-          <stop offset="0.4328" style="stop-color:#E0A678"/>
-          <stop offset="0.4521" style="stop-color:#DB9F70"/>
-          <stop offset="0.4928" style="stop-color:#BF8961"/>
-          <stop offset="0.5415" style="stop-color:#A47453"/>
-          <stop offset="0.5912" style="stop-color:#916649"/>
-          <stop offset="0.6423" style="stop-color:#865D43"/>
-          <stop offset="0.6965" style="stop-color:#825A41"/>
-        </linearGradient>
-        <path d="M81.72,64.98L64.98,81.72c-1.26,1.26-3.29,1.26-4.55,0L46.28,67.57c-1.26-1.26-1.26-3.29,0-4.55 l16.74-16.74c1.26-1.26,3.29-1.26,4.55,0l14.16,14.16C82.98,61.69,82.98,63.73,81.72,64.98z M39.19,68.4L59.6,88.81 c1.69,1.69,4.43,1.69,6.12,0l23.09-23.09c1.69-1.69,1.69-4.43,0-6.12L68.4,39.19c-1.69-1.69-4.43-1.69-6.12,0L39.19,62.28 C37.5,63.97,37.5,66.71,39.19,68.4z" fill="url(#SVGID_4_)"/>
-      </g>
-    </g>
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <linearGradient id="c" gradientTransform="matrix(.7071 .7071 .7071 -.7071 -1898.7 1184.3)" gradientUnits="userSpaceOnUse" x1="595.49" x2="595.79" y1="2071.6" y2="2283">
+    <stop offset="0" stop-color="#A1775D"/>
+    <stop offset=".11" stop-color="#B98865"/>
+    <stop offset=".22" stop-color="#CC956B"/>
+    <stop offset=".34" stop-color="#D79C6F"/>
+    <stop offset=".47" stop-color="#DB9F70"/>
+    <stop offset=".63" stop-color="#D89D6F"/>
+    <stop offset=".76" stop-color="#CE966C"/>
+    <stop offset=".87" stop-color="#BD8B66"/>
+    <stop offset=".98" stop-color="#A67B5F"/>
+    <stop offset="1" stop-color="#A1775D"/>
+  </linearGradient>
+  <path d="m114.74 11.34 0.52 0.52c10.2 10.2 10.2 26.73 0 36.93l-67.89 67.89c-9.42 9.42-24.68 9.42-34.1 0l-0.52-0.52c-10.2-10.19-10.21-26.72-0.01-36.93l67.89-67.89c9.41-9.42 24.68-9.43 34.1-0.01l0.01 0.01z" fill="url(#c)"/>
+  <circle cx="31.03" cy="87.97" fill="#825A41" r="2.65"/>
+  <circle cx="40.01" cy="96.97" fill="#825A41" r="2.65"/>
+  <circle cx="18.55" cy="100.45" fill="#825A41" r="2.65"/>
+  <circle cx="27.53" cy="109.45" fill="#825A41" r="2.65"/>
+  <circle cx="32.68" cy="77.15" fill="#825A41" r="2.65"/>
+  <circle cx="50.85" cy="95.32" fill="#825A41" r="2.65"/>
+  <circle cx="42.07" cy="86.54" fill="#825A41" r="2.65"/>
+  <circle cx="20.2" cy="89.63" fill="#825A41" r="2.65"/>
+  <circle cx="38.36" cy="107.8" fill="#825A41" r="2.65"/>
+  <circle cx="29.6" cy="99.03" fill="#825A41" r="2.65"/>
+  <circle cx="96.97" cy="40.02" fill="#825A41" r="2.65"/>
+  <circle cx="87.98" cy="31.02" fill="#825A41" r="2.65"/>
+  <circle cx="109.45" cy="27.54" fill="#825A41" r="2.65"/>
+  <circle cx="100.46" cy="18.54" fill="#825A41" r="2.65"/>
+  <circle cx="95.32" cy="50.85" fill="#825A41" r="2.65"/>
+  <circle cx="77.15" cy="32.68" fill="#825A41" r="2.65"/>
+  <circle cx="85.94" cy="41.46" fill="#825A41" r="2.65"/>
+  <circle cx="107.8" cy="38.37" fill="#825A41" r="2.65"/>
+  <circle cx="89.63" cy="20.2" fill="#825A41" r="2.65"/>
+  <circle cx="98.41" cy="28.97" fill="#825A41" r="2.65"/>
+  <g opacity=".2">
+    <path d="m97.69 7.27c5.6-0.01 10.98 2.21 14.93 6.18l0.51 0.51c9.01 9.03 9.01 23.66 0 32.69l-67.89 67.89c-8.24 8.25-21.61 8.25-29.85 0.01l-0.52-0.52c-9.03-9.02-9.03-23.66-0.01-32.68l0.01-0.01 67.89-67.88c3.95-3.97 9.32-6.2 14.93-6.19m0-3c-6.4-0.01-12.53 2.53-17.05 7.06l-67.89 67.89c-10.2 10.2-10.2 26.73 0 36.93l0.51 0.51c9.41 9.42 24.68 9.42 34.1 0l67.88-67.88c10.2-10.2 10.2-26.73 0-36.93l-0.51-0.51c-4.51-4.53-10.65-7.07-17.04-7.07z" fill="#212121"/>
   </g>
+  <linearGradient id="b" gradientTransform="matrix(.7071 .7071 .7071 -.7071 -1898.7 1184.3)" gradientUnits="userSpaceOnUse" x1="595.49" x2="595.79" y1="2071.6" y2="2283">
+    <stop offset="0" stop-color="#A1775D"/>
+    <stop offset=".11" stop-color="#B98865"/>
+    <stop offset=".22" stop-color="#CC956B"/>
+    <stop offset=".3394" stop-color="#D79C6F"/>
+    <stop offset=".4748" stop-color="#DB9F70"/>
+    <stop offset=".63" stop-color="#D89D6F"/>
+    <stop offset=".76" stop-color="#CE966C"/>
+    <stop offset=".87" stop-color="#BD8B66"/>
+    <stop offset=".98" stop-color="#A67B5F"/>
+    <stop offset="1" stop-color="#A1775D"/>
+  </linearGradient>
+  <path d="m114.74 11.34 0.52 0.52c10.2 10.2 10.2 26.73 0 36.93l-67.89 67.89c-9.42 9.42-24.68 9.42-34.1 0l-0.52-0.52c-10.2-10.19-10.21-26.72-0.01-36.93l67.89-67.89c9.41-9.42 24.68-9.43 34.1-0.01l0.01 0.01z" fill="url(#b)"/>
+  <circle cx="31.03" cy="87.97" fill="#825A41" r="2.65"/>
+  <circle cx="40.01" cy="96.97" fill="#825A41" r="2.65"/>
+  <circle cx="18.55" cy="100.45" fill="#825A41" r="2.65"/>
+  <circle cx="27.53" cy="109.45" fill="#825A41" r="2.65"/>
+  <circle cx="32.68" cy="77.15" fill="#825A41" r="2.65"/>
+  <circle cx="50.85" cy="95.32" fill="#825A41" r="2.65"/>
+  <circle cx="42.07" cy="86.54" fill="#825A41" r="2.65"/>
+  <circle cx="20.2" cy="89.63" fill="#825A41" r="2.65"/>
+  <circle cx="38.36" cy="107.8" fill="#825A41" r="2.65"/>
+  <circle cx="29.6" cy="99.03" fill="#825A41" r="2.65"/>
+  <circle cx="96.97" cy="40.02" fill="#825A41" r="2.65"/>
+  <circle cx="87.98" cy="31.02" fill="#825A41" r="2.65"/>
+  <circle cx="109.45" cy="27.54" fill="#825A41" r="2.65"/>
+  <circle cx="100.46" cy="18.54" fill="#825A41" r="2.65"/>
+  <circle cx="95.32" cy="50.85" fill="#825A41" r="2.65"/>
+  <circle cx="77.15" cy="32.68" fill="#825A41" r="2.65"/>
+  <circle cx="85.94" cy="41.46" fill="#825A41" r="2.65"/>
+  <circle cx="107.8" cy="38.37" fill="#825A41" r="2.65"/>
+  <circle cx="89.63" cy="20.2" fill="#825A41" r="2.65"/>
+  <circle cx="98.41" cy="28.97" fill="#825A41" r="2.65"/>
+  <g opacity=".2">
+    <path d="m97.69 7.27c5.6-0.01 10.98 2.21 14.93 6.18l0.51 0.51c9.01 9.03 9.01 23.66 0 32.69l-67.89 67.89c-8.24 8.25-21.61 8.25-29.85 0.01l-0.52-0.52c-9.03-9.02-9.03-23.66-0.01-32.68l0.01-0.01 67.89-67.88c3.95-3.97 9.32-6.2 14.93-6.19m0-3c-6.4-0.01-12.53 2.53-17.05 7.06l-67.89 67.89c-10.2 10.2-10.2 26.73 0 36.93l0.51 0.51c9.41 9.42 24.68 9.42 34.1 0l67.88-67.88c10.2-10.2 10.2-26.73 0-36.93l-0.51-0.51c-4.51-4.53-10.65-7.07-17.04-7.07z" fill="#212121"/>
+  </g>
+  <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="64" x2="64" y1="40.918" y2="93.082">
+    <stop offset=".2412" stop-color="#FFD0AB"/>
+    <stop offset=".2908" stop-color="#FBCBA5"/>
+    <stop offset=".3572" stop-color="#F1BD94"/>
+    <stop offset=".4328" stop-color="#E0A678"/>
+    <stop offset=".4521" stop-color="#DB9F70"/>
+    <stop offset=".4928" stop-color="#BF8961"/>
+    <stop offset=".5415" stop-color="#A47453"/>
+    <stop offset=".5912" stop-color="#916649"/>
+    <stop offset=".6423" stop-color="#865D43"/>
+    <stop offset=".6965" stop-color="#825A41"/>
+  </linearGradient>
+  <path d="m81.72 64.98-16.74 16.74c-1.26 1.26-3.29 1.26-4.55 0l-14.15-14.15c-1.26-1.26-1.26-3.29 0-4.55l16.74-16.74c1.26-1.26 3.29-1.26 4.55 0l14.16 14.16c1.25 1.25 1.25 3.29-0.01 4.54zm-42.53 3.42 20.41 20.41c1.69 1.69 4.43 1.69 6.12 0l23.09-23.09c1.69-1.69 1.69-4.43 0-6.12l-20.41-20.41c-1.69-1.69-4.43-1.69-6.12 0l-23.09 23.09c-1.69 1.69-1.69 4.43 0 6.12z" fill="url(#a)"/>
 </svg>
