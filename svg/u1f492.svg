@@ -1,4 +1,4 @@
-<svg style="enable-background:new 0 0 128 128;" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
   <path d="M124,80H4l12-12h94.3c1.1,0,2.1,0.4,2.8,1.2L124,80z" style="fill:#F06292;"/>
   <linearGradient id="SVGID_1_" gradientTransform="matrix(1 0 0 1 0 -1428)" gradientUnits="userSpaceOnUse" x1="64" x2="64" y1="1545.9999" y2="1552.4299">
     <stop offset="0" style="stop-color:#FAFAFA"/>

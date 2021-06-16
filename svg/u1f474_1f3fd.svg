@@ -1,4 +1,4 @@
-<svg style="enable-background:new 0 0 128 128;" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
   <path id="ears" d="M99.92,64.57H28.08C20.34,64.57,14,71.51,14,79.99s6.34,15.42,14.08,15.42h71.84 c7.75,0,14.08-6.94,14.08-15.42S107.66,64.57,99.92,64.57z" style="fill:#99674F;"/>
   <linearGradient id="hair_x5F_grey_1_" gradientTransform="matrix(1 0 0 -1 0 128)" gradientUnits="userSpaceOnUse" x1="63.9999" x2="63.9999" y1="97.3885" y2="34.5792">
     <stop offset="0" style="stop-color:#E0E0E0"/>

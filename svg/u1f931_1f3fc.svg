@@ -1,4 +1,4 @@
-<svg style="enable-background:new 0 0 128 128;" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
   <path id="hair" d="M55.42,4.53C31.82,7.75,32.99,29.5,32.96,33.68C32.92,37.85,35.11,72,38.99,79.5 c3.15,6.09,17,2.82,17,2.82l11.01-1.75l8.59-1.34c0,0,4.67-0.81,6.64-4.72c4.98-9.86,5.27-33.09,2.77-49.02 C84.93,25.1,82.1,0.89,55.42,4.53z" style="fill:#AB872F;"/>
   <radialGradient id="hairHighlights_2_" cx="60.8528" cy="-269.2576" gradientTransform="matrix(0.063 0.8236 -0.6981 0.0534 -131.2251 6.0494)" gradientUnits="userSpaceOnUse" r="45.2187">
     <stop offset="0.7989" style="stop-color:#BFA055;stop-opacity:0"/>

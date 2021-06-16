@@ -1,4 +1,4 @@
-<svg style="enable-background:new 0 0 128 128;" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
   <g id="hairGroup">
     <path id="hair" d="M46.71,4H40.7c-2.23,35.59,9.41,89.72,24.78,120h6.77H124V4H46.71z" style="fill:#543930;"/>
     <radialGradient id="hairHighlights_1_" cx="116.0033" cy="77.8857" gradientTransform="matrix(0.9795 -0.2016 -0.4144 -2.013 34.6595 230.2857)" gradientUnits="userSpaceOnUse" r="78.6505">

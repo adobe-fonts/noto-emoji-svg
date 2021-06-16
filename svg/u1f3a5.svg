@@ -1,4 +1,4 @@
-<svg style="enable-background:new 0 0 128 128;" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
   <path d="M32,80L20,64h-8c-4.42,0-8,3.58-8,8v44c0,4.42,3.58,8,8,8h8l12-16h20V80H32z" style="fill:#595858;"/>
   <rect height="60" style="fill:#3A3A3A;" width="3" x="16" y="64"/>
   <path d="M121.11,73.45L116,76h-16v12h16l5.11,2.55c1.33,0.66,2.89-0.3,2.89-1.79V75.24 C124,73.75,122.44,72.78,121.11,73.45z" style="fill:#595858;"/>
