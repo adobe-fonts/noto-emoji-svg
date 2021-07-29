@@ -1,6 +1,6 @@
 # Noto Emoji SVG
 
-OpenType-SVG version of [Noto Emoji](https://github.com/googlefonts/noto-emoji).
+OpenType-SVG version of [Noto Emoji](https://github.com/googlefonts/noto-emoji). OpenType-SVG is a font format that has some or all glyphs represented as SVG (scalable vector graphics) artwork. This allows glyphs to be displayed in multiple colors and gradients. OpenType-SVG fonts are also known as "color fonts". For more information, visit https://color.typekit.com. 
 
 ### :warning: NOTE :warning:
 
@@ -44,6 +44,8 @@ value the gradient fill won't be displayed. (Tested in v14.0)
 
 
 ## Building the fonts
+
+When building the **black-and-white font** and **color font**, make sure to build the **black-and-white font** first before building the **color font**. Since the data in the **color font** is dependent on the data in the **black-and-white font**, the **color font** will not build properly if it is built first. 
 
 To build the **black-and-white font** use the following command,
 
