@@ -1,3 +1,5 @@
+# Copyright © 2021 Adobe, Inc.
+# Author: Frank Grießhammer
 '''
 Convert inline CSS in SVG files to SVG attributes
 '''
