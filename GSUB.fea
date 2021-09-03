@@ -2312,5 +2312,10 @@ feature ccmp {
 	sub u1f3f4 ue0067 ue0062 ue0073 ue0063 ue0074 ue007f by u1f3f4_e0067_e0062_e0073_e006_0;  # GB-SCT - Scotland
 	sub u1f3f4 ue0067 ue0062 ue0077 ue006c ue0073 ue007f by u1f3f4_e0067_e0062_e0077_e006_0;  # GB-WLS - Wales
 	
+	# unknown flag
+	# Displays a question mark flag for the pairs of REGIONAL INDICATOR SYMBOL LETTER characters that
+	# don't have a country assigned to them. This sub must be placed after the 'country-flag' subs.
+	@REG_IND_LETTR = [u1f1e6 u1f1e7 u1f1e8 u1f1e9 u1f1ea u1f1eb u1f1ec u1f1ed u1f1ee u1f1ef u1f1f0 u1f1f1 u1f1f2 u1f1f3 u1f1f4 u1f1f5 u1f1f6 u1f1f7 u1f1f8 u1f1f9 u1f1fa u1f1fb u1f1fc u1f1fd u1f1fe u1f1ff];
+	sub @REG_IND_LETTR' @REG_IND_LETTR' by ufe82b;
 
 } ccmp;
