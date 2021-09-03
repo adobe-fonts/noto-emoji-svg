@@ -1,40 +1,40 @@
 <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-  <rect height="2" style="fill:#504F4F;" transform="matrix(0.1065 -0.9943 0.9943 0.1065 44.1743 153.2492)" width="28.28" x="93.21" y="51.05"/>
-  <circle cx="41.84" cy="64" r="21.84" style="fill:#504F4F;"/>
+  <rect fill="#504F4F" height="2" transform="matrix(0.1065 -0.9943 0.9943 0.1065 44.1743 153.2492)" width="28.28" x="93.21" y="51.05"/>
+  <circle cx="41.84" cy="64" fill="#504F4F" r="21.84"/>
   <radialGradient id="SVGID_1_" cx="88" cy="75.167" gradientTransform="matrix(-1 0 0 -1 129.8368 128)" gradientUnits="userSpaceOnUse" r="21.412">
-    <stop offset="0" style="stop-color:#EEEEEE"/>
-    <stop offset="1" style="stop-color:#BDBDBD"/>
+    <stop offset="0" stop-color="#EEEEEE"/>
+    <stop offset="1" stop-color="#BDBDBD"/>
   </radialGradient>
-  <circle cx="41.84" cy="64" r="10" style="fill:url(#SVGID_1_);"/>
-  <circle cx="41.84" cy="64" r="18" style="opacity:0.2;fill:none;stroke:#EEEEEE;stroke-width:0.9412;stroke-miterlimit:10;enable-background:new ;"/>
-  <circle cx="41.84" cy="64" r="14.62" style="opacity:0.2;fill:none;stroke:#EEEEEE;stroke-miterlimit:10;enable-background:new ;"/>
-  <circle cx="89.84" cy="64" r="17.15" style="fill:#504F4F;"/>
+  <circle cx="41.84" cy="64" fill="url(#SVGID_1_)" r="10"/>
+  <circle cx="41.84" cy="64" enable-background="new " fill="none" opacity="0.2" r="18" stroke="#EEEEEE" stroke-miterlimit="10" stroke-width="0.9412"/>
+  <circle cx="41.84" cy="64" enable-background="new " fill="none" opacity="0.2" r="14.62" stroke="#EEEEEE" stroke-miterlimit="10"/>
+  <circle cx="89.84" cy="64" fill="#504F4F" r="17.15"/>
   <radialGradient id="SVGID_2_" cx="39.667" cy="74.667" gradientTransform="matrix(-1 0 0 -1 129.8368 128)" gradientUnits="userSpaceOnUse" r="21.006">
-    <stop offset="0" style="stop-color:#EEEEEE"/>
-    <stop offset="1" style="stop-color:#BDBDBD"/>
+    <stop offset="0" stop-color="#EEEEEE"/>
+    <stop offset="1" stop-color="#BDBDBD"/>
   </radialGradient>
-  <circle cx="89.84" cy="64" r="10" style="fill:url(#SVGID_2_);"/>
-  <circle cx="89.84" cy="64" r="13.53" style="opacity:0.2;fill:none;stroke:#EEEEEE;stroke-miterlimit:10;enable-background:new ;"/>
-  <path d="M4,32v64c0,2.21,1.79,4,4,4h112c2.21,0,4-1.79,4-4V32c0-2.21-1.79-4-4-4H8C5.79,28,4,29.79,4,32z M40,78c0,1.1-0.9,2-2,2H20c-2.21,0-8-7.16-8-16s5.79-16,8-16h18c1.1,0,2,0.9,2,2V78z M108,80H90c-1.1,0-2-0.9-2-2V50 c0-1.1,0.9-2,2-2h18c2.21,0,8,7.16,8,16S110.21,80,108,80z" style="fill:#595858;"/>
-  <rect height="2" style="fill:#787676;" width="104" x="11.85" y="38.15"/>
-  <rect height="2" style="fill:#787676;" width="104" x="11.85" y="42.15"/>
-  <rect height="2" style="fill:#787676;" width="104" x="12" y="88"/>
-  <rect height="2" style="fill:#787676;" width="104" x="12" y="92"/>
-  <rect height="2" style="fill:#787676;" width="104" x="12" y="84"/>
-  <g style="opacity:0.2;">
-    <path d="M82,48c1.1,0,2,0.9,2,2v28c0,1.1-0.9,2-2,2H46c-1.1,0-2-0.9-2-2V50c0-1.1,0.9-2,2-2H82 M82,46H46 c-2.21,0-4,1.79-4,4v28c0,2.21,1.79,4,4,4h36c2.21,0,4-1.79,4-4V50C86,47.79,84.21,46,82,46z" style="fill:#424242;"/>
+  <circle cx="89.84" cy="64" fill="url(#SVGID_2_)" r="10"/>
+  <circle cx="89.84" cy="64" enable-background="new " fill="none" opacity="0.2" r="13.53" stroke="#EEEEEE" stroke-miterlimit="10"/>
+  <path d="M4,32v64c0,2.21,1.79,4,4,4h112c2.21,0,4-1.79,4-4V32c0-2.21-1.79-4-4-4H8C5.79,28,4,29.79,4,32z M40,78c0,1.1-0.9,2-2,2H20c-2.21,0-8-7.16-8-16s5.79-16,8-16h18c1.1,0,2,0.9,2,2V78z M108,80H90c-1.1,0-2-0.9-2-2V50 c0-1.1,0.9-2,2-2h18c2.21,0,8,7.16,8,16S110.21,80,108,80z" fill="#595858"/>
+  <rect fill="#787676" height="2" width="104" x="11.85" y="38.15"/>
+  <rect fill="#787676" height="2" width="104" x="11.85" y="42.15"/>
+  <rect fill="#787676" height="2" width="104" x="12" y="88"/>
+  <rect fill="#787676" height="2" width="104" x="12" y="92"/>
+  <rect fill="#787676" height="2" width="104" x="12" y="84"/>
+  <g opacity="0.2">
+    <path d="M82,48c1.1,0,2,0.9,2,2v28c0,1.1-0.9,2-2,2H46c-1.1,0-2-0.9-2-2V50c0-1.1,0.9-2,2-2H82 M82,46H46 c-2.21,0-4,1.79-4,4v28c0,2.21,1.79,4,4,4h36c2.21,0,4-1.79,4-4V50C86,47.79,84.21,46,82,46z" fill="#424242"/>
   </g>
   <radialGradient id="SVGID_3_" cx="63.5" cy="79.5" gradientTransform="matrix(1 0 0 -1 0 128)" gradientUnits="userSpaceOnUse" r="21.844">
-    <stop offset="0" style="stop-color:#EF5350"/>
-    <stop offset="1" style="stop-color:#E53935"/>
+    <stop offset="0" stop-color="#EF5350"/>
+    <stop offset="1" stop-color="#E53935"/>
   </radialGradient>
-  <path d="M84,50c0-1.1-0.9-2-2-2H46c-1.1,0-2,0.9-2,2v6h40V50z" style="fill:url(#SVGID_3_);"/>
+  <path d="M84,50c0-1.1-0.9-2-2-2H46c-1.1,0-2,0.9-2,2v6h40V50z" fill="url(#SVGID_3_)"/>
   <radialGradient id="SVGID_4_" cx="63.333" cy="72.833" gradientTransform="matrix(1 0 0 -1 0 128)" gradientUnits="userSpaceOnUse" r="28.404">
-    <stop offset="0" style="stop-color:#FAFAFA"/>
-    <stop offset="1" style="stop-color:#EEEEEE"/>
+    <stop offset="0" stop-color="#FAFAFA"/>
+    <stop offset="1" stop-color="#EEEEEE"/>
   </radialGradient>
-  <path d="M44,56v22c0,1.1,0.9,2,2,2h36c1.1,0,2-0.9,2-2V56H44z" style="fill:url(#SVGID_4_);"/>
-  <path d="M77,66H51c-0.55,0-1-0.45-1-1v-2c0-0.55,0.45-1,1-1h26c0.55,0,1,0.45,1,1v2C78,65.55,77.55,66,77,66z " style="fill:#BDBDBD;"/>
-  <path d="M77,74H51c-0.55,0-1-0.45-1-1v-2c0-0.55,0.45-1,1-1h26c0.55,0,1,0.45,1,1v2C78,73.55,77.55,74,77,74z " style="fill:#BDBDBD;"/>
-  <path d="M64,28H7.89C5.74,28,4,29.74,4,31.89v12.26h4.73l0.06-8h110.54l-0.06,8H124V31.88 c0-2.14-1.74-3.88-3.88-3.88H64z" style="fill:#424242;"/>
+  <path d="M44,56v22c0,1.1,0.9,2,2,2h36c1.1,0,2-0.9,2-2V56H44z" fill="url(#SVGID_4_)"/>
+  <path d="M77,66H51c-0.55,0-1-0.45-1-1v-2c0-0.55,0.45-1,1-1h26c0.55,0,1,0.45,1,1v2C78,65.55,77.55,66,77,66z " fill="#BDBDBD"/>
+  <path d="M77,74H51c-0.55,0-1-0.45-1-1v-2c0-0.55,0.45-1,1-1h26c0.55,0,1,0.45,1,1v2C78,73.55,77.55,74,77,74z " fill="#BDBDBD"/>
+  <path d="M64,28H7.89C5.74,28,4,29.74,4,31.89v12.26h4.73l0.06-8h110.54l-0.06,8H124V31.88 c0-2.14-1.74-3.88-3.88-3.88H64z" fill="#424242"/>
 </svg>
