@@ -157,6 +157,10 @@ To clean the **color artwork** run this command:
 
 	python3 svg_cleaner.py svg
 
+To remove any CSS in-line styles from all SVG files (CSS is incompatible with macOS in this context), run:
+
+	python3 svg_css_replacement.py
+
 
 ## Adobe Illustrator saving options
 
