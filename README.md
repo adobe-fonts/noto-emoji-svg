@@ -2,6 +2,17 @@
 
 OpenType-SVG version of [Noto Emoji](https://github.com/googlefonts/noto-emoji). OpenType-SVG is a font format that has some or all glyphs represented as SVG (scalable vector graphics) artwork. This allows glyphs to be displayed in multiple colors and gradients. OpenType-SVG fonts are also known as "color fonts". For more information, visit https://color.typekit.com. 
 
+
+## License
+
+As a derivative of [Noto Emoji](https://github.com/googlefonts/noto-emoji), the same licenses apply for Noto Emoji SVG:  
+Emoji fonts (in the fonts/ subdirectory) are under the
+[SIL Open Font License, version 1.1](fonts/LICENSE).  
+Tools and most image resources are under the [Apache license, version 2.0](./LICENSE).
+Flag images under flags/ are in the public domain or
+otherwise exempt from copyright ([more info](https://github.com/googlefonts/noto-emoji/blob/main/third_party/region-flags/LICENSE)).
+
+
 ### :warning: NOTE :warning:
 
 The repository contains aliases/symlinks. Cloning on Windows
