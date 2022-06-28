@@ -1,26 +1,14 @@
 <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-  <radialGradient id="SVGID_1_" cx="63.333" cy="124.5565" gradientTransform="matrix(1 0 0 -1 0 127.8898)" gradientUnits="userSpaceOnUse" r="120.14">
-    <stop offset="0" stop-color="#EEEEEE"/>
-    <stop offset="0.3167" stop-color="#EBEBEB"/>
-    <stop offset="0.5781" stop-color="#E1E1E1"/>
-    <stop offset="0.819" stop-color="#CFCFCF"/>
-    <stop offset="1" stop-color="#BDBDBD"/>
-  </radialGradient>
-  <rect fill="url(#SVGID_1_)" height="120" width="120" x="4" y="4"/>
-  <radialGradient id="SVGID_2_" cx="63.5722" cy="130.0381" gradientTransform="matrix(1 0 0 -1 0 127.8898)" gradientUnits="userSpaceOnUse" r="105.7601">
-    <stop offset="0" stop-color="#616161"/>
-    <stop offset="0.2204" stop-color="#5E5E5E"/>
-    <stop offset="0.4074" stop-color="#535353"/>
-    <stop offset="0.5821" stop-color="#424242"/>
-    <stop offset="0.7485" stop-color="#292929"/>
-    <stop offset="0.7941" stop-color="#212121"/>
-    <stop offset="1" stop-color="#212121"/>
-  </radialGradient>
-  <path d="M4,4v24h16v60c0,2.21,1.79,4,4,4h12c2.21,0,4-1.79,4-4V28h14v60c0,2.21,1.79,4,4,4h12 c2.21,0,4-1.79,4-4V28h14v60c0,2.21,1.79,4,4,4h12c2.21,0,4-1.79,4-4V28h16V4H4z" fill="url(#SVGID_2_)"/>
-  <rect fill="none" height="56" width="14" x="40" y="28"/>
-  <rect fill="none" height="56" width="14" x="74" y="28"/>
-  <rect fill="#424242" height="8" width="120" x="4" y="20"/>
-  <rect fill="#504F4F" height="32" width="4" x="28" y="92"/>
-  <rect fill="#504F4F" height="32" width="4" x="62.06" y="92"/>
-  <rect fill="#504F4F" height="32" width="4" x="96" y="92"/>
+  <g>
+    <path d="M117.39,124H10.61C6.96,124,4,121.04,4,117.39V16h120v101.39C124,121.04,121.04,124,117.39,124z" fill="#82AEC0"/>
+    <path d="M27.7,116.35H12.87c-2.8,0-5.06-2.27-5.06-5.06v-85.8h24.95v85.8 C32.76,114.09,30.49,116.35,27.7,116.35z" fill="#FFFFFF"/>
+    <path d="M56.84,116.35H42.02c-2.8,0-5.06-2.27-5.06-5.06v-85.8H61.9v85.8 C61.9,114.09,59.64,116.35,56.84,116.35z" fill="#FFFFFF"/>
+    <path d="M85.98,116.35H71.16c-2.8,0-5.06-2.27-5.06-5.06v-85.8h24.95v85.8 C91.04,114.09,88.78,116.35,85.98,116.35z" fill="#FFFFFF"/>
+    <path d="M115.13,116.35H100.3c-2.8,0-5.06-2.27-5.06-5.06v-85.8h24.95v85.8 C120.19,114.09,117.92,116.35,115.13,116.35z" fill="#FFFFFF"/>
+    <path d="M124,8.47C124,6,122,4,119.53,4H8.47C6,4,4,6,4,8.47V28h22.54v52.4c0,1.21,1.15,2.2,2.56,2.2h5.75h5.75 c1.42,0,2.56-0.98,2.56-2.2V28h12.51v52.4c0,1.21,1.15,2.2,2.56,2.2H64h5.75c1.42,0,2.56-0.98,2.56-2.2V28h12.51v52.4 c0,1.21,1.15,2.2,2.56,2.2h5.75h5.75c1.42,0,2.56-0.98,2.56-2.2V28H124V8.47z"/>
+    <rect height="6.65" fill="#757575" width="120" x="4" y="4"/>
+    <path d="M97.42,80.25h-8.55c-0.84,0-1.52-0.68-1.52-1.52v-7.21c0-0.84,0.68-1.52,1.52-1.52h8.55 c0.84,0,1.52,0.68,1.52,1.52v7.21C98.93,79.57,98.25,80.25,97.42,80.25z" fill="#757575"/>
+    <path d="M68.27,80.25h-8.55c-0.84,0-1.52-0.68-1.52-1.52v-7.21c0-0.84,0.68-1.52,1.52-1.52h8.55 c0.84,0,1.52,0.68,1.52,1.52v7.21C69.79,79.57,69.11,80.25,68.27,80.25z" fill="#757575"/>
+    <path d="M39.13,80.25h-8.55c-0.84,0-1.52-0.68-1.52-1.52v-7.21c0-0.84,0.68-1.52,1.52-1.52h8.55 c0.84,0,1.52,0.68,1.52,1.52v7.21C40.65,79.57,39.97,80.25,39.13,80.25z" fill="#757575"/>
+  </g>
 </svg>

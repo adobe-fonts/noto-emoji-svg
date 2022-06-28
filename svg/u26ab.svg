@@ -1,12 +1,7 @@
 <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-  <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="64" x2="64" y1="3.5711" y2="120.7814">
-    <stop offset="0" stop-color="#616161"/>
-    <stop offset="0.827" stop-color="#212121"/>
-  </linearGradient>
-  <circle cx="64" cy="64" fill="url(#SVGID_1_)" r="60"/>
-  <radialGradient id="SVGID_2_" cx="64" cy="63.8898" gradientTransform="matrix(1 0 0 -1 0 127.8898)" gradientUnits="userSpaceOnUse" r="60">
-    <stop offset="0.6138" stop-color="#212121" stop-opacity="0"/>
-    <stop offset="1" stop-color="#BFBEBE"/>
-  </radialGradient>
-  <circle cx="64" cy="64" fill="url(#SVGID_2_)" opacity="0.3" r="60"/>
+  <g>
+    <circle cx="63.93" cy="64" r="60" fill="#575757"/>
+    <circle cx="60.03" cy="63.1" r="56.1" fill="#424242"/>
+    <path d="M23.93,29.7c4.5-7.1,14.1-13,24.1-14.8c2.5-0.4,5-0.6,7.1,0.2c1.6,0.6,2.9,2.1,2,3.8 c-0.7,1.4-2.6,2-4.1,2.5c-9.38,3.1-17.47,9.21-23,17.4c-2,3-5,11.3-8.7,9.2C17.43,45.7,18.23,38.5,23.93,29.7z" fill="#787878"/>
+  </g>
 </svg>
