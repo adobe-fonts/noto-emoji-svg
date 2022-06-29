@@ -9,30 +9,31 @@
 
 <style>
 	@font-face {
-	  font-family: 'NotoEmojiColor';
-	  src: url('fonts/NotoColorEmoji-SVG.otf') format('opentype');
+		font-family: 'NotoEmojiColor';
+		src: url('fonts/NotoColorEmoji-SVG.otf') format('opentype');
 	}
 	@font-face {
-	  font-family: 'NotoEmojiBW';
-	  src: url('fonts/NotoEmoji.otf') format('opentype');
+		font-family: 'NotoEmojiBW';
+		src: url('fonts/NotoEmoji.otf') format('opentype');
 	}
 	img {
 		height: 150px;
 		margin-top: 15px;
 	}
-    table {
-        width: 100%;
-    }
-    th {
-        width: 10%;
-    }
-    td {
-        width: 20%;
-    }
-    .bold_center {
-        font-weight: bold;
-        text-align: center;
-    }
+	table {
+		width: 100%;
+		table-layout: fixed;
+	}
+	th {
+		width: 10%;
+	}
+	td {
+		text-align: center;
+	}
+	.bold_center {
+		font-weight: bold;
+		text-align: center;
+	}
 	.font_emoji_bw {
 		font-family: 'NotoEmojiBW', Courier;
 		font-size: 128px;
@@ -45,22 +46,42 @@
 	.font_fallback {
 		font-size: 150px;
 	}
+	.header {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 37px;
+		border-bottom: 1px solid #ddd;
+		background-color: #FFF;
+		clear: left;
+	}
+	.table_in_header {
+		/* vertically center the header text */
+		height: 100%;
+	}
+	.content_below_header {
+		/* 1 pixel less than the header to avoid double grey line*/
+		padding-top: 36px;
+	}
 </style>
 </head>
 
 <body>
-<div>
+<div class="header">
+	<table class="table_in_header">
+	<tr class="bold_center">
+		<th></th>
+		<td>Fallback font</td>
+		<td>PNG file</td>
+		<td>SVG file</td>
+		<td>Color font</td>
+		<td>SVG file</td>
+		<td>B&W font</td>
+	</tr>
+	</table>
+</div>
+<div class="content_below_header">
 <table class="table table-striped">
-
-<tr class="bold_center">
-    <th></th>
-    <td>Fallback font</td>
-    <td>PNG file</td>
-    <td>SVG file</td>
-    <td>Color font</td>
-    <td>SVG file</td>
-    <td>B&W font</td>
-</tr>
 <tr>
     <th scope="row">#1<br>1F600</th>
     <td class="font_fallback">&#x1F600;</td>
