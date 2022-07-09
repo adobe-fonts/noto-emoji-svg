@@ -1,7 +1,9 @@
 <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-  <linearGradient id="SVGID_1_" gradientTransform="matrix(1 0 0 -1 0 128)" gradientUnits="userSpaceOnUse" x1="64" x2="64" y1="102.5" y2="24.97">
-    <stop offset="0" stop-color="#757575"/>
-    <stop offset="0.5148" stop-color="#504F4F"/>
-  </linearGradient>
-  <path d="M90.16,33.44L60.5,100.77c-0.33,0.75-1.07,1.23-1.88,1.23h-8.76c-1.5,0-2.49-1.55-1.87-2.92 l27.64-59.99c0.63-1.36-0.37-2.92-1.87-2.92H39.72c-1.14,0-2.06-0.92-2.06-2.06v-6.07c0-1.14,0.92-2.06,2.06-2.06h48.56 c1.14,0,2.06,0.92,2.06,2.06v4.56C90.33,32.9,90.27,33.18,90.16,33.44z" fill="url(#SVGID_1_)"/>
+  <defs>
+    <linearGradient id="SVGID_1_" gradientTransform="matrix(1 0 0 -1 0 0)" gradientUnits="userSpaceOnUse" x1="64" x2="64" y1="-25.5" y2="-103.03">
+      <stop offset="0" stop-color="#757575"/>
+      <stop offset="0.5148" stop-color="#504F4F"/>
+    </linearGradient>
+  </defs>
+  <path d="M90.16,33.44 L60.5,100.77 C60.17,101.52 59.43,102 58.62,102 L49.86,102 C48.36,102 47.37,100.45 47.99,99.08 L75.63,39.09 C76.26,37.73 75.26,36.17 73.76,36.17 L39.72,36.17 C38.58,36.17 37.66,35.25 37.66,34.11 L37.66,28.04 C37.66,26.9 38.58,25.98 39.72,25.98 L88.28,25.98 C89.42,25.98 90.34,26.9 90.34,28.04 L90.34,32.6 C90.33,32.9 90.27,33.18 90.16,33.44 Z" fill="url(#SVGID_1_)"/>
 </svg>

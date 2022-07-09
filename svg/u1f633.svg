@@ -1,45 +1,33 @@
 <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-  <g id="gold">
-    <radialGradient id="face_1_" cx="63.6" cy="1696.9" gradientTransform="matrix(1 0 0 1 0 -1634)" gradientUnits="userSpaceOnUse" r="56.9597">
+  <defs>
+    <radialGradient id="face_1_" cx="63.6" cy="62.9" gradientUnits="userSpaceOnUse" r="56.9597">
       <stop offset="0.5" stop-color="#FDE030"/>
       <stop offset="0.92" stop-color="#F7C02B"/>
       <stop offset="1" stop-color="#F4A223"/>
     </radialGradient>
-    <path id="face" d="M63.6,118.8c-27.9,0-58-17.5-58-55.9S35.7,7,63.6,7c15.5,0,29.8,5.1,40.4,14.4 c11.5,10.2,17.6,24.6,17.6,41.5s-6.1,31.2-17.6,41.4C93.4,113.6,79,118.8,63.6,118.8z" fill="url(#face_1_)"/>
-    <path d="M111.49,29.67c5.33,8.6,8.11,18.84,8.11,30.23c0,16.9-6.1,31.2-17.6,41.4 c-10.6,9.3-25,14.5-40.4,14.5c-18.06,0-37-7.35-48.18-22.94c10.76,17.66,31,25.94,50.18,25.94c15.4,0,29.8-5.2,40.4-14.5 c11.5-10.2,17.6-24.5,17.6-41.4C121.6,50.16,118.13,38.84,111.49,29.67z" fill="#EB8F00"/>
-  </g>
-  <g id="facial_expressions">
-    <g id="flushed-face">
-      <g id="blush">
-        <radialGradient id="SVGID_1_" cx="78.3084" cy="-948.814" gradientTransform="matrix(0.98 0 0 -0.93 -49.42 -800.35)" gradientUnits="userSpaceOnUse" r="19.44">
-          <stop offset="0" stop-color="#ED7770"/>
-          <stop offset="0.9" stop-color="#ED7770" stop-opacity="0"/>
-        </radialGradient>
-        <circle cx="27.2" cy="82.2" enable-background="new " fill="url(#SVGID_1_)" opacity="0.8" r="17.5"/>
-        <radialGradient id="SVGID_2_" cx="147.368" cy="-948.814" gradientTransform="matrix(0.98 0 0 -0.93 -49.42 -800.35)" gradientUnits="userSpaceOnUse" r="19.44">
-          <stop offset="0" stop-color="#ED7770"/>
-          <stop offset="0.9" stop-color="#ED7770" stop-opacity="0"/>
-        </radialGradient>
-        <circle cx="94.88" cy="82.2" enable-background="new " fill="url(#SVGID_2_)" opacity="0.8" r="17.5"/>
-        <radialGradient id="SVGID_3_" cx="147.43" cy="-923.9" gradientTransform="matrix(1 0 0 -1 0 130)" gradientUnits="userSpaceOnUse" r="19.44">
-          <stop offset="0" stop-color="#ED7770"/>
-          <stop offset="0.9" stop-color="#ED7770" stop-opacity="0"/>
-        </radialGradient>
-        <circle cx="99.8" cy="82.2" enable-background="new " fill="url(#SVGID_3_)" opacity="0.8" r="17.5"/>
-      </g>
-      <line id="mouth" fill="none" stroke="#35220B" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" x1="56" x2="71" y1="96" y2="96"/>
-      <g id="eyes">
-        <g id="peepers">
-          <path d="M89.2,41.8c9.61,0,17.4,7.79,17.4,17.4c0,9.61-7.79,17.4-17.4,17.4s-17.4-7.79-17.4-17.4v0 C71.81,49.59,79.59,41.81,89.2,41.8" fill="#FFFFFF"/>
-          <ellipse cx="89.2" cy="59.2" fill="#422B0D" rx="7.5" ry="7.6"/>
-          <path d="M38.7,41.7c9.61,0,17.4,7.79,17.4,17.4s-7.79,17.4-17.4,17.4s-17.4-7.79-17.4-17.4 C21.31,49.49,29.09,41.71,38.7,41.7" fill="#FFFFFF"/>
-          <ellipse cx="38.7" cy="59.1" fill="#422B0D" rx="7.5" ry="7.6"/>
-        </g>
-        <g id="eyebrows">
-          <path d="M46.56,27.27h0.1c0.95,0.35,2-0.14,2.35-1.09c0.35-0.95-0.14-2-1.09-2.35 c-1.79-0.8-3.69-1.31-5.64-1.5c-5.25-0.63-10.55,0.77-14.8,3.92c-2,1.51,0.07,4.06,2.05,3.06 C34.82,26.74,40.82,26.02,46.56,27.27z" fill="#422B0D"/>
-          <path d="M80.86,27.27h-0.1c-0.95,0.35-2-0.14-2.35-1.09c-0.35-0.95,0.14-2,1.09-2.35 c1.79-0.8,3.69-1.31,5.64-1.5c5.25-0.63,10.55,0.77,14.8,3.92c2,1.51-0.07,4.06-2,3.06C92.64,26.73,86.62,26.01,80.86,27.27z" fill="#422B0D"/>
-        </g>
-      </g>
-    </g>
-  </g>
+    <radialGradient id="SVGID_1_" cx="27.879829" cy="-88.222602" gradientTransform="matrix(0.98 0 0 -0.93 0 0)" gradientUnits="userSpaceOnUse" r="19.44">
+      <stop offset="0" stop-color="#ED7770"/>
+      <stop offset="0.9" stop-color="#ED7770" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="SVGID_2_" cx="96.939429" cy="-88.222602" gradientTransform="matrix(0.98 0 0 -0.93 0 0)" gradientUnits="userSpaceOnUse" r="19.44">
+      <stop offset="0" stop-color="#ED7770"/>
+      <stop offset="0.9" stop-color="#ED7770" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="SVGID_3_" cx="147.43" cy="-1053.9" gradientTransform="matrix(1 0 0 -1 0 0)" gradientUnits="userSpaceOnUse" r="19.44">
+      <stop offset="0" stop-color="#ED7770"/>
+      <stop offset="0.9" stop-color="#ED7770" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path id="face" d="M63.6,118.8 C35.7,118.8 5.6,101.3 5.6,62.9 C5.6,24.5 35.7,7 63.6,7 C79.1,7 93.4,12.1 104,21.4 C115.5,31.6 121.6,46 121.6,62.9 C121.6,79.8 115.5,94.1 104,104.3 C93.4,113.6 79,118.8 63.6,118.8 Z" fill="url(#face_1_)"/>
+  <path d="M111.49,29.67 C116.82,38.27 119.6,48.51 119.6,59.9 C119.6,76.8 113.5,91.1 102,101.3 C91.4,110.6 77,115.8 61.6,115.8 C43.54,115.8 24.6,108.45 13.42,92.86 C24.18,110.52 44.42,118.8 63.6,118.8 C79,118.8 93.4,113.6 104,104.3 C115.5,94.1 121.6,79.8 121.6,62.9 C121.6,50.16 118.13,38.84 111.49,29.67 Z" fill="#EB8F00"/>
+  <path d="M44.7,82.2 A17.5 17.5 0 1 1 9.7,82.2 A17.5 17.5 0 1 1 44.7,82.2 Z" fill="url(#SVGID_1_)" opacity="0.8"/>
+  <path d="M112.38,82.2 A17.5 17.5 0 1 1 77.38,82.2 A17.5 17.5 0 1 1 112.38,82.2 Z" fill="url(#SVGID_2_)" opacity="0.8"/>
+  <path d="M117.3,82.2 A17.5 17.5 0 1 1 82.3,82.2 A17.5 17.5 0 1 1 117.3,82.2 Z" fill="url(#SVGID_3_)" opacity="0.8"/>
+  <path id="mouth" d="M56,92 L71,92 Q72.657,92 73.828,93.172 Q75,94.343 75,96 Q75,97.657 73.828,98.828 Q72.657,100 71,100 L56,100 Q54.343,100 53.172,98.828 Q52,97.657 52,96 Q52,94.343 53.172,93.172 Q54.343,92 56,92 Z" fill="#35220B"/>
+  <path d="M89.2,41.8 C98.81,41.8 106.6,49.59 106.6,59.2 C106.6,68.81 98.81,76.6 89.2,76.6 C79.59,76.6 71.8,68.81 71.8,59.2 L71.8,59.2 C71.81,49.59 79.59,41.81 89.2,41.8" fill="#FFFFFF"/>
+  <path d="M96.7,59.2 A7.5 7.6 0 1 1 81.7,59.2 A7.5 7.6 0 1 1 96.7,59.2 Z" fill="#422B0D"/>
+  <path d="M38.7,41.7 C48.31,41.7 56.1,49.49 56.1,59.1 C56.1,68.71 48.31,76.5 38.7,76.5 C29.09,76.5 21.3,68.71 21.3,59.1 C21.31,49.49 29.09,41.71 38.7,41.7" fill="#FFFFFF"/>
+  <path d="M46.2,59.1 A7.5 7.6 0 1 1 31.2,59.1 A7.5 7.6 0 1 1 46.2,59.1 Z" fill="#422B0D"/>
+  <path d="M46.56,27.27 L46.66,27.27 C47.61,27.62 48.66,27.13 49.01,26.18 C49.36,25.23 48.87,24.18 47.92,23.83 C46.13,23.03 44.23,22.52 42.28,22.33 C37.03,21.7 31.73,23.1 27.48,26.25 C25.48,27.76 27.55,30.31 29.53,29.31 C34.82,26.74 40.82,26.02 46.56,27.27 Z" fill="#422B0D"/>
+  <path d="M80.86,27.27 L80.76,27.27 C79.81,27.62 78.76,27.13 78.41,26.18 C78.06,25.23 78.55,24.18 79.5,23.83 C81.29,23.03 83.19,22.52 85.14,22.33 C90.39,21.7 95.69,23.1 99.94,26.25 C101.94,27.76 99.87,30.31 97.94,29.31 C92.64,26.73 86.62,26.01 80.86,27.27 Z" fill="#422B0D"/>
 </svg>

@@ -1,19 +1,16 @@
 <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-  <rect height="120" fill="#FFFFFF" width="120" x="4" y="4"/>
-  <g>
-    <line fill="none" stroke="#B0BEC5" stroke-width="1.9931" stroke-miterlimit="10" x1="24.7" x2="24.7" y1="4.2" y2="123.8"/>
-    <line fill="none" stroke="#B0BEC5" stroke-width="1.9931" stroke-miterlimit="10" x1="44.35" x2="44.35" y1="4.2" y2="123.8"/>
-    <line fill="none" stroke="#B0BEC5" stroke-width="1.9931" stroke-miterlimit="10" x1="64" x2="64" y1="4.2" y2="123.8"/>
-    <line fill="none" stroke="#B0BEC5" stroke-width="1.9931" stroke-miterlimit="10" x1="83.65" x2="83.65" y1="4.2" y2="123.8"/>
-    <line fill="none" stroke="#B0BEC5" stroke-width="1.9931" stroke-miterlimit="10" x1="103.3" x2="103.3" y1="4.2" y2="123.8"/>
-  </g>
-  <g>
-    <line fill="none" stroke="#B0BEC5" stroke-width="2" stroke-miterlimit="10" x1="123.8" x2="4.15" y1="24.66" y2="24.66"/>
-    <line fill="none" stroke="#B0BEC5" stroke-width="2" stroke-miterlimit="10" x1="123.81" x2="4.16" y1="44.33" y2="44.33"/>
-    <line fill="none" stroke="#B0BEC5" stroke-width="2" stroke-miterlimit="10" x1="123.83" x2="4.17" y1="64" y2="64"/>
-    <line fill="none" stroke="#B0BEC5" stroke-width="2" stroke-miterlimit="10" x1="123.84" x2="4.19" y1="83.67" y2="83.67"/>
-    <line fill="none" stroke="#B0BEC5" stroke-width="2" stroke-miterlimit="10" x1="123.85" x2="4.2" y1="103.34" y2="103.34"/>
-  </g>
-  <polygon points="5.1,122.98 5.02,116.82 31.94,68.3 55.64,90.21 119.42,5.11 122.91,5.11 123.05,10.27 56.45,99.13 33.43,77.85 8.45,123.01 " fill="#E53935"/>
-  <path d="M122.01,5.99v116.01H5.99V5.99H122.01 M124,4H4v120h120V4L124,4z" fill="#B0BEC5"/>
+  <defs/>
+  <path d="M4,4 L124,4 L124,124 L4,124 L4,4 Z" fill="#FFFFFF"/>
+  <path d="M25.697,4.2 L25.697,123.8 L23.703,123.8 L23.703,4.2 L25.697,4.2 Z" fill="#B0BEC5"/>
+  <path d="M45.347,4.2 L45.347,123.8 L43.353,123.8 L43.353,4.2 L45.347,4.2 Z" fill="#B0BEC5"/>
+  <path d="M64.997,4.2 L64.997,123.8 L63.003,123.8 L63.003,4.2 L64.997,4.2 Z" fill="#B0BEC5"/>
+  <path d="M84.647,4.2 L84.647,123.8 L82.653,123.8 L82.653,4.2 L84.647,4.2 Z" fill="#B0BEC5"/>
+  <path d="M104.297,4.2 L104.297,123.8 L102.303,123.8 L102.303,4.2 L104.297,4.2 Z" fill="#B0BEC5"/>
+  <path d="M123.8,25.66 L4.15,25.66 L4.15,23.66 L123.8,23.66 L123.8,25.66 Z" fill="#B0BEC5"/>
+  <path d="M123.81,45.33 L4.16,45.33 L4.16,43.33 L123.81,43.33 L123.81,45.33 Z" fill="#B0BEC5"/>
+  <path d="M123.83,65 L4.17,65 L4.17,63 L123.83,63 L123.83,65 Z" fill="#B0BEC5"/>
+  <path d="M123.84,84.67 L4.19,84.67 L4.19,82.67 L123.84,82.67 L123.84,84.67 Z" fill="#B0BEC5"/>
+  <path d="M123.85,104.34 L4.2,104.34 L4.2,102.34 L123.85,102.34 L123.85,104.34 Z" fill="#B0BEC5"/>
+  <path d="M5.1,122.98 L5.02,116.82 L31.94,68.3 L55.64,90.21 L119.42,5.11 L122.91,5.11 L123.05,10.27 L56.45,99.13 L33.43,77.85 L8.45,123.01 Z" fill="#E53935"/>
+  <path d="M122.01,5.99 L122.01,122 L5.99,122 L5.99,5.99 L122.01,5.99 M124,4 L4,4 L4,124 L124,124 L124,4 L124,4 Z" fill="#B0BEC5"/>
 </svg>
