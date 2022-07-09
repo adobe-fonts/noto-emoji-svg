@@ -167,7 +167,7 @@ feature ccmp {
 	sub u1f932 u1f3fd by u1f932_1f3fd;
 	sub u1f932 u1f3fe by u1f932_1f3fe;
 	sub u1f932 u1f3ff by u1f932_1f3ff;
-	sub u1f91d u1f3fb by u1f91d_1f3fb; # handshake (NOTE: Unicode specifies no skin variations)
+	sub u1f91d u1f3fb by u1f91d_1f3fb; # handshake (NOTE: Unicode 13 specifies no skin variations)
 	sub u1f91d u1f3fc by u1f91d_1f3fc;
 	sub u1f91d u1f3fd by u1f91d_1f3fd;
 	sub u1f91d u1f3fe by u1f91d_1f3fe;
