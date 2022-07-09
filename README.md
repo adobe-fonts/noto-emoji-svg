@@ -13,7 +13,7 @@ Flag images under flags/ are in the public domain or
 otherwise exempt from copyright ([more info](https://github.com/googlefonts/noto-emoji/blob/main/third_party/region-flags/LICENSE)).
 
 
-### :warning: NOTE :warning:
+### ⚠️ NOTE ⚠️
 
 The repository contains aliases/symlinks. Cloning on Windows
 requires using the option `-c core.symlinks=true` and running the command with
@@ -30,21 +30,14 @@ and configure the repository with this command,
 	git config core.symlinks true
 
 
-### :warning: NOTE 2 :warning:
+### ⚠️ NOTE 2 ⚠️
 
-As of May 25 2021, the only browser that displays the OT-SVG font
-correctly is **Microsoft Edge Legacy** (Tested in v44). Edge Legacy is the Chromium-free version of Edge. [Information on how to install Edge Legacy](https://techcommunity.microsoft.com/t5/discussions/tutorial-how-to-run-legacy-and-chromium-based-edge/m-p/1121216)
+As of July 9th 2022, browsers that do not support OT-SVG fonts
+are **Google Chrome** (tested in v103.0) and **Opera** (tested in v89.0).
 
-**Firefox** supports OT-SVG but has a problem in the way it displays
-the SVG artwork: the size of the color artwork is correct only if the
-font's UPM value is 1000. (Tested in v88.0)
+**Firefox** supports OT-SVG (tested in v102.0). A former bug where non-1000 UPM fonts were displayed at the wrong size has been fixed.
 
-**Safari** also supports OT-SVG, but the color artwork won't be
-displayed if the font's `SVG` table contains more than 2000 items.
-Also, whenever the matrix of a `gradientTransform` contains a zero
-value the gradient fill won't be displayed. (Tested in v14.0)
-
-**Google Chrome** does not support OT-SVG. (Tested in v90.0)
+**Safari** also supports OT-SVG, but the number of SVG elements on a page is limited (tested in v15.5). SVGs on the test.html page will drop out after approximately 800 test samples (which implies 3200 SVGs rendered). This is why the test has been split into multiple html files.
 
 
 ### Requirements
@@ -87,7 +80,7 @@ Subroutinizing requires AFDKO's `tx` and `sfntedit` tools.
 
 To help thoroughly test the fonts, a script was developed that generates
 [an HTML file](test.html) that lists all official emoji and emoji sequences.
-The current output shows Unicode version 12.1. To generate the file run this command:
+The current output shows Unicode version 13.1. To generate the file run this command:
 
 	python3 test/generate_test_html.py
 
@@ -95,9 +88,7 @@ To divide the output into multiple files use the `--paginate` option:
 
 	python3 test/generate_test_html.py -p
 
-To generate a subset of the **test.html** file —named **test-changes.html**— containing
-only the changes from the previous font build, use the `-c/--changes` option. Keep in
-mind that this option depends on the contents of the [changes.txt](test/changes.txt) file.
+To generate a subset of the **test.html** file —named **test-changes.html**— containing only the changes from the previous font build, use the `-c/--changes` option. Keep in mind that this option depends on the contents of the [changes.txt](test/changes.txt) file.
 
 
 ## Generating the TXT test document
@@ -117,8 +108,7 @@ As with the HTML test document, it's possible to generate a subset file named
 
 ## Generating aliases
 
-Aliases/symbolic links are used extensively to avoid having multiple copies of the
-same artwork.
+Aliases/symbolic links are used extensively to avoid having multiple copies of the same artwork.
 
 To generate **SVG black-and-white aliases** run this command:
 
@@ -143,6 +133,7 @@ To generate **SVG color flag aliases** run this command:
 To generate **PNG color flag aliases** run this command:
 
 	python3 make_aliases.py flag_color_aliases.txt flags_png
+
 
 ## Generating PNG and SVG files
 
