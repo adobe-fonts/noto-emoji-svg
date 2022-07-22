@@ -47,6 +47,7 @@ def make_aliases(aliases_list, in_dir):
             if err.args == ('symbolic link privilege not held',):
                 log.error('On Windows this script must be run in Admin mode.')
             else:
+                print(src_filename)
                 log.error('Failure while trying to create alias/symlink.')
             return 1
 

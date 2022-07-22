@@ -149,6 +149,7 @@ def add_svg_table(font_path, file_paths, compress_table=False):
         svg_item_data = clean_svg_doc(svg_item_data)
 
         svg_docs_dict[gid] = (svg_item_data.strip(), gid, gid)
+        print(gid, svg_file_path)
 
     # Don't modify the input font if there's no SVG data
     if not svg_docs_dict:
