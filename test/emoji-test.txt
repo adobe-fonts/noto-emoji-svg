@@ -293,7 +293,7 @@
 1FAF3 1F3FC                                            ; fully-qualified     # 🫳🏼 E14.0 palm down hand: medium-light skin tone
 1FAF3 1F3FD                                            ; fully-qualified     # 🫳🏽 E14.0 palm down hand: medium skin tone
 1FAF3 1F3FE                                            ; fully-qualified     # 🫳🏾 E14.0 palm down hand: medium-dark skin tone
-1FAF3 1F3FF                                            ; fully-qualified     # 🫳🏾 E14.0 palm down hand: dark skin tone
+1FAF3 1F3FF                                            ; fully-qualified     # 🫳🏿 E14.0 palm down hand: dark skin tone
 1FAF4                                                  ; fully-qualified     # 🫴 E14.0 palm up hand
 1FAF4 1F3FB                                            ; fully-qualified     # 🫴🏻 E14.0 palm up hand: light skin tone
 1FAF4 1F3FC                                            ; fully-qualified     # 🫴🏼 E14.0 palm up hand: medium-light skin tone

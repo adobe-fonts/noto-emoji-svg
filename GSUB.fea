@@ -81,6 +81,41 @@ feature ccmp {
 	sub u1f90c u1f3fd by u1f90c_1f3fd;
 	sub u1f90c u1f3fe by u1f90c_1f3fe;
 	sub u1f90c u1f3ff by u1f90c_1f3ff;
+	sub u1faf0 u1f3fb by u1faf0_1f3fb; # hand with index finger and thumb crossed
+	sub u1faf0 u1f3fc by u1faf0_1f3fc;
+	sub u1faf0 u1f3fd by u1faf0_1f3fd;
+	sub u1faf0 u1f3fe by u1faf0_1f3fe;
+	sub u1faf0 u1f3ff by u1faf0_1f3ff;
+	sub u1faf1 u1f3fb by u1faf1_1f3fb; # rightwards hand
+	sub u1faf1 u1f3fc by u1faf1_1f3fc;
+	sub u1faf1 u1f3fd by u1faf1_1f3fd;
+	sub u1faf1 u1f3fe by u1faf1_1f3fe;
+	sub u1faf1 u1f3ff by u1faf1_1f3ff;
+	sub u1faf2 u1f3fb by u1faf2_1f3fb; # leftwards hand
+	sub u1faf2 u1f3fc by u1faf2_1f3fc;
+	sub u1faf2 u1f3fd by u1faf2_1f3fd;
+	sub u1faf2 u1f3fe by u1faf2_1f3fe;
+	sub u1faf2 u1f3ff by u1faf2_1f3ff;
+	sub u1faf3 u1f3fb by u1faf3_1f3fb; # palm down hand
+	sub u1faf3 u1f3fc by u1faf3_1f3fc;
+	sub u1faf3 u1f3fd by u1faf3_1f3fd;
+	sub u1faf3 u1f3fe by u1faf3_1f3fe;
+	sub u1faf3 u1f3ff by u1faf3_1f3ff;
+	sub u1faf4 u1f3fb by u1faf4_1f3fb; # palm up hand
+	sub u1faf4 u1f3fc by u1faf4_1f3fc;
+	sub u1faf4 u1f3fd by u1faf4_1f3fd;
+	sub u1faf4 u1f3fe by u1faf4_1f3fe;
+	sub u1faf4 u1f3ff by u1faf4_1f3ff;
+	sub u1faf5 u1f3fb by u1faf5_1f3fb; # index pointing at viewer
+	sub u1faf5 u1f3fc by u1faf5_1f3fc;
+	sub u1faf5 u1f3fd by u1faf5_1f3fd;
+	sub u1faf5 u1f3fe by u1faf5_1f3fe;
+	sub u1faf5 u1f3ff by u1faf5_1f3ff;
+	sub u1faf6 u1f3fb by u1faf6_1f3fb; # heart hands
+	sub u1faf6 u1f3fc by u1faf6_1f3fc;
+	sub u1faf6 u1f3fd by u1faf6_1f3fd;
+	sub u1faf6 u1f3fe by u1faf6_1f3fe;
+	sub u1faf6 u1f3ff by u1faf6_1f3ff;
 
 	# hand-single-finger
 	sub u1f448 u1f3fb by u1f448_1f3fb; # backhand index pointing left
@@ -172,6 +207,26 @@ feature ccmp {
 	sub u1f91d u1f3fd by u1f91d_1f3fd;
 	sub u1f91d u1f3fe by u1f91d_1f3fe;
 	sub u1f91d u1f3ff by u1f91d_1f3ff;
+	sub u1faf1 u1f3fb ZWJ u1faf2 u1f3fc by u1faf1_1f3fb_200d_1faf2_1f3fc;
+	sub u1faf1 u1f3fb ZWJ u1faf2 u1f3fd by u1faf1_1f3fb_200d_1faf2_1f3fd;
+	sub u1faf1 u1f3fb ZWJ u1faf2 u1f3fe by u1faf1_1f3fb_200d_1faf2_1f3fe;
+	sub u1faf1 u1f3fb ZWJ u1faf2 u1f3ff by u1faf1_1f3fb_200d_1faf2_1f3ff;
+	sub u1faf1 u1f3fc ZWJ u1faf2 u1f3fb by u1faf1_1f3fc_200d_1faf2_1f3fb;
+	sub u1faf1 u1f3fc ZWJ u1faf2 u1f3fd by u1faf1_1f3fc_200d_1faf2_1f3fd;
+	sub u1faf1 u1f3fc ZWJ u1faf2 u1f3fe by u1faf1_1f3fc_200d_1faf2_1f3fe;
+	sub u1faf1 u1f3fc ZWJ u1faf2 u1f3ff by u1faf1_1f3fc_200d_1faf2_1f3ff;
+	sub u1faf1 u1f3fd ZWJ u1faf2 u1f3fb by u1faf1_1f3fd_200d_1faf2_1f3fb;
+	sub u1faf1 u1f3fd ZWJ u1faf2 u1f3fc by u1faf1_1f3fd_200d_1faf2_1f3fc;
+	sub u1faf1 u1f3fd ZWJ u1faf2 u1f3fe by u1faf1_1f3fd_200d_1faf2_1f3fe;
+	sub u1faf1 u1f3fd ZWJ u1faf2 u1f3ff by u1faf1_1f3fd_200d_1faf2_1f3ff;
+	sub u1faf1 u1f3fe ZWJ u1faf2 u1f3fb by u1faf1_1f3fe_200d_1faf2_1f3fb;
+	sub u1faf1 u1f3fe ZWJ u1faf2 u1f3fc by u1faf1_1f3fe_200d_1faf2_1f3fc;
+	sub u1faf1 u1f3fe ZWJ u1faf2 u1f3fd by u1faf1_1f3fe_200d_1faf2_1f3fd;
+	sub u1faf1 u1f3fe ZWJ u1faf2 u1f3ff by u1faf1_1f3fe_200d_1faf2_1f3ff;
+	sub u1faf1 u1f3ff ZWJ u1faf2 u1f3fb by u1faf1_1f3ff_200d_1faf2_1f3fb;
+	sub u1faf1 u1f3ff ZWJ u1faf2 u1f3fc by u1faf1_1f3ff_200d_1faf2_1f3fc;
+	sub u1faf1 u1f3ff ZWJ u1faf2 u1f3fd by u1faf1_1f3ff_200d_1faf2_1f3fd;
+	sub u1faf1 u1f3ff ZWJ u1faf2 u1f3fe by u1faf1_1f3ff_200d_1faf2_1f3fe;
 	sub u1f64f u1f3fb by u1f64f_1f3fb; # folded hands
 	sub u1f64f u1f3fc by u1f64f_1f3fc;
 	sub u1f64f u1f3fd by u1f64f_1f3fd;
@@ -925,6 +980,11 @@ feature ccmp {
 	sub u1f478 u1f3fd by u1f478_1f3fd;
 	sub u1f478 u1f3fe by u1f478_1f3fe;
 	sub u1f478 u1f3ff by u1f478_1f3ff;
+	sub u1fac5 u1f3fb by u1fac5_1f3fb;                     # person with crown
+	sub u1fac5 u1f3fc by u1fac5_1f3fc;
+	sub u1fac5 u1f3fd by u1fac5_1f3fd;
+	sub u1fac5 u1f3fe by u1fac5_1f3fe;
+	sub u1fac5 u1f3ff by u1fac5_1f3ff;
 	sub u1f473 u1f3fb by u1f473_1f3fb;                     # person wearing turban
 	sub u1f473 u1f3fc by u1f473_1f3fc;
 	sub u1f473 u1f3fd by u1f473_1f3fd;
@@ -996,6 +1056,16 @@ feature ccmp {
 	sub u1f930 u1f3fd by u1f930_1f3fd;
 	sub u1f930 u1f3fe by u1f930_1f3fe;
 	sub u1f930 u1f3ff by u1f930_1f3ff;
+	sub u1fac3 u1f3fb by u1fac3_1f3fb;                     # pregnant man
+	sub u1fac3 u1f3fc by u1fac3_1f3fc;
+	sub u1fac3 u1f3fd by u1fac3_1f3fd;
+	sub u1fac3 u1f3fe by u1fac3_1f3fe;
+	sub u1fac3 u1f3ff by u1fac3_1f3ff;
+	sub u1fac4 u1f3fb by u1fac4_1f3fb;                     # pregnant person
+	sub u1fac4 u1f3fc by u1fac4_1f3fc;
+	sub u1fac4 u1f3fd by u1fac4_1f3fd;
+	sub u1fac4 u1f3fe by u1fac4_1f3fe;
+	sub u1fac4 u1f3ff by u1fac4_1f3ff;
 	sub u1f931 u1f3fb by u1f931_1f3fb;                     # breast-feeding
 	sub u1f931 u1f3fc by u1f931_1f3fc;
 	sub u1f931 u1f3fd by u1f931_1f3fd;
