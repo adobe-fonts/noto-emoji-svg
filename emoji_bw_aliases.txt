@@ -2068,3 +2068,85 @@
 1f48f;1f48f_1f3fd
 1f48f;1f48f_1f3fe
 1f48f;1f48f_1f3ff
+
+1fac3;1fac3_1f3fb # pregnant man
+1fac3;1fac3_1f3fc
+1fac3;1fac3_1f3fd
+1fac3;1fac3_1f3fe
+1fac3;1fac3_1f3ff
+
+1fac4;1fac4_1f3fb # pregnant person
+1fac4;1fac4_1f3fd
+1fac4;1fac4_1f3fc
+1fac4;1fac4_1f3fe
+1fac4;1fac4_1f3ff
+
+1fac5;1fac5_1f3fb # person with crown
+1fac5;1fac5_1f3fc
+1fac5;1fac5_1f3fd
+1fac5;1fac5_1f3fe
+1fac5;1fac5_1f3ff
+
+1faf0;1faf0_1f3fb # hand with index finger and thumb crossed
+1faf0;1faf0_1f3fc
+1faf0;1faf0_1f3fd
+1faf0;1faf0_1f3fe
+1faf0;1faf0_1f3ff
+
+1faf1;1faf1_1f3fb # rightwards hand
+1faf1;1faf1_1f3fc
+1faf1;1faf1_1f3fd
+1faf1;1faf1_1f3fe
+1faf1;1faf1_1f3ff
+
+1faf2;1faf2_1f3fb # leftwards hand
+1faf2;1faf2_1f3fc
+1faf2;1faf2_1f3fd
+1faf2;1faf2_1f3fe
+1faf2;1faf2_1f3ff
+
+1faf3;1faf3_1f3fb # palm down hand
+1faf3;1faf3_1f3fc
+1faf3;1faf3_1f3fd
+1faf3;1faf3_1f3fe
+1faf3;1faf3_1f3ff
+
+1faf4;1faf4_1f3fb # palm up hand
+1faf4;1faf4_1f3fc
+1faf4;1faf4_1f3fd
+1faf4;1faf4_1f3fe
+1faf4;1faf4_1f3ff
+
+1faf5;1faf5_1f3fb # index pointing at viewer
+1faf5;1faf5_1f3fc
+1faf5;1faf5_1f3fd
+1faf5;1faf5_1f3fe
+1faf5;1faf5_1f3ff
+
+1faf6;1faf6_1f3fb # heart hands
+1faf6;1faf6_1f3fc
+1faf6;1faf6_1f3fd
+1faf6;1faf6_1f3fe
+1faf6;1faf6_1f3ff
+
+1f91d;1faf1_1f3fb_200d_1faf2_1f3fc # handshake
+1f91d;1faf1_1f3fb_200d_1faf2_1f3fd
+1f91d;1faf1_1f3fb_200d_1faf2_1f3fe
+1f91d;1faf1_1f3fb_200d_1faf2_1f3ff
+1f91d;1faf1_1f3fc_200d_1faf2_1f3fb
+1f91d;1faf1_1f3fc_200d_1faf2_1f3fd
+1f91d;1faf1_1f3fc_200d_1faf2_1f3fe
+1f91d;1faf1_1f3fc_200d_1faf2_1f3ff
+1f91d;1faf1_1f3fd_200d_1faf2_1f3fb
+1f91d;1faf1_1f3fd_200d_1faf2_1f3fc
+1f91d;1faf1_1f3fd_200d_1faf2_1f3fe
+1f91d;1faf1_1f3fd_200d_1faf2_1f3ff
+1f91d;1faf1_1f3fe_200d_1faf2_1f3fb
+1f91d;1faf1_1f3fe_200d_1faf2_1f3fc
+1f91d;1faf1_1f3fe_200d_1faf2_1f3fd
+1f91d;1faf1_1f3fe_200d_1faf2_1f3ff
+1f91d;1faf1_1f3ff_200d_1faf2_1f3fb
+1f91d;1faf1_1f3ff_200d_1faf2_1f3fc
+1f91d;1faf1_1f3ff_200d_1faf2_1f3fd
+1f91d;1faf1_1f3ff_200d_1faf2_1f3fe
+
